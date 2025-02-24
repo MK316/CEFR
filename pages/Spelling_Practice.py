@@ -25,9 +25,8 @@ def main():
     if 'index' not in st.session_state:
         st.session_state.index = 0
         st.session_state.correct_count = 0
-        st.session_state.words_total = len(filtered_data)
 
-    if st.session_state.index < st.session_state.words_total:
+    if st.session_state.index < len(filtered_data):
         word = filtered_data.iloc[st.session_state.index]['WORD']
         tts = gTTS(text=word, lang='en')
         audio_file = BytesIO()
@@ -36,15 +35,18 @@ def main():
         st.audio(audio_file, format='audio/mp3')
         user_input = st.text_input("Type the word shown:", key=f'word_{st.session_state.index}')
 
-        if st.button('Next', key=f'next_{st.session_state.index}'):
+        next_button = st.button('Next', key=f'next_{st.session_state.index}')
+        if next_button or st.session_state.submit:
             if user_input.strip().lower() == word.lower():
                 st.session_state.correct_count += 1
             st.session_state.index += 1
+            st.session_state.submit = True
     else:
-        st.write(f"{user_name}: {st.session_state.correct_count}/{st.session_state.words_total} correct.")
+        st.write(f"{user_name}: {st.session_state.correct_count}/{len(filtered_data)} correct.")
         if st.button('Restart'):
             st.session_state.index = 0
             st.session_state.correct_count = 0
+            st.experimental_rerun()
 
 if __name__ == "__main__":
     main()
