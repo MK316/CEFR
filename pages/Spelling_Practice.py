@@ -39,8 +39,7 @@ def main():
             if user_input.strip().lower() == word.lower():
                 st.session_state.correct_count += 1
             st.session_state.index += 1
-
-    if st.session_state.index >= len(filtered_data):
+    else:
         st.write(f"{user_name}: {st.session_state.correct_count}/{len(filtered_data)} correct.")
         if st.button('Restart'):
             st.session_state.index = 0
