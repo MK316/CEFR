@@ -1,1381 +1,1382 @@
-abolish v.
-abortion n.
-absence n.
-absent adj.
-absurd adj.
-abundance n.
-abuse n.
-abuse v.
-academy n.
-accelerate v.
-acceptance n.
-accessible adj.
-accomplishment n.
-accordance n.
-accordingly adv.
-accountability n.
-accountable adj.
-accumulate v.
-accumulation n.
-accusation n.
-accused n.
-acid adj.
-acquisition n.
-acre n.
-activation n.
-activist n.
-acute adj.
-adaptation n.
-adhere v.
-adjacent adj.
-adjustment n.
-administer v.
-administrative adj.
-administrator n.
-admission n.
-adolescent n.
-adoption n.
-adverse adj.
-advocate n.
-advocate v.
-aesthetic adj.
-affection n.
-aftermath n.
-aggression n.
-agricultural adj.
-aide n.
-albeit conj.
-alert v.
-alert n.
-alien adj.
-align v.
-alignment n.
-alike adv.
-alike adj.
-allegation n.
-allege v.
-allegedly adv.
-alliance n.
-allocate v.
-allocation n.
-allowance n.
-ally n.
-aluminium n.
-amateur n.
-ambassador n.
-amend v.
-amendment n.
-amid prep.
-analogy n.
-anchor n.
-angel n.
-anonymous adj.
-apparatus n.
-appealing adj.
-appetite n.
-applaud v.
-applicable adj.
-appoint v.
-appreciation n.
-arbitrary adj.
-architectural adj.
-archive n.
-arena n.
-arguably adv.
-arm v.
-array n.
-articulate v.
-ash n.
-aspiration n.
-aspire v.
-assassination n.
-assault n.
-assault v.
-assemble v.
-assembly n.
-assert v.
-assertion n.
-assurance n.
-asylum n.
-atrocity n.
-attain v.
-attendance n.
-attorney n.
-attribute v.
-attribute n.
-audit n.
-authentic adj.
-authorize v.
-auto n.
-autonomy n.
-availability n.
-await v.
-backdrop n.
-backing n.
-backup n.
-bail n.
-ballot n.
-banner n.
-bare adj.
-barrel n.
-bass1 n.
-bat v.
-battlefield n.
-bay n.
-beam n.
-beast n.
-behalf n.
-beloved adj.
-bench n.
-benchmark n.
-beneath prep.
-beneficiary n.
-betray v.
-bind v.
-biography n.
-bishop n.
-bizarre adj.
-blade n.
-blast n.
-blast v.
-bleed v.
-blend v.
-blend n.
-bless v.
-blessing n.
-boast v.
-bonus n.
-boom n.
-bounce v.
-boundary n.
-bow1 v.
-bow1 n.
-breach n.
-breach v.
-breakdown n.
-breakthrough n.
-breed v.
-breed n.
-broadband n.
-browser n.
-brutal adj.
-buck n.
-buddy n.
-buffer n.
-bulk n.
-burden n.
-bureaucracy n.
-burial n.
-burst v.
-cabinet n.
-calculation n.
-canvas n.
-capability n.
-capitalism n.
-capitalist adj.
-cargo n.
-carriage n.
-carve v.
-casino n.
-casualty n.
-catalogue n.
-cater v.
-cattle n.
-caution n.
-cautious adj.
-cease v.
-cemetery n.
-chamber n.
-chaos n.
-characterize v.
-charm n.
-charter n.
-chronic adj.
-chunk n.
-circulate v.
-circulation n.
-citizenship n.
-civic adj.
-civilian n.
-clarity n.
-clash n.
-classification n.
-cling v.
-clinical adj.
-closure n.
-cluster n.
-coalition n.
-coastal adj.
-cocktail n.
-cognitive adj.
-coincide v.
-collaborate v.
-collaboration n.
-collective adj.
-collision n.
-colonial adj.
-columnist n.
-combat n.
-combat v.
-commence v.
-commentary n.
-commentator n.
-commerce n.
-commissioner n.
-commodity n.
-communist adj.
-companion n.
-comparable adj.
-compassion n.
-compel v.
-compelling adj.
-compensate v.
-compensation n.
-competence n.
-competent adj.
-compile v.
-complement v.
-complexity n.
-compliance n.
-complication n.
-comply v.
-composition n.
-compromise n.
-compromise v.
-compute v.
-conceal v.
-concede v.
-conceive v.
-conception n.
-concession n.
-condemn v.
-confer v.
-confession n.
-configuration n.
-confine v.
-confirmation n.
-confront v.
-confrontation n.
-congratulate v.
-congregation n.
-congressional adj.
-conquer v.
-conscience n.
-consciousness n.
-consecutive adj.
-consensus n.
-consent n.
-consent v.
-conserve v.
-consistency n.
-consolidate v.
-constituency n.
-constitute v.
-constitution n.
-constitutional adj.
-constraint n.
-consultation n.
-contemplate v.
-contempt n.
-contend v.
-contender n.
-content2 adj.
-contention n.
-continually adv.
-contractor n.
-contradiction n.
-contrary adj.
-contrary n.
-contributor n.
-conversion n.
-convict v.
-conviction n.
-cooperate v.
-cooperative adj.
-coordinate v.
-coordination n.
-coordinator n.
-cop n.
-copper n.
-copyright n.
-correction n.
-correlate v.
-correlation n.
-correspond v.
-correspondence n.
-correspondent n.
-corresponding adj.
-corrupt adj.
-corruption n.
-costly adj.
-councillor n.
-counselling n.
-counsellor n.
-counter (argue against) v.
-counterpart n.
-countless adj.
-coup n.
-courtesy n.
-craft v.
-crawl v.
-creator n.
-credibility n.
-credible adj.
-creep v.
-critique n.
-crown n.
-crude adj.
-crush v.
-crystal n.
-cult n.
-cultivate v.
-curiosity n.
-custody n.
-cutting n.
-cynical adj.
-dam n.
-damaging adj.
-dawn n.
-debris n.
-debut n.
-decision-making n.
-decisive adj.
-declaration n.
-dedicated adj.
-dedication n.
-deed n.
-deem v.
-default n.
-defect n.
-defensive adj.
-deficiency n.
-deficit n.
-defy v.
-delegate n.
-delegation n.
-delicate adj.
-demon n.
-denial n.
-denounce v.
-dense adj.
-density n.
-dependence n.
-depict v.
-deploy v.
-deployment n.
-deposit v.
-deprive v.
-deputy n.
-descend v.
-descent n.
-designate v.
-desirable adj.
-desktop n.
-destructive adj.
-detain v.
-detection n.
-detention n.
-deteriorate v.
-devastate v.
-devil n.
-devise v.
-diagnose v.
-diagnosis n.
-dictate v.
-dictator n.
-differentiate v.
-dignity n.
-dilemma n.
-dimension n.
-diminish v.
-dip v.
-diplomat n.
-diplomatic n.
-directory n.
-disastrous adj.
-discard v.
-discharge v.
-disclose v.
-disclosure n.
-discourse n.
-discretion n.
-discrimination n.
-dismissal n.
-displace v.
-disposal n.
-dispose v.
-dispute n.
-dispute v.
-disrupt v.
-disruption n.
-dissolve v.
-distinction n.
-distinctive adj.
-distort v.
-distress n.
-distress v.
-disturbing adj.
-divert v.
-divine adj.
-doctrine n.
-documentation n.
-domain n.
-dominance n.
-donor n.
-dose n.
-drain v.
-drift v.
-driving adj.
-drown v.
-dual adj.
-dub v.
-dumb adj.
-duo n.
-dynamic n.
-eager adj.
-earnings n.
-ease n.
-ease v.
-echo v.
-echo n.
-ecological adj.
-educator n.
-effectiveness n.
-efficiency n.
-ego n.
-elaborate adj.
-electoral adj.
-elevate v.
-eligible adj.
-elite n.
-embark v.
-embarrassment n.
-embassy n.
-embed v.
-embody v.
-emergence n.
-empirical adj.
-empower v.
-enact v.
-encompass v.
-encouragement n.
-encouraging adj.
-endeavour n.
-endless adj.
-endorse v.
-endorsement n.
-endure v.
-enforce v.
-enforcement n.
-engagement n.
-engaging adj.
-enquire v.
-enrich v.
-enrol v.
-ensue v.
-enterprise n.
-enthusiast n.
-entitle v.
-entity n.
-epidemic n.
-equality n.
-equation n.
-erect v.
-escalate v.
-essence n.
-establishment n.
-eternal adj.
-evacuate v.
-evoke v.
-evolutionary adj.
-exaggerate v.
-excellence n.
-exceptional adj.
-excess n.
-excess adj.
-exclusion n.
-exclusive adj.
-exclusively adv.
-execute v.
-execution n.
-exert v.
-exile n.
-exit v.
-expenditure n.
-experimental adj.
-expire v.
-explicit adj.
-explicitly adv.
-exploitation n.
-explosive adj.
-explosive n.
-extract v.
-extremist n.
-facilitate v.
-faction n.
-faculty n.
-fade v.
-fairness n.
-fatal adj.
-fate n.
-favourable adj.
-feat n.
-feminist adj.
-feminist n.
-fibre n.
-fierce adj.
-film-maker n.
-filter n.
-filter v.
-fine n.
-fine v.
-firearm n.
-fit n.
-fixture n.
-flaw n.
-flawed adj.
-flee v.
-fleet n.
-flesh n.
-flexibility n.
-flourish v.
-fluid n.
-footage n.
-foreigner n.
-forge v.
-formula n.
-formulate v.
-forth adv.
-forthcoming adj.
-foster v.
-fragile adj.
-franchise n.
-frankly adv.
-frustrated adj.
-frustrating adj.
-frustration n.
-functional adj.
-fundraising n.
-funeral n.
-gallon n.
-gambling n.
-gathering n.
-gaze n.
-gaze v.
-gear n.
-generic adj.
-genocide n.
-glance n.
-glance v.
-glimpse n.
-glorious adj.
-glory n.
-governance n.
-grace n.
-grasp v.
-grasp n.
-grave n.
-grave adj.
-gravity n.
-grid n.
-grief n.
-grin v.
-grin n.
-grind v.
-grip n.
-grip v.
-gross adj.
-guerrilla n.
-guidance n.
-guilt n.
-gut n.
-hail v.
-halfway adv.
-halt v.
-halt n.
-handful n.
-handling n.
-handy adj.
-harassment n.
-hardware n.
-harmony n.
-harsh adj.
-harvest n.
-harvest v.
-hatred n.
-haunt v.
-hazard n.
-heighten v.
-heritage n.
-hierarchy n.
-high-profile adj.
-hint n.
-homeland n.
-hook v.
-hopeful adj.
-horizon n.
-horn n.
-hostage n.
-hostile adj.
-hostility n.
-humanitarian adj.
-humanity n.
-humble adj.
-hydrogen n.
-identification n.
-ideological adj.
-ideology n.
-idiot n.
-ignorance n.
-imagery n.
-immense adj.
-imminent adj.
-implementation n.
-imprison v.
-imprisonment n.
-inability n.
-inadequate adj.
-inappropriate adj.
-incidence n.
-inclined adj.
-inclusion n.
-incur v.
-indicator n.
-indictment n.
-indigenous adj.
-induce v.
-indulge v.
-inequality n.
-infamous adj.
-infant n.
-infect v.
-inflict v.
-influential adj.
-inherent adj.
-inhibit v.
-initiate v.
-inject v.
-injection n.
-injustice n.
-inmate n.
-insertion n.
-insider n.
-inspect v.
-inspection n.
-inspiration n.
-instinct n.
-institutional adj.
-instruct v.
-instrumental adj.
-insufficient adj.
-insult n.
-insult v.
-intact adj.
-intake n.
-integral adj.
-integrated adj.
-integration n.
-integrity n.
-intellectual n.
-intensify v.
-intensity n.
-intensive adj.
-intent n.
-interactive adj.
-interface n.
-interfere v.
-interference n.
-interim adj.
-interior adj., n.
-intermediate adj.
-intervene v.
-intervention n.
-intimate adj.
-intriguing adj.
-investigator n.
-invisible adj.
-invoke v.
-involvement n.
-ironic adj.
-ironically adv.
-irony n.
-irrelevant adj.
-isolation n.
-judicial adj.
-junction n.
-jurisdiction n.
-just adj.
-justification n.
-kidnap v.
-kidney n.
-kingdom n.
-lad n.
-landlord n.
-landmark n.
-lap n.
-large-scale adj.
-laser n.
-latter adj.
-latter n.
-lawn n.
-lawsuit n.
-layout n.
-leak v.
-leak n.
-leap v.
-leap n.
-legacy n.
-legendary adj.
-legislation n.
-legislative adj.
-legislature n.
-legitimate adj.
-lengthy adj.
-lesbian adj.
-lesser adj.
-lethal adj.
-liable adj.
-liberal adj.
-liberal n.
-liberation n.
-liberty n.
-license v.
-lifelong adj.
-likelihood n.
-limb n.
-linear adj.
-line-up n.
-linger v.
-listing n.
-literacy n.
-liver n.
-lobby n.
-log n.
-log v.
-logic n.
-long-standing adj.
-long-time adj.
-loom v.
-loop n.
-loyalty n.
-machinery n.
-magical adj.
-magistrate n.
-magnetic adj.
-magnitude n.
-mainland n.
-mainstream n.
-mainstream adj.
-maintenance n.
-mandate n.
-mandatory adj.
-manifest v.
-manipulate v.
-manipulation n.
-manuscript n.
-march n.
-march v.
-marginal adj.
-marine adj.
-marketplace n.
-mask n.
-massacre n.
-mathematical adj.
-mature adj.
-mature v.
-maximize v.
-meaningful adj.
-meantime n.
-medieval adj.
-meditation n.
-melody n.
-memo n.
-memoir n.
-memorial n.
-mentor n.
-merchant n.
-mercy n.
-mere adj.
-merely adv.
-merge v.
-merger n.
-merit n.
-methodology n.
-midst n.
-migration n.
-militant n.
-militant adj.
-militia n.
-mill n.
-minimal adj.
-minimize v.
-mining n.
-ministry n.
-minute
-2 adj.
-miracle n.
-misery n.
-misleading adj.
-missile n.
-mob n.
-mobility n.
-mobilize v.
-moderate adj.
-modification n.
-momentum n.
-monk n.
-monopoly n.
-morality n.
-motive n.
-motorist n.
-municipal adj.
-mutual adj.
-namely adv.
-nationwide adj.
-naval adj.
-neglect v.
-neglect n.
-neighbouring adj.
-nest n.
-net adj.
-newsletter n.
-niche n.
-noble adj.
-nod v.
-nominate v.
-nomination n.
-nominee n.
-nonetheless adv.
-non-profit adj.
-nonsense n.
-noon n.
-notable adj.
-notably adv.
-notify v.
-notorious adj.
-novel adj.
-nursery n.
-objection n.
-oblige v.
-obsess v.
-obsession n.
-occasional adj.
-occurrence n.
-odds n.
-offering n.
-offspring n.
-operational adj.
-opt v.
-optical adj.
-optimism n.
-oral adj.
-organizational adj.
-orientation n.
-originate v.
-outbreak n.
-outing n.
-outlet n.
-outlook n.
-outrage n.
-outrage v.
-outsider n.
-overlook v.
-overly adv.
-oversee v.
-overturn v.
-overwhelm v.
-overwhelming adj.
-pad n.
-parameter n.
-parental adj.
-parish n.
-parliamentary adj.
-partial adj.
-partially adv.
-passing n.
-passive adj.
-pastor n.
-patch n.
-patent n.
-pathway n.
-patrol n.
-patrol v.
-patron n.
-peak n.
-peasant n.
-peculiar adj.
-persist v.
-persistent adj.
-personnel n.
-petition n.
-philosopher n.
-philosophical adj.
-physician n.
-pioneer n.
-pipeline n.
-pirate n.
-pit n.
-plea n.
-plead v.
-pledge v.
-pledge n.
-plug v.
-plug n.
-plunge v.
-pole n.
-poll n.
-pond n.
-pop v.
-portfolio n.
-portray v.
-postpone v.
-post-war adj.
-practitioner n.
-preach v.
-precedent n.
-precision n.
-predator n.
-predecessor n.
-predominantly adv.
-pregnancy n.
-prejudice n.
-preliminary adj.
-premier n.
-premise n.
-premium n.
-prescribe v.
-prescription n.
-presently adv.
-preservation n.
-preside v.
-presidency n.
-presidential adj.
-prestigious adj.
-presumably adv.
-presume v.
-prevail v.
-prevalence n.
-prevention n.
-prey n.
-principal n.
-privatization n.
-privilege n.
-probe n.
-probe v.
-problematic adj.
-proceedings n.
-proceeds n.
-processing n.
-processor n.
-proclaim v.
-productive adj.
-productivity n.
-profitable adj.
-profound adj.
-projection n.
-prominent adj.
-pronounced adj.
-propaganda n.
-proposition n.
-prosecute v.
-prosecution n.
-prosecutor n.
-prospective adj.
-prosperity n.
-protective adj.
-protocol n.
-province n.
-provincial adj.
-provision n.
-provoke v.
-psychiatric adj.
-pulse n.
-pump v.
-punch n.
-query n.
-quest n.
-quota n.
-radar n.
-radical adj.
-rage n.
-raid n.
-rally n.
-ranking n.
-rape v.
-ratio n.
-rational adj.
-ray n.
-readily adv.
-realization n.
-realm n.
-rear adj.
-rear n.
-reasoning n.
-reassure v.
-rebel n.
-rebellion n.
-recipient n.
-reconstruction n.
-recount1 v.
-referendum n.
-reflection n.
-reform n., v.
-refuge n.
-refusal n.
-regain v.
-regardless adv.
-regime n.
-regulator n.
-regulatory adj.
-rehabilitation n.
-reign n.
-reign v.
-rejection n.
-relevance n.
-reliability n.
-reluctant adj.
-remainder n.
-remains n.
-remedy n.
-reminder n.
-removal n.
-render v.
-renew v.
-renowned adj.
-rental n.
-replacement n.
-reportedly adv.
-representation n.
-reproduce v.
-reproduction n.
-republic n.
-resemble v.
-reside v.
-residence n.
-residential adj.
-residue n.
-resignation n.
-resistance n.
-respective adj.
-respectively adv.
-restoration n.
-restraint n.
-resume v.
-retreat n.
-retreat v.
-retrieve v.
-revelation n.
-revenge n.
-reverse v.
-revival n.
-revive v.
-revolutionary adj.
-rhetoric n.
-rifle n.
-riot n.
-rip v.
-ritual n.
-robust adj.
-rock v.
-rod n.
-rotate v.
-rotation n.
-ruling n.
-rumour n.
-sack v.
-sacred adj.
-sacrifice n.
-sacrifice v.
-saint n.
-sake n.
-sanction n.
-say n.
-scattered adj.
-sceptical adj.
-scope n.
-screw n.
-scrutiny n.
-seal v.
-seal n.
-secular adj.
-seemingly adv.
-segment n.
-seize v.
-seldom adv.
-selective adj.
-senator n.
-sensation n.
-sensitivity n.
-sentiment n.
-separation n.
-serial adj.
-settlement n.
-set-up n.
-sexuality n.
-shareholder n.
-shatter v.
-shed v.
-sheer adj.
-shipping n.
-shoot n.
-shrink v.
-shrug v.
-sigh v.
-sigh n.
-simulate v.
-simulation n.
-simultaneously adv.
-sin n.
-situated adj.
-sketch n.
-skip v.
-slam v.
-slap v.
-slash v.
-slavery n.
-slot n.
-smash v.
-snap v.
-soak v.
-soar v.
-socialist adj.
-sole adj.
-solely adv.
-solicitor n.
-solidarity n.
-solo n.
-sound adj.
-sovereignty n.
-spam n.
-span v.
-span n.
-spare v.
-spark v.
-specialized adj.
-specification n.
-specimen n.
-spectacle n.
-spectrum n.
-spell n.
-sphere n.
-spin v.
-spin n.
-spine n.
-spotlight n.
-spouse n.
-spy n.
-squad n.
-squeeze v.
-stab v.
-stability n.
-stabilize v.
-stake n.
-standing adj.
-stark adj.
-statistical adj.
-steer v.
-stem n.
-stem v.
-stereotype n.
-stimulus n.
-stir v.
-storage n.
-straightforward adj.
-strain n.
-strand n.
-strategic adj.
-striking adj.
-strip (long narrow piece) n.
-strip (remove clothes/a layer) v.
-strive v.
-structural adj.
-stumble v.
-stun v.
-submission n.
-subscriber n.
-subscription n.
-subsidy n.
-substantial adj.
-substantially adv.
-substitute n.
-substitute v.
-substitution n.
-subtle adj.
-suburban adj.
-succession n.
-successive adj.
-successor n.
-suck v.
-sue v.
-suicide n.
-suite n.
-summit n.
-superb adj.
-superior adj.
-supervise v.
-supervision n.
-supervisor n.
-supplement n.
-supplement v.
-supportive adj.
-supposedly adv.
-suppress v.
-supreme adj.
-surge n.
-surge v.
-surgical adj.
-surplus n.
-surrender v.
-surveillance n.
-suspension n.
-suspicion n.
-suspicious adj.
-sustain v.
-swing n.
-sword n.
-symbolic adj.
-syndrome n.
-synthesis n.
-systematic adj.
-tackle n.
-tactic n.
-tactical adj.
-taxpayer n.
-tempt v.
-tenant n.
-tender adj.
-tenure n.
-terminal adj.
-terminate v.
-terrain n.
-terrific adj.
-testify v.
-testimony n.
-texture n.
-thankfully adv.
-theatrical adj.
-theology n.
-theoretical adj.
-thereafter adv.
-thereby adv.
-thoughtful adj.
-thought-provoking adj.
-thread n.
-threshold n.
-thrilled adj.
-thrive v.
-tide n.
-tighten v.
-timber n.
-timely adj.
-tobacco n.
-tolerance n.
-tolerate v.
-toll n.
-top v.
-torture n., v.
-toss v.
-total v.
-toxic adj.
-trace n.
-trademark n.
-trail n.
-trail v.
-trailer n.
-transaction n.
-transcript n.
-transformation n.
-transit n.
-transmission n.
-transparency n.
-transparent adj.
-trauma n.
-treaty n.
-tremendous adj.
-tribal adj.
-tribunal n.
-tribute n.
-trigger n.
-trio n.
-triumph n.
-trophy n.
-troubled adj.
-trustee n.
-tuition n.
-turnout n.
-turnover n.
-twist v.
-undergraduate n.
-underlying adj.
-undermine v.
-undoubtedly adv.
-unify v.
-unprecedented adj.
-unveil v.
-upcoming adj.
-upgrade v.
-uphold v.
-utility n.
-utilize v.
-utterly adv.
-vacuum n.
-vague adj.
-validity n.
-vanish v.
-variable n.
-variable adj.
-varied adj.
-vein n.
-venture n.
-venture v.
-verbal adj.
-verdict n.
-verify v.
-verse n.
-versus prep.
-vessel n.
-veteran n.
-viable adj.
-vibrant adj.
-vice n.
-vicious adj.
-villager n.
-violate v.
-violation n.
-virtue n.
-vocal adj.
-vow v.
-vulnerability n.
-vulnerable adj.
-ward n.
-warehouse n.
-warfare n.
-warrant n.
-warrant v.
-warrior n.
-weaken v.
-weave v.
-weed n.
-well n.
-well-being n.
-whatsoever adv.
-whereby adv.
-whilst conj.
-whip v.
-wholly adv.
-widen v.
-widow n.
-width n.
-willingness n.
-wipe v.
-wit n.
-withdrawal n.
-workout n.
-worship n.
-worship v.
-worthwhile adj.
-worthy adj.
-yell v.
-yield n.
-yield v.
-youngster n.
+SID	Word	POS
+1	abolish	v.
+2	abortion	n.
+3	absence	n.
+4	absent	adj.
+5	absurd	adj.
+6	abundance	n.
+7	abuse	n.
+8	abuse	v.
+9	academy	n.
+10	accelerate	v.
+11	acceptance	n.
+12	accessible	adj.
+13	accomplishment	n.
+14	accordance	n.
+15	accordingly	adv.
+16	accountability	n.
+17	accountable	adj.
+18	accumulate	v.
+19	accumulation	n.
+20	accusation	n.
+21	accused	n.
+22	acid	adj.
+23	acquisition	n.
+24	acre	n.
+25	activation	n.
+26	activist	n.
+27	acute	adj.
+28	adaptation	n.
+29	adhere	v.
+30	adjacent	adj.
+31	adjustment	n.
+32	administer	v.
+33	administrative	adj.
+34	administrator	n.
+35	admission	n.
+36	adolescent	n.
+37	adoption	n.
+38	adverse	adj.
+39	advocate	n.
+40	advocate	v.
+41	aesthetic	adj.
+42	affection	n.
+43	aftermath	n.
+44	aggression	n.
+45	agricultural	adj.
+46	aide	n.
+47	albeit	conj.
+48	alert	v.
+49	alert	n.
+50	alien	adj.
+51	align	v.
+52	alignment	n.
+53	alike	adv.
+54	alike	adj.
+55	allegation	n.
+56	allege	v.
+57	allegedly	adv.
+58	alliance	n.
+59	allocate	v.
+60	allocation	n.
+61	allowance	n.
+62	ally	n.
+63	aluminium	n.
+64	amateur	n.
+65	ambassador	n.
+66	amend	v.
+67	amendment	n.
+68	amid	prep.
+69	analogy	n.
+70	anchor	n.
+71	angel	n.
+72	anonymous	adj.
+73	apparatus	n.
+74	appealing	adj.
+75	appetite	n.
+76	applaud	v.
+77	applicable	adj.
+78	appoint	v.
+79	appreciation	n.
+80	arbitrary	adj.
+81	architectural	adj.
+82	archive	n.
+83	arena	n.
+84	arguably	adv.
+85	arm	v.
+86	array	n.
+87	articulate	v.
+88	ash	n.
+89	aspiration	n.
+90	aspire	v.
+91	assassination	n.
+92	assault	n.
+93	assault	v.
+94	assemble	v.
+95	assembly	n.
+96	assert	v.
+97	assertion	n.
+98	assurance	n.
+99	asylum	n.
+100	atrocity	n.
+101	attain	v.
+102	attendance	n.
+103	attorney	n.
+104	attribute	v.
+105	attribute	n.
+106	audit	n.
+107	authentic	adj.
+108	authorize	v.
+109	auto	n.
+110	autonomy	n.
+111	availability	n.
+112	await	v.
+113	backdrop	n.
+114	backing	n.
+115	backup	n.
+116	bail	n.
+117	ballot	n.
+118	banner	n.
+119	bare	adj.
+120	barrel	n.
+121	bass1	n.
+122	bat	v.
+123	battlefield	n.
+124	bay	n.
+125	beam	n.
+126	beast	n.
+127	behalf	n.
+128	beloved	adj.
+129	bench	n.
+130	benchmark	n.
+131	beneath	prep.
+132	beneficiary	n.
+133	betray	v.
+134	bind	v.
+135	biography	n.
+136	bishop	n.
+137	bizarre	adj.
+138	blade	n.
+139	blast	n.
+140	blast	v.
+141	bleed	v.
+142	blend	v.
+143	blend	n.
+144	bless	v.
+145	blessing	n.
+146	boast	v.
+147	bonus	n.
+148	boom	n.
+149	bounce	v.
+150	boundary	n.
+151	bow1	v.
+152	bow1	n.
+153	breach	n.
+154	breach	v.
+155	breakdown	n.
+156	breakthrough	n.
+157	breed	v.
+158	breed	n.
+159	broadband	n.
+160	browser	n.
+161	brutal	adj.
+162	buck	n.
+163	buddy	n.
+164	buffer	n.
+165	bulk	n.
+166	burden	n.
+167	bureaucracy	n.
+168	burial	n.
+169	burst	v.
+170	cabinet	n.
+171	calculation	n.
+172	canvas	n.
+173	capability	n.
+174	capitalism	n.
+175	capitalist	adj.
+176	cargo	n.
+177	carriage	n.
+178	carve	v.
+179	casino	n.
+180	casualty	n.
+181	catalogue	n.
+182	cater	v.
+183	cattle	n.
+184	caution	n.
+185	cautious	adj.
+186	cease	v.
+187	cemetery	n.
+188	chamber	n.
+189	chaos	n.
+190	characterize	v.
+191	charm	n.
+192	charter	n.
+193	chronic	adj.
+194	chunk	n.
+195	circulate	v.
+196	circulation	n.
+197	citizenship	n.
+198	civic	adj.
+199	civilian	n.
+200	clarity	n.
+201	clash	n.
+202	classification	n.
+203	cling	v.
+204	clinical	adj.
+205	closure	n.
+206	cluster	n.
+207	coalition	n.
+208	coastal	adj.
+209	cocktail	n.
+210	cognitive	adj.
+211	coincide	v.
+212	collaborate	v.
+213	collaboration	n.
+214	collective	adj.
+215	collision	n.
+216	colonial	adj.
+217	columnist	n.
+218	combat	n.
+219	combat	v.
+220	commence	v.
+221	commentary	n.
+222	commentator	n.
+223	commerce	n.
+224	commissioner	n.
+225	commodity	n.
+226	communist	adj.
+227	companion	n.
+228	comparable	adj.
+229	compassion	n.
+230	compel	v.
+231	compelling	adj.
+232	compensate	v.
+233	compensation	n.
+234	competence	n.
+235	competent	adj.
+236	compile	v.
+237	complement	v.
+238	complexity	n.
+239	compliance	n.
+240	complication	n.
+241	comply	v.
+242	composition	n.
+243	compromise	n.
+244	compromise	v.
+245	compute	v.
+246	conceal	v.
+247	concede	v.
+248	conceive	v.
+249	conception	n.
+250	concession	n.
+251	condemn	v.
+252	confer	v.
+253	confession	n.
+254	configuration	n.
+255	confine	v.
+256	confirmation	n.
+257	confront	v.
+258	confrontation	n.
+259	congratulate	v.
+260	congregation	n.
+261	congressional	adj.
+262	conquer	v.
+263	conscience	n.
+264	consciousness	n.
+265	consecutive	adj.
+266	consensus	n.
+267	consent	n.
+268	consent	v.
+269	conserve	v.
+270	consistency	n.
+271	consolidate	v.
+272	constituency	n.
+273	constitute	v.
+274	constitution	n.
+275	constitutional	adj.
+276	constraint	n.
+277	consultation	n.
+278	contemplate	v.
+279	contempt	n.
+280	contend	v.
+281	contender	n.
+282	content2	adj.
+283	contention	n.
+284	continually	adv.
+285	contractor	n.
+286	contradiction	n.
+287	contrary	adj.
+288	contrary	n.
+289	contributor	n.
+290	conversion	n.
+291	convict	v.
+292	conviction	n.
+293	cooperate	v.
+294	cooperative	adj.
+295	coordinate	v.
+296	coordination	n.
+297	coordinator	n.
+298	cop	n.
+299	copper	n.
+300	copyright	n.
+301	correction	n.
+302	correlate	v.
+303	correlation	n.
+304	correspond	v.
+305	correspondence	n.
+306	correspondent	n.
+307	corresponding	adj.
+308	corrupt	adj.
+309	corruption	n.
+310	costly	adj.
+311	councillor	n.
+312	counselling	n.
+313	counsellor	n.
+314	counter	(argue against) v.
+315	counterpart	n.
+316	countless	adj.
+317	coup	n.
+318	courtesy	n.
+319	craft	v.
+320	crawl	v.
+321	creator	n.
+322	credibility	n.
+323	credible	adj.
+324	creep	v.
+325	critique	n.
+326	crown	n.
+327	crude	adj.
+328	crush	v.
+329	crystal	n.
+330	cult	n.
+331	cultivate	v.
+332	curiosity	n.
+333	custody	n.
+334	cutting	n.
+335	cynical	adj.
+336	dam	n.
+337	damaging	adj.
+338	dawn	n.
+339	debris	n.
+340	debut	n.
+341	decision-making	n.
+342	decisive	adj.
+343	declaration	n.
+344	dedicated	adj.
+345	dedication	n.
+346	deed	n.
+347	deem	v.
+348	default	n.
+349	defect	n.
+350	defensive	adj.
+351	deficiency	n.
+352	deficit	n.
+353	defy	v.
+354	delegate	n.
+355	delegation	n.
+356	delicate	adj.
+357	demon	n.
+358	denial	n.
+359	denounce	v.
+360	dense	adj.
+361	density	n.
+362	dependence	n.
+363	depict	v.
+364	deploy	v.
+365	deployment	n.
+366	deposit	v.
+367	deprive	v.
+368	deputy	n.
+369	descend	v.
+370	descent	n.
+371	designate	v.
+372	desirable	adj.
+373	desktop	n.
+374	destructive	adj.
+375	detain	v.
+376	detection	n.
+377	detention	n.
+378	deteriorate	v.
+379	devastate	v.
+380	devil	n.
+381	devise	v.
+382	diagnose	v.
+383	diagnosis	n.
+384	dictate	v.
+385	dictator	n.
+386	differentiate	v.
+387	dignity	n.
+388	dilemma	n.
+389	dimension	n.
+390	diminish	v.
+391	dip	v.
+392	diplomat	n.
+393	diplomatic	n.
+394	directory	n.
+395	disastrous	adj.
+396	discard	v.
+397	discharge	v.
+398	disclose	v.
+399	disclosure	n.
+400	discourse	n.
+401	discretion	n.
+402	discrimination	n.
+403	dismissal	n.
+404	displace	v.
+405	disposal	n.
+406	dispose	v.
+407	dispute	n.
+408	dispute	v.
+409	disrupt	v.
+410	disruption	n.
+411	dissolve	v.
+412	distinction	n.
+413	distinctive	adj.
+414	distort	v.
+415	distress	n.
+416	distress	v.
+417	disturbing	adj.
+418	divert	v.
+419	divine	adj.
+420	doctrine	n.
+421	documentation	n.
+422	domain	n.
+423	dominance	n.
+424	donor	n.
+425	dose	n.
+426	drain	v.
+427	drift	v.
+428	driving	adj.
+429	drown	v.
+430	dual	adj.
+431	dub	v.
+432	dumb	adj.
+433	duo	n.
+434	dynamic	n.
+435	eager	adj.
+436	earnings	n.
+437	ease	n.
+438	ease	v.
+439	echo	v.
+440	echo	n.
+441	ecological	adj.
+442	educator	n.
+443	effectiveness	n.
+444	efficiency	n.
+445	ego	n.
+446	elaborate	adj.
+447	electoral	adj.
+448	elevate	v.
+449	eligible	adj.
+450	elite	n.
+451	embark	v.
+452	embarrassment	n.
+453	embassy	n.
+454	embed	v.
+455	embody	v.
+456	emergence	n.
+457	empirical	adj.
+458	empower	v.
+459	enact	v.
+460	encompass	v.
+461	encouragement	n.
+462	encouraging	adj.
+463	endeavour	n.
+464	endless	adj.
+465	endorse	v.
+466	endorsement	n.
+467	endure	v.
+468	enforce	v.
+469	enforcement	n.
+470	engagement	n.
+471	engaging	adj.
+472	enquire	v.
+473	enrich	v.
+474	enrol	v.
+475	ensue	v.
+476	enterprise	n.
+477	enthusiast	n.
+478	entitle	v.
+479	entity	n.
+480	epidemic	n.
+481	equality	n.
+482	equation	n.
+483	erect	v.
+484	escalate	v.
+485	essence	n.
+486	establishment	n.
+487	eternal	adj.
+488	evacuate	v.
+489	evoke	v.
+490	evolutionary	adj.
+491	exaggerate	v.
+492	excellence	n.
+493	exceptional	adj.
+494	excess	n.
+495	excess	adj.
+496	exclusion	n.
+497	exclusive	adj.
+498	exclusively	adv.
+499	execute	v.
+500	execution	n.
+501	exert	v.
+502	exile	n.
+503	exit	v.
+504	expenditure	n.
+505	experimental	adj.
+506	expire	v.
+507	explicit	adj.
+508	explicitly	adv.
+509	exploitation	n.
+510	explosive	adj.
+511	explosive	n.
+512	extract	v.
+513	extremist	n.
+514	facilitate	v.
+515	faction	n.
+516	faculty	n.
+517	fade	v.
+518	fairness	n.
+519	fatal	adj.
+520	fate	n.
+521	favourable	adj.
+522	feat	n.
+523	feminist	adj.
+524	feminist	n.
+525	fibre	n.
+526	fierce	adj.
+527	film-maker	n.
+528	filter	n.
+529	filter	v.
+530	fine	n.
+531	fine	v.
+532	firearm	n.
+533	fit	n.
+534	fixture	n.
+535	flaw	n.
+536	flawed	adj.
+537	flee	v.
+538	fleet	n.
+539	flesh	n.
+540	flexibility	n.
+541	flourish	v.
+542	fluid	n.
+543	footage	n.
+544	foreigner	n.
+545	forge	v.
+546	formula	n.
+547	formulate	v.
+548	forth	adv.
+549	forthcoming	adj.
+550	foster	v.
+551	fragile	adj.
+552	franchise	n.
+553	frankly	adv.
+554	frustrated	adj.
+555	frustrating	adj.
+556	frustration	n.
+557	functional	adj.
+558	fundraising	n.
+559	funeral	n.
+560	gallon	n.
+561	gambling	n.
+562	gathering	n.
+563	gaze	n.
+564	gaze	v.
+565	gear	n.
+566	generic	adj.
+567	genocide	n.
+568	glance	n.
+569	glance	v.
+570	glimpse	n.
+571	glorious	adj.
+572	glory	n.
+573	governance	n.
+574	grace	n.
+575	grasp	v.
+576	grasp	n.
+577	grave	n.
+578	grave	adj.
+579	gravity	n.
+580	grid	n.
+581	grief	n.
+582	grin	v.
+583	grin	n.
+584	grind	v.
+585	grip	n.
+586	grip	v.
+587	gross	adj.
+588	guerrilla	n.
+589	guidance	n.
+590	guilt	n.
+591	gut	n.
+592	hail	v.
+593	halfway	adv.
+594	halt	v.
+595	halt	n.
+596	handful	n.
+597	handling	n.
+598	handy	adj.
+599	harassment	n.
+600	hardware	n.
+601	harmony	n.
+602	harsh	adj.
+603	harvest	n.
+604	harvest	v.
+605	hatred	n.
+606	haunt	v.
+607	hazard	n.
+608	heighten	v.
+609	heritage	n.
+610	hierarchy	n.
+611	high-profile	adj.
+612	hint	n.
+613	homeland	n.
+614	hook	v.
+615	hopeful	adj.
+616	horizon	n.
+617	horn	n.
+618	hostage	n.
+619	hostile	adj.
+620	hostility	n.
+621	humanitarian	adj.
+622	humanity	n.
+623	humble	adj.
+624	hydrogen	n.
+625	identification	n.
+626	ideological	adj.
+627	ideology	n.
+628	idiot	n.
+629	ignorance	n.
+630	imagery	n.
+631	immense	adj.
+632	imminent	adj.
+633	implementation	n.
+634	imprison	v.
+635	imprisonment	n.
+636	inability	n.
+637	inadequate	adj.
+638	inappropriate	adj.
+639	incidence	n.
+640	inclined	adj.
+641	inclusion	n.
+642	incur	v.
+643	indicator	n.
+644	indictment	n.
+645	indigenous	adj.
+646	induce	v.
+647	indulge	v.
+648	inequality	n.
+649	infamous	adj.
+650	infant	n.
+651	infect	v.
+652	inflict	v.
+653	influential	adj.
+654	inherent	adj.
+655	inhibit	v.
+656	initiate	v.
+657	inject	v.
+658	injection	n.
+659	injustice	n.
+660	inmate	n.
+661	insertion	n.
+662	insider	n.
+663	inspect	v.
+664	inspection	n.
+665	inspiration	n.
+666	instinct	n.
+667	institutional	adj.
+668	instruct	v.
+669	instrumental	adj.
+670	insufficient	adj.
+671	insult	n.
+672	insult	v.
+673	intact	adj.
+674	intake	n.
+675	integral	adj.
+676	integrated	adj.
+677	integration	n.
+678	integrity	n.
+679	intellectual	n.
+680	intensify	v.
+681	intensity	n.
+682	intensive	adj.
+683	intent	n.
+684	interactive	adj.
+685	interface	n.
+686	interfere	v.
+687	interference	n.
+688	interim	adj.
+689	interior	adj., n.
+690	intermediate	adj.
+691	intervene	v.
+692	intervention	n.
+693	intimate	adj.
+694	intriguing	adj.
+695	investigator	n.
+696	invisible	adj.
+697	invoke	v.
+698	involvement	n.
+699	ironic	adj.
+700	ironically	adv.
+701	irony	n.
+702	irrelevant	adj.
+703	isolation	n.
+704	judicial	adj.
+705	junction	n.
+706	jurisdiction	n.
+707	just	adj.
+708	justification	n.
+709	kidnap	v.
+710	kidney	n.
+711	kingdom	n.
+712	lad	n.
+713	landlord	n.
+714	landmark	n.
+715	lap	n.
+716	large-scale	adj.
+717	laser	n.
+718	latter	adj.
+719	latter	n.
+720	lawn	n.
+721	lawsuit	n.
+722	layout	n.
+723	leak	v.
+724	leak	n.
+725	leap	v.
+726	leap	n.
+727	legacy	n.
+728	legendary	adj.
+729	legislation	n.
+730	legislative	adj.
+731	legislature	n.
+732	legitimate	adj.
+733	lengthy	adj.
+734	lesbian	adj.
+735	lesser	adj.
+736	lethal	adj.
+737	liable	adj.
+738	liberal	adj.
+739	liberal	n.
+740	liberation	n.
+741	liberty	n.
+742	license	v.
+743	lifelong	adj.
+744	likelihood	n.
+745	limb	n.
+746	linear	adj.
+747	line-up	n.
+748	linger	v.
+749	listing	n.
+750	literacy	n.
+751	liver	n.
+752	lobby	n.
+753	log	n.
+754	log	v.
+755	logic	n.
+756	long-standing	adj.
+757	long-time	adj.
+758	loom	v.
+759	loop	n.
+760	loyalty	n.
+761	machinery	n.
+762	magical	adj.
+763	magistrate	n.
+764	magnetic	adj.
+765	magnitude	n.
+766	mainland	n.
+767	mainstream	n.
+768	mainstream	adj.
+769	maintenance	n.
+770	mandate	n.
+771	mandatory	adj.
+772	manifest	v.
+773	manipulate	v.
+774	manipulation	n.
+775	manuscript	n.
+776	march	n.
+777	march	v.
+778	marginal	adj.
+779	marine	adj.
+780	marketplace	n.
+781	mask	n.
+782	massacre	n.
+783	mathematical	adj.
+784	mature	adj.
+785	mature	v.
+786	maximize	v.
+787	meaningful	adj.
+788	meantime	n.
+789	medieval	adj.
+790	meditation	n.
+791	melody	n.
+792	memo	n.
+793	memoir	n.
+794	memorial	n.
+795	mentor	n.
+796	merchant	n.
+797	mercy	n.
+798	mere	adj.
+799	merely	adv.
+800	merge	v.
+801	merger	n.
+802	merit	n.
+803	methodology	n.
+804	midst	n.
+805	migration	n.
+806	militant	n.
+807	militant	adj.
+808	militia	n.
+809	mill	n.
+810	minimal	adj.
+811	minimize	v.
+812	mining	n.
+813	ministry	n.
+814	minute	
+815	2	adj.
+816	miracle	n.
+817	misery	n.
+818	misleading	adj.
+819	missile	n.
+820	mob	n.
+821	mobility	n.
+822	mobilize	v.
+823	moderate	adj.
+824	modification	n.
+825	momentum	n.
+826	monk	n.
+827	monopoly	n.
+828	morality	n.
+829	motive	n.
+830	motorist	n.
+831	municipal	adj.
+832	mutual	adj.
+833	namely	adv.
+834	nationwide	adj.
+835	naval	adj.
+836	neglect	v.
+837	neglect	n.
+838	neighbouring	adj.
+839	nest	n.
+840	net	adj.
+841	newsletter	n.
+842	niche	n.
+843	noble	adj.
+844	nod	v.
+845	nominate	v.
+846	nomination	n.
+847	nominee	n.
+848	nonetheless	adv.
+849	non-profit	adj.
+850	nonsense	n.
+851	noon	n.
+852	notable	adj.
+853	notably	adv.
+854	notify	v.
+855	notorious	adj.
+856	novel	adj.
+857	nursery	n.
+858	objection	n.
+859	oblige	v.
+860	obsess	v.
+861	obsession	n.
+862	occasional	adj.
+863	occurrence	n.
+864	odds	n.
+865	offering	n.
+866	offspring	n.
+867	operational	adj.
+868	opt	v.
+869	optical	adj.
+870	optimism	n.
+871	oral	adj.
+872	organizational	adj.
+873	orientation	n.
+874	originate	v.
+875	outbreak	n.
+876	outing	n.
+877	outlet	n.
+878	outlook	n.
+879	outrage	n.
+880	outrage	v.
+881	outsider	n.
+882	overlook	v.
+883	overly	adv.
+884	oversee	v.
+885	overturn	v.
+886	overwhelm	v.
+887	overwhelming	adj.
+888	pad	n.
+889	parameter	n.
+890	parental	adj.
+891	parish	n.
+892	parliamentary	adj.
+893	partial	adj.
+894	partially	adv.
+895	passing	n.
+896	passive	adj.
+897	pastor	n.
+898	patch	n.
+899	patent	n.
+900	pathway	n.
+901	patrol	n.
+902	patrol	v.
+903	patron	n.
+904	peak	n.
+905	peasant	n.
+906	peculiar	adj.
+907	persist	v.
+908	persistent	adj.
+909	personnel	n.
+910	petition	n.
+911	philosopher	n.
+912	philosophical	adj.
+913	physician	n.
+914	pioneer	n.
+915	pipeline	n.
+916	pirate	n.
+917	pit	n.
+918	plea	n.
+919	plead	v.
+920	pledge	v.
+921	pledge	n.
+922	plug	v.
+923	plug	n.
+924	plunge	v.
+925	pole	n.
+926	poll	n.
+927	pond	n.
+928	pop	v.
+929	portfolio	n.
+930	portray	v.
+931	postpone	v.
+932	post-war	adj.
+933	practitioner	n.
+934	preach	v.
+935	precedent	n.
+936	precision	n.
+937	predator	n.
+938	predecessor	n.
+939	predominantly	adv.
+940	pregnancy	n.
+941	prejudice	n.
+942	preliminary	adj.
+943	premier	n.
+944	premise	n.
+945	premium	n.
+946	prescribe	v.
+947	prescription	n.
+948	presently	adv.
+949	preservation	n.
+950	preside	v.
+951	presidency	n.
+952	presidential	adj.
+953	prestigious	adj.
+954	presumably	adv.
+955	presume	v.
+956	prevail	v.
+957	prevalence	n.
+958	prevention	n.
+959	prey	n.
+960	principal	n.
+961	privatization	n.
+962	privilege	n.
+963	probe	n.
+964	probe	v.
+965	problematic	adj.
+966	proceedings	n.
+967	proceeds	n.
+968	processing	n.
+969	processor	n.
+970	proclaim	v.
+971	productive	adj.
+972	productivity	n.
+973	profitable	adj.
+974	profound	adj.
+975	projection	n.
+976	prominent	adj.
+977	pronounced	adj.
+978	propaganda	n.
+979	proposition	n.
+980	prosecute	v.
+981	prosecution	n.
+982	prosecutor	n.
+983	prospective	adj.
+984	prosperity	n.
+985	protective	adj.
+986	protocol	n.
+987	province	n.
+988	provincial	adj.
+989	provision	n.
+990	provoke	v.
+991	psychiatric	adj.
+992	pulse	n.
+993	pump	v.
+994	punch	n.
+995	query	n.
+996	quest	n.
+997	quota	n.
+998	radar	n.
+999	radical	adj.
+1000	rage	n.
+1001	raid	n.
+1002	rally	n.
+1003	ranking	n.
+1004	rape	v.
+1005	ratio	n.
+1006	rational	adj.
+1007	ray	n.
+1008	readily	adv.
+1009	realization	n.
+1010	realm	n.
+1011	rear	adj.
+1012	rear	n.
+1013	reasoning	n.
+1014	reassure	v.
+1015	rebel	n.
+1016	rebellion	n.
+1017	recipient	n.
+1018	reconstruction	n.
+1019	recount1	v.
+1020	referendum	n.
+1021	reflection	n.
+1022	reform	n., v.
+1023	refuge	n.
+1024	refusal	n.
+1025	regain	v.
+1026	regardless	adv.
+1027	regime	n.
+1028	regulator	n.
+1029	regulatory	adj.
+1030	rehabilitation	n.
+1031	reign	n.
+1032	reign	v.
+1033	rejection	n.
+1034	relevance	n.
+1035	reliability	n.
+1036	reluctant	adj.
+1037	remainder	n.
+1038	remains	n.
+1039	remedy	n.
+1040	reminder	n.
+1041	removal	n.
+1042	render	v.
+1043	renew	v.
+1044	renowned	adj.
+1045	rental	n.
+1046	replacement	n.
+1047	reportedly	adv.
+1048	representation	n.
+1049	reproduce	v.
+1050	reproduction	n.
+1051	republic	n.
+1052	resemble	v.
+1053	reside	v.
+1054	residence	n.
+1055	residential	adj.
+1056	residue	n.
+1057	resignation	n.
+1058	resistance	n.
+1059	respective	adj.
+1060	respectively	adv.
+1061	restoration	n.
+1062	restraint	n.
+1063	resume	v.
+1064	retreat	n.
+1065	retreat	v.
+1066	retrieve	v.
+1067	revelation	n.
+1068	revenge	n.
+1069	reverse	v.
+1070	revival	n.
+1071	revive	v.
+1072	revolutionary	adj.
+1073	rhetoric	n.
+1074	rifle	n.
+1075	riot	n.
+1076	rip	v.
+1077	ritual	n.
+1078	robust	adj.
+1079	rock	v.
+1080	rod	n.
+1081	rotate	v.
+1082	rotation	n.
+1083	ruling	n.
+1084	rumour	n.
+1085	sack	v.
+1086	sacred	adj.
+1087	sacrifice	n.
+1088	sacrifice	v.
+1089	saint	n.
+1090	sake	n.
+1091	sanction	n.
+1092	say	n.
+1093	scattered	adj.
+1094	sceptical	adj.
+1095	scope	n.
+1096	screw	n.
+1097	scrutiny	n.
+1098	seal	v.
+1099	seal	n.
+1100	secular	adj.
+1101	seemingly	adv.
+1102	segment	n.
+1103	seize	v.
+1104	seldom	adv.
+1105	selective	adj.
+1106	senator	n.
+1107	sensation	n.
+1108	sensitivity	n.
+1109	sentiment	n.
+1110	separation	n.
+1111	serial	adj.
+1112	settlement	n.
+1113	set-up	n.
+1114	sexuality	n.
+1115	shareholder	n.
+1116	shatter	v.
+1117	shed	v.
+1118	sheer	adj.
+1119	shipping	n.
+1120	shoot	n.
+1121	shrink	v.
+1122	shrug	v.
+1123	sigh	v.
+1124	sigh	n.
+1125	simulate	v.
+1126	simulation	n.
+1127	simultaneously	adv.
+1128	sin	n.
+1129	situated	adj.
+1130	sketch	n.
+1131	skip	v.
+1132	slam	v.
+1133	slap	v.
+1134	slash	v.
+1135	slavery	n.
+1136	slot	n.
+1137	smash	v.
+1138	snap	v.
+1139	soak	v.
+1140	soar	v.
+1141	socialist	adj.
+1142	sole	adj.
+1143	solely	adv.
+1144	solicitor	n.
+1145	solidarity	n.
+1146	solo	n.
+1147	sound	adj.
+1148	sovereignty	n.
+1149	spam	n.
+1150	span	v.
+1151	span	n.
+1152	spare	v.
+1153	spark	v.
+1154	specialized	adj.
+1155	specification	n.
+1156	specimen	n.
+1157	spectacle	n.
+1158	spectrum	n.
+1159	spell	n.
+1160	sphere	n.
+1161	spin	v.
+1162	spin	n.
+1163	spine	n.
+1164	spotlight	n.
+1165	spouse	n.
+1166	spy	n.
+1167	squad	n.
+1168	squeeze	v.
+1169	stab	v.
+1170	stability	n.
+1171	stabilize	v.
+1172	stake	n.
+1173	standing	adj.
+1174	stark	adj.
+1175	statistical	adj.
+1176	steer	v.
+1177	stem	n.
+1178	stem	v.
+1179	stereotype	n.
+1180	stimulus	n.
+1181	stir	v.
+1182	storage	n.
+1183	straightforward	adj.
+1184	strain	n.
+1185	strand	n.
+1186	strategic	adj.
+1187	striking	adj.
+1188	strip	(long narrow piece) n.
+1189	strip	(remove clothes/a layer) v.
+1190	strive	v.
+1191	structural	adj.
+1192	stumble	v.
+1193	stun	v.
+1194	submission	n.
+1195	subscriber	n.
+1196	subscription	n.
+1197	subsidy	n.
+1198	substantial	adj.
+1199	substantially	adv.
+1200	substitute	n.
+1201	substitute	v.
+1202	substitution	n.
+1203	subtle	adj.
+1204	suburban	adj.
+1205	succession	n.
+1206	successive	adj.
+1207	successor	n.
+1208	suck	v.
+1209	sue	v.
+1210	suicide	n.
+1211	suite	n.
+1212	summit	n.
+1213	superb	adj.
+1214	superior	adj.
+1215	supervise	v.
+1216	supervision	n.
+1217	supervisor	n.
+1218	supplement	n.
+1219	supplement	v.
+1220	supportive	adj.
+1221	supposedly	adv.
+1222	suppress	v.
+1223	supreme	adj.
+1224	surge	n.
+1225	surge	v.
+1226	surgical	adj.
+1227	surplus	n.
+1228	surrender	v.
+1229	surveillance	n.
+1230	suspension	n.
+1231	suspicion	n.
+1232	suspicious	adj.
+1233	sustain	v.
+1234	swing	n.
+1235	sword	n.
+1236	symbolic	adj.
+1237	syndrome	n.
+1238	synthesis	n.
+1239	systematic	adj.
+1240	tackle	n.
+1241	tactic	n.
+1242	tactical	adj.
+1243	taxpayer	n.
+1244	tempt	v.
+1245	tenant	n.
+1246	tender	adj.
+1247	tenure	n.
+1248	terminal	adj.
+1249	terminate	v.
+1250	terrain	n.
+1251	terrific	adj.
+1252	testify	v.
+1253	testimony	n.
+1254	texture	n.
+1255	thankfully	adv.
+1256	theatrical	adj.
+1257	theology	n.
+1258	theoretical	adj.
+1259	thereafter	adv.
+1260	thereby	adv.
+1261	thoughtful	adj.
+1262	thought-provoking	adj.
+1263	thread	n.
+1264	threshold	n.
+1265	thrilled	adj.
+1266	thrive	v.
+1267	tide	n.
+1268	tighten	v.
+1269	timber	n.
+1270	timely	adj.
+1271	tobacco	n.
+1272	tolerance	n.
+1273	tolerate	v.
+1274	toll	n.
+1275	top	v.
+1276	torture	n., v.
+1277	toss	v.
+1278	total	v.
+1279	toxic	adj.
+1280	trace	n.
+1281	trademark	n.
+1282	trail	n.
+1283	trail	v.
+1284	trailer	n.
+1285	transaction	n.
+1286	transcript	n.
+1287	transformation	n.
+1288	transit	n.
+1289	transmission	n.
+1290	transparency	n.
+1291	transparent	adj.
+1292	trauma	n.
+1293	treaty	n.
+1294	tremendous	adj.
+1295	tribal	adj.
+1296	tribunal	n.
+1297	tribute	n.
+1298	trigger	n.
+1299	trio	n.
+1300	triumph	n.
+1301	trophy	n.
+1302	troubled	adj.
+1303	trustee	n.
+1304	tuition	n.
+1305	turnout	n.
+1306	turnover	n.
+1307	twist	v.
+1308	undergraduate	n.
+1309	underlying	adj.
+1310	undermine	v.
+1311	undoubtedly	adv.
+1312	unify	v.
+1313	unprecedented	adj.
+1314	unveil	v.
+1315	upcoming	adj.
+1316	upgrade	v.
+1317	uphold	v.
+1318	utility	n.
+1319	utilize	v.
+1320	utterly	adv.
+1321	vacuum	n.
+1322	vague	adj.
+1323	validity	n.
+1324	vanish	v.
+1325	variable	n.
+1326	variable	adj.
+1327	varied	adj.
+1328	vein	n.
+1329	venture	n.
+1330	venture	v.
+1331	verbal	adj.
+1332	verdict	n.
+1333	verify	v.
+1334	verse	n.
+1335	versus	prep.
+1336	vessel	n.
+1337	veteran	n.
+1338	viable	adj.
+1339	vibrant	adj.
+1340	vice	n.
+1341	vicious	adj.
+1342	villager	n.
+1343	violate	v.
+1344	violation	n.
+1345	virtue	n.
+1346	vocal	adj.
+1347	vow	v.
+1348	vulnerability	n.
+1349	vulnerable	adj.
+1350	ward	n.
+1351	warehouse	n.
+1352	warfare	n.
+1353	warrant	n.
+1354	warrant	v.
+1355	warrior	n.
+1356	weaken	v.
+1357	weave	v.
+1358	weed	n.
+1359	well	n.
+1360	well-being	n.
+1361	whatsoever	adv.
+1362	whereby	adv.
+1363	whilst	conj.
+1364	whip	v.
+1365	wholly	adv.
+1366	widen	v.
+1367	widow	n.
+1368	width	n.
+1369	willingness	n.
+1370	wipe	v.
+1371	wit	n.
+1372	withdrawal	n.
+1373	workout	n.
+1374	worship	n.
+1375	worship	v.
+1376	worthwhile	adj.
+1377	worthy	adj.
+1378	yell	v.
+1379	yield	n.
+1380	yield	v.
+1381	youngster	n.
