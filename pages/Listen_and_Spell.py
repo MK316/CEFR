@@ -58,9 +58,9 @@ def run_practice_app(user_name, file_url):
     # Layout adjustment: Put Start SID and End SID in one row
     col1, col2 = st.columns(2)
     with col1:
-        start_sid = st.number_input(f"Start SID ({user_name})", min_value=1, max_value=data['SID'].max(), value=1)
+        start_sid = st.number_input(f"Start SID (1~{total_words})", min_value=1, max_value=data['SID'].max(), value=1)
     with col2:
-        end_sid = st.number_input(f"End SID ({user_name})", min_value=1, max_value=data['SID'].max(), value=min(start_sid + 19, data['SID'].max()))
+        end_sid = st.number_input(f"End SID (1~{total_words})", min_value=1, max_value=data['SID'].max(), value=min(start_sid + 19, data['SID'].max()))
 
     # Filter words based on selected SID range
     filtered_data = data[(data['SID'] >= start_sid) & (data['SID'] <= end_sid)].reset_index(drop=True)
