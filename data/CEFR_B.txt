@@ -1,0 +1,478 @@
+SID	WORD	POS	Sentence
+1	specialize	v.	Many doctors specialize in a specific field of medicine, like cardiology or neurology.
+2	absorb	v.	The sponge can absorb a lot of water, making it useful for cleaning spills.
+3	abstract	adj.	His abstract painting leaves the interpretation up to the viewer's imagination.
+4	accent	n.	Her French accent made her English sound charming and sophisticated.
+5	accidentally	adv.	I accidentally dropped the glass, and it shattered on the floor.
+6	accommodate	v.	The hotel can accommodate over 200 guests in its spacious rooms.
+7	accommodation	n.	Finding affordable accommodation in the city can be quite challenging.
+8	accomplish	v.	He set out to accomplish his task before noon and succeeded.
+9	accountant	n.	The company hired an accountant to manage their financial statements.
+10	accuracy	n.	The accuracy of her report was crucial for the board meeting.
+11	accurately	adv.	He measured the dimensions accurately to ensure the piece would fit.
+12	acid	n.	Lemon juice is known for its high acid content.
+13	acre	n.	Their property extends over several acres of land.
+14	activate	v.	She needs to activate her account before she can start using the app.
+15	addiction	n.	Nicotine addiction is a serious problem for many smokers.
+16	additionally	adv.	Additionally, the package includes free access to the gym.
+17	adequate	adj.	The space in the backseat is adequate for two passengers.
+18	adequately	adv.	The tutorial explains the process adequately for beginners.
+19	adjust	v.	You can adjust the volume of the music with this knob.
+20	affordable	adj.	They were looking for a more affordable option to reduce costs.
+21	aged	adj.	The aged cheese at the market has a rich and sharp flavor.
+22	agriculture	n.	Agriculture is a key sector in the country's economy, focusing on corn and wheat production.
+23	AIDS	n.	AIDS is a life-threatening condition caused by the HIV virus.
+24	alien	n.	In the movie, the alien comes from a distant galaxy.
+25	alongside	prep.	He worked alongside his colleagues to complete the project on time.
+26	altogether	adv.	Altogether, there were fifty participants at the seminar.
+27	ambitious	adj.	Her ambitious plan involves starting a company before she is 30.
+28	ambulance	n.	An ambulance rushed to the scene of the accident.
+29	amusing	adj.	The comedian's routine was amusing and kept everyone laughing.
+30	analyst	n.	The data analyst presented the latest findings on market trends.
+31	ancestor	n.	Our ancestors migrated from Europe over a century ago.
+32	animation	n.	The children enjoyed the vibrant colors and fun stories in the animation.
+33	annually	adv.	The conference takes place annually in July.
+34	anticipate	v.	We anticipate a large crowd for the concert next week.
+35	anxiety	n.	She felt a wave of anxiety before her presentation.
+36	apology	n.	He made a sincere apology for his mistake.
+37	applicant	n.	The applicant impressed the interviewers with her knowledge and enthusiasm.
+38	appropriately	adv.	Dress appropriately for the formal dinner.
+39	arrow	n.	The archer aimed the arrow at the target.
+40	artwork	n.	The gallery features artwork from contemporary artists.
+41	asset	n.	The company considers its skilled workforce its most valuable asset.
+42	assign	v.	The teacher will assign homework over the weekend.
+43	assistance	n.	She offered her assistance when she saw that I was overwhelmed.
+44	assumption	n.	His decision was based on the assumption that the market would improve.
+45	assure	v.	I can assure you that the vehicle is in excellent condition.
+46	astonishing	adj.	The magician's astonishing trick left the audience in awe.
+47	athletic	adj.	The athletic student won three medals at the school sports event.
+48	attachment	n.	She has a strong attachment to her childhood toys.
+49	audio	adj.	The audio equipment needs to be set up before the conference.
+50	awareness	n.	There is growing awareness about mental health issues.
+51	awkward	adj.	His attempt at humor was awkward, causing an uncomfortable silence.
+52	badge	n.	Every participant received a badge with their name on it.
+53	balanced	adj.	She aims for a balanced diet to improve her health.
+54	ballet	n.	The ballet performance was breathtakingly beautiful.
+55	balloon	n.	The child let go of the string, and the balloon floated away into the sky.
+56	barely	adv.	He barely made it to the bus on time.
+57	bargain	n.	She found a bargain at the store, a shirt for half price.
+58	basement	n.	They converted their basement into a game room.
+59	basket	n.	She carried a basket filled with fresh fruit from the market.
+60	bat	n.	During the game, he swung the bat hard and hit a home run.
+61	beneficial	adj.	Drinking water frequently is beneficial for your health.
+62	beside	prep.	She sat beside her friend at the movie theater.
+63	besides	prep.	Besides mathematics, he is also excellent in science.
+64	besides	adv.	He is not ready to buy a car; besides, he prefers biking.
+65	bias	n.	The article showed a clear bias towards one side of the argument.
+66	bid	n.	His bid at the auction was the highest, winning him the antique vase.
+67	bid	v.	She will bid for the painting she loves at the next auction.
+68	biological	adj.	Biological research can provide answers to many medical questions.
+69	blanket	n.	She wrapped herself in a warm blanket on the cold night.
+70	blow	n.	The blow to his pride was worse than his physical injuries.
+71	bold	adj.	Her bold approach to business is both admired and criticized.
+72	bombing	n.	The news reported a tragic bombing in the city.
+73	boost	v.	The good review helped to boost sales of his new book.
+74	boost	n.	The endorsement was a major boost to her campaign.
+75	bound	adj.	They were bound for New York but ended up in Boston due to a mistake.
+76	brick	n.	The house was built with red bricks.
+77	briefly	adv.	She spoke briefly to the audience before exiting the stage.
+78	broadcaster	n.	The broadcaster announced the news of the royal wedding.
+79	broadly	adv.	He smiled broadly when he heard the good news.
+80	buck	n.	He saved a few bucks by buying his supplies in bulk.
+81	bug	n.	A small bug crawled across the leaf.
+82	cabin	n.	The log cabin by the lake is a perfect getaway spot.
+83	canal	n.	They took a boat ride through the ancient canal.
+84	candle	n.	The room was lit by a single candle.
+85	carbon	n.	Plants absorb carbon dioxide and release oxygen.
+86	castle	n.	The old castle is said to be haunted by a benevolent ghost.
+87	casual	adj.	The invitation called for casual attire, so jeans and a t-shirt were fine.
+88	cave	n.	The explorers discovered ancient paintings inside the cave.
+89	certainty	n.	With absolute certainty, she knew she had made the right choice.
+90	certificate	n.	Upon completing the course, he received a certificate.
+91	challenging	adj.	The puzzle was challenging but fun to solve.
+92	championship	n.	The team won the national championship after a dramatic final match.
+93	charming	adj.	His charming manner won him many friends.
+94	chase	v.	The police chase ended when the suspect's car crashed.
+95	chase	n.	The chase through the crowded streets was thrilling to watch.
+96	cheek	n.	She kissed her grandmother on the cheek.
+97	cheer	v.	The crowd began to cheer loudly as the players took the field.
+98	cheer	n.	There was a great cheer from the audience at the end of the performance.
+99	chop	v.	He used an axe to chop the wood for the fireplace.
+100	circuit	n.	The electric circuit is designed to cut off power in an emergency.
+101	civilization	n.	The ruins of the ancient civilization were discovered buried beneath the forest.
+102	clarify	v.	Could you clarify your statement? I'm not sure I understand what you mean.
+103	classify	v.	Biologists classify organisms into groups to make them easier to study.
+104	cliff	n.	The cliff overlooks a vast, beautiful ocean.
+105	clinic	n.	She visited the clinic for her routine health check-up.
+106	clip	n.	He used a clip to keep the papers together.
+107	coincidence	n.	Running into her in France was a pure coincidence since they both lived in Canada.
+108	collector	n.	He is a well-known collector of rare books.
+109	colony	n.	The penguin colony was protected by environmental laws.
+110	colorful	adj.	The festival was vibrant and colorful, filled with decorations.
+111	comic	adj.	His comic timing always left the room in laughter.
+112	comic	n.	She bought a comic book at the store to read on her flight.
+113	commander	n.	The commander issued orders to her troops.
+114	comparative	adj.	They conducted a comparative study between two different teaching methods.
+115	completion	n.	The completion of the project was delayed by unforeseen circumstances.
+116	compose	v.	He will compose a new symphony for the orchestra.
+117	composer	n.	The composer was known for his complex and beautiful piano concertos.
+118	compound	n.	The scientist mixed a compound that changed color when heated.
+119	comprehensive	adj.	The final exam will cover a comprehensive list of topics.
+120	comprise	v.	The committee is comprised of members from various departments.
+121	compulsory	adj.	Attendance is compulsory at the seminar.
+122	concrete	adj.	His plans for the startup were concrete and well-thought-out.
+123	concrete	n.	The workers poured concrete to lay the foundation.
+124	confess	v.	He decided to confess his mistakes to his friend.
+125	confusion	n.	The sudden announcement caused confusion among the employees.
+126	consequently	adv.	She missed her train and consequently was late to the meeting.
+127	conservation	n.	Wildlife conservation is essential for maintaining biodiversity.
+128	considerable	adj.	The project received considerable support from the community.
+129	considerably	adv.	The costs have increased considerably since last year.
+130	consistently	adv.	He has been performing consistently well this season.
+131	conspiracy	n.	The documentary explores the conspiracy theories surrounding the event.
+132	consult	v.	It's best to consult a lawyer before signing any legal documents.
+133	consultant	n.	She worked as a financial consultant before starting her own business.
+134	consumption	n.	The consumption of electricity spikes during the cold winter months.
+135	controversial	adj.	The new law is controversial and has sparked a lot of debates.
+136	controversy	n.	The novel sparked controversy because of its provocative themes.
+137	convenience	n.	The shop's proximity to my home is a great convenience.
+138	convention	n.	They attended the annual science fiction convention together.
+139	conventional	adj.	His views on education are quite conventional.
+140	convey	v.	The artist conveys a strong message through her sculptures.
+141	convincing	adj.	Her argument was convincing enough to change his mind.
+142	cop	n.	The cop directed traffic at the busy intersection.
+143	cope	v.	We need to learn how to cope with stress effectively.
+144	corporation	n.	She works for a multinational corporation.
+145	corridor	n.	The long corridor led to a series of locked doors.
+146	counter	n.	He placed his keys on the kitchen counter.
+147	coverage	n.	The news provided extensive coverage of the election.
+148	cowboy	n.	The cowboy rode his horse across the plains.
+149	crack	v.	The window crack...
+150	crack	n.	...ed from the impact, leaving a noticeable crack.
+151	craft	n.	Her craft in pottery has earned her numerous awards.
+152	creativity	n.	Innovation requires creativity and a willingness to take risks.
+153	critically	adv.	The patient is critically ill and needs immediate care.
+154	cruise	n.	The family went on a cruise to the Caribbean.
+155	cruise	v.	We could just cruise along the coast in the convertible.
+156	cue	n.	The actor missed his cue and entered the stage too late.
+157	curious	adj.	The curious child asked countless questions during the museum tour.
+158	curriculum	n.	The new curriculum focuses more on practical skills.
+159	cute	adj.	The puppy's cute antics made everyone smile.
+160	dairy	n.	The dairy farm supplies milk to the entire region.
+161	dairy	adj.	Dairy products like cheese and butter can be found in the refrigerated section.
+162	dare	v.	I dare you to try the hottest sauce on the menu.
+163	darkness	n.	As the sun set, the room was enveloped in darkness.
+164	database	n.	The company maintains a large database of client information.
+165	deadline	n.	The project's deadline was pushed back a week.
+166	deadly	adj.	The venom of the snake is highly deadly.
+167	dealer	n.	The dealer in rare coins offered him a good price.
+168	deck	n.	We enjoyed the evening on the boat's deck.
+169	defender	n.	The defender blocked the opposing team's shot at the goal.
+170	delete	v.	She decided to delete the old files to free up space.
+171	delighted	adj.	He was delighted to hear the good news.
+172	democracy	n.	Living in a democracy allows citizens to vote on important issues.
+173	democratic	adj.	The democratic process is vital for a fair society.
+174	demonstration	n.	The demonstration downtown drew a large crowd.
+175	depart	v.	The train will depart from platform 9 at noon.
+176	dependent	adj.	Children are financially dependent on their parents.
+177	deposit	n.	He made a large deposit into his savings account.
+178	deposit	v.	You need to deposit any loose change into the jar.
+179	depression	n.	After the 1929 stock market crash, the Great Depression began.
+180	derive	v.	Many English words derive from Latin.
+181	desperately	adv.	He desperately needed the job to pay his bills.
+182	destruction	n.	The destruction after the hurricane was unimaginable.
+183	determination	n.	Her determination helped her overcome numerous obstacles.
+184	devote	v.	He decided to devote more time to his hobbies.
+185	differ	v.	The opinions of the experts differ on this issue.
+186	dime	n.	Every dime counts when you're saving for something big.
+187	disability	n.	The facilities were designed to accommodate people with disabilities.
+188	disabled	adj.	Disabled parking is available near the entrance.
+189	disagreement	n.	There was a disagreement about how to proceed.
+190	disappoint	v.	I hope the finale doesn't disappoint.
+191	disappointment	n.	His rejection was a big disappointment.
+192	discourage	v.	Don't let failure discourage you from trying again.
+193	disorder	n.	He was diagnosed with a rare genetic disorder.
+194	distant	adj.	The stars are distant and mysterious.
+195	distinct	adj.	His style is distinct from anyone else's in the industry.
+196	distinguish	v.	It's important to distinguish fact from opinion.
+197	distract	v.	The noise could distract the students during the exam.
+198	disturb	v.	Please do not disturb her while she's working.
+199	dive	v.	The diver prepared to dive into the deep blue sea.
+200	dive	n.	The dive into the ocean was exhilarating.
+241	evident	adj.	The impact of the policy was evident from the improved results.
+242	evolution	n.	The evolution of technology has transformed how we communicate.
+243	evolve	v.	His ideas need to evolve to stay relevant in the changing market.
+244	exceed	v.	Sales this quarter exceed expectations by a significant margin.
+245	exception	n.	Everyone must follow the rules without exception.
+246	excessive	adj.	Excessive speed is a major cause of road accidents.
+247	exclude	v.	The offer does not exclude anyone based on their background.
+248	exotic	adj.	They enjoyed exotic fruits during their tropical vacation.
+249	expansion	n.	The expansion of the city has brought new business opportunities.
+250	expedition	n.	The expedition to the Arctic faced many challenges.
+251	expertise	n.	His expertise in robotics is well recognized in the industry.
+252	exploit	v.	It's unethical to exploit workers for profit.
+253	exposure	n.	Exposure to different cultures can broaden one's perspective.
+254	extension	n.	They applied for an extension of the project deadline.
+255	extensive	adj.	The research required extensive fieldwork and data analysis.
+256	extensively	adv.	The novel has been extensively reviewed in literary circles.
+257	extract	n.	The extract from the plant is used in natural remedies.
+258	fabric	n.	The dress is made from a delicate and expensive fabric.
+259	fabulous	adj.	They had a fabulous time at the wedding.
+260	faculty	n.	The faculty at the university are highly qualified.
+261	failed	adj.	His attempt was marked as a failed experiment in the records.
+262	fake	adj.	The museum discovered that the painting was a fake.
+263	fame	n.	Her sudden rise to fame overwhelmed her initially.
+264	fantasy	n.	His latest book is a fantasy set in an imaginary world.
+265	fare	n.	The fare for the bus has increased since last year.
+266	firefighter	n.	The firefighter received an award for bravery.
+267	firework	n.	The fireworks display was the highlight of the festival.
+268	firm	adj.	She has a firm belief in the importance of education.
+269	firmly	adv.	He firmly stated his opposition to the proposal.
+270	flavor	n.	The chef is known for the unique flavor he brings to traditional dishes.
+271	fond	adj.	She is fond of her hometown and visits often.
+272	fool	n.	He felt like a fool after making such a simple mistake.
+273	forbid	v.	The law forbids the use of mobile phones while driving.
+274	forecast	n.	The weather forecast predicts rain for the weekend.
+275	forecast	v.	Analysts forecast a rise in prices next quarter.
+276	format	n.	The report should be submitted in PDF format.
+277	formation	n.	The formation of ice on the wings is a risk during the flight.
+278	formerly	adv.	The building was formerly used as a school.
+279	fortunate	adj.	They were fortunate to escape the fire unharmed.
+280	forum	n.	The forum will discuss the effects of global warming.
+281	fossil	n.	Fossil evidence can tell us a lot about ancient life forms.
+282	foundation	n.	The charity foundation supports educational projects.
+283	founder	n.	The founder of the company still plays an active role in its management.
+284	fraction	n.	Only a small fraction of the budget was spent on marketing.
+285	fragment	n.	Archaeologists found fragments of pottery at the site.
+286	framework	n.	The legal framework needs to be established before the project can proceed.
+287	fraud	n.	The accountant was found guilty of committing fraud.
+288	freely	adv.	She spoke freely about her experiences at the conference.
+289	frequent	adj.	His frequent absences were noted by his employer.
+290	fulfill	v.	He was unable to fulfill his ambition to become an actor.
+291	full-time	adj.	She works full-time at the law firm.
+292	full-time	adv.	He has been employed full-time since graduating.
+293	fundamentally	adv.	The two theories are fundamentally different.
+294	furious	adj.	She was furious when she found out the truth.
+295	gallon	n.	The car can hold up to 15 gallons of gasoline.
+296	gaming	n.	He works in the gaming industry designing video games.
+297	gay	adj.	The city held its annual gay pride parade.
+298	gender	n.	The survey collected data on age, gender, and occupation.
+299	gene	n.	Scientists have identified the gene responsible for the disease.
+300	genetic	adj.	Genetic factors play a role in determining height.
+301	genius	n.	His work in physics proves he is a genius.
+302	genuine	adj.	They expressed genuine concern for her well-being.
+303	genuinely	adv.	She was genuinely surprised by the party her friends organized.
+304	gesture	n.	His kind gesture made her day.
+305	globalization	n.	Globalization has led to increased economic interdependence.
+306	globe	n.	The teacher used a globe to explain the geography lesson.
+307	golden	adj.	The golden statue was the centerpiece of the exhibition.
+308	goodness	n.	She helped out of the goodness of her heart.
+309	gorgeous	adj.	The view from the top of the mountain is gorgeous.
+310	graphic	adj.	The graphic details of the report were disturbing.
+311	graphics	n.	The video game has impressive graphics.
+312	greatly	adv.	His health has improved greatly since the operation.
+313	greenhouse	n.	They grow tomatoes in a greenhouse to extend the growing season.
+314	guideline	n.	The company guidelines ensure fair treatment of all employees.
+315	habitat	n.	Conservation efforts aim to protect the natural habitat of endangered species.
+316	harbor	n.	The harbor was busy with boats coming and going.
+317	headquarters	n.	The company's headquarters are located in New York.
+318	heal	v.	It took months for her injury to fully heal.
+319	healthcare	n.	Everyone should have access to affordable healthcare.
+320	helmet	n.	It's important to wear a helmet when riding a bicycle.
+321	hence	adv.	Hence, we need to reconsider our strategy to improve results.
+322	herb	n.	He grows several herbs in his garden, including basil and thyme.
+323	hidden	adj.	She discovered a hidden talent for painting during the class.
+324	hilarious	adj.	The movie was hilarious; we couldn't stop laughing.
+325	hip	n.	She injured her hip during the fall.
+326	historian	n.	The historian wrote a book on the medieval period.
+327	homeless	adj.	The shelter provides assistance to homeless individuals.
+328	honesty	n.	Honesty is the best policy in all relationships.
+329	honey	n.	He prefers honey in his tea instead of sugar.
+330	hook	n.	He hung his coat on the hook by the door.
+331	hopefully	adv.	Hopefully, the weather will be good for our picnic.
+332	hunger	n.	Many organizations are working to reduce hunger worldwide.
+333	hypothesis	n.	The scientist tested her hypothesis through experiments.
+334	icon	n.	The software uses an icon to represent the editing function.
+335	ID	n.	You need to show your ID to enter the building.
+336	identical	adj.	The twins are not identical; they have different features.
+337	illusion	n.	The magician's trick created the illusion of a disappearing car.
+338	immigration	n.	Immigration policies vary significantly from one country to another.
+339	immune	adj.	He is immune to chickenpox because he had it as a child.
+340	implement	v.	They plan to implement the new system next month.
+341	implication	n.	The implications of the research are profound.
+342	incentive	n.	The company offers incentives for employees to perform well.
+343	incorporate	v.	They decided to incorporate sustainable practices into their business model.
+344	incorrect	adj.	The answer he gave was incorrect.
+345	independence	n.	Many countries celebrate their independence with national holidays.
+346	index	n.	The book includes an index at the back for easy reference.
+347	indication	n.	There was no indication of trouble before the accident happened.
+348	inevitable	adj.	It was inevitable that the secret would eventually come out.
+349	inevitably	adv.	Inevitably, the rain started just as the parade began.
+350	infer	v.	From the evidence, we can infer that the suspect was present at the scene.
+351	inflation	n.	Inflation has caused the price of groceries to rise.
+352	info	n.	For more info, please visit our website.
+353	infrastructure	n.	The government is investing in infrastructure projects like roads and bridges.
+354	inhabitant	n.	The inhabitants of the island are known for their hospitality.
+355	inherit	v.	She will inherit the house from her grandparents.
+356	ink	n.	He refilled the printer with black ink.
+357	innovation	n.	The company is known for its innovation in developing new products.
+358	innovative	adj.	Their innovative approach to marketing has won several awards.
+359	input	n.	The manager asked for everyone's input on the project.
+360	insert	v.	Insert your card into the machine to begin the transaction.
+361	inspector	n.	The health inspector visited the restaurant for a routine check.
+362	installation	n.	The installation of the software takes about an hour.
+363	instant	adj.	He felt an instant attraction to the place.
+364	instantly	adv.	The room went silent instantly when the director entered.
+365	integrate	v.	They are working to integrate the new members into the team.
+366	intellectual	adj.	The debate was intellectual and challenged everyone's thinking.
+367	interact	v.	Children need to interact with others to develop social skills.
+368	interaction	n.	There was a lot of positive interaction between the team members.
+369	interpretation	n.	His interpretation of the events differs from hers.
+370	interval	n.	The concerts will be held at regular intervals throughout the summer.
+371	invade	v.	The insects invaded the kitchen, much to the homeowner's dismay.
+372	invasion	n.	The invasion of privacy is a serious concern in the digital age.
+373	investor	n.	The startup is seeking investors to fund its expansion.
+374	isolate	v.	The scientists isolate the virus to study it more thoroughly.
+375	isolated	adj.	The farmhouse is located in an isolated part of the countryside.
+376	jail	n.	The suspect was held in jail until the court hearing.
+377	jet	n.	A private jet took them directly to their destination.
+378	joint	adj.	They made a joint decision to sell the house.
+379	joint	n.	The knee joint is often injured during sports.
+380	journalism	n.	She is studying journalism at the university.
+381	jury	n.	The jury found the defendant guilty of the charges.
+382	kindergarten	n.	His daughter is excited to start kindergarten this fall.
+383	kit	n.	The science kit includes everything you need to perform the experiment.
+384	ladder	n.	He climbed the ladder to reach the books on the top shelf.
+385	landing	n.	The airplane made a smooth landing at the airport.
+386	lane	n.	The new lane on the highway should help reduce traffic.
+387	lately	adv.	Lately, he has been feeling a bit under the weather.
+388	legend	n.	The old legend says the castle is haunted.
+389	lens	n.	The photographer switched to a wider lens for the landscape shots.
+390	lifetime	n.	He was given a lifetime achievement award for his work in film.
+391	lighting	n.	The lighting in the room was dim, making it hard to read.
+392	likewise	adv.	She voted against the proposal, and her colleagues did likewise.
+393	limitation	n.	The study has several limitations that should be considered.
+394	literally	adv.	He was literally the last person I expected to see at the party.
+395	literary	adj.	The literary festival will feature several well-known authors.
+396	litter	n.	Please do not drop litter in the park.
+397	logo	n.	The company's logo is recognized all over the world.
+398	lottery	n.	He won a significant amount of money in the lottery.
+399	loyal	adj.	She has been a loyal customer of the shop for many years.
+400	lyric	n.	The song's lyrics speak about love and loss.
+401	magnificent	adj.	The view from the top of the mountain is magnificent.
+402	makeup	n.	She applied her makeup meticulously.
+403	making	n.	The making of the documentary took over two years.
+404	manufacture	v.	The company manufactures medical equipment.
+405	manufacturing	n.	The town's economy is largely based on manufacturing.
+406	marathon	n.	He is training for his first marathon next month.
+407	margin	n.	The book was filled with notes written in the margins.
+408	marker	n.	Please use a marker to highlight the important points.
+409	martial	adj.	Martial arts require discipline and physical fitness.
+410	mate	n.	My chess mate is very competitive.
+411	mate	v.	In spring, many birds mate and build nests.
+412	mechanic	n.	The mechanic fixed the problem with the car engine.
+413	mechanical	adj.	He has a talent for fixing mechanical devices.
+414	mechanism	n.	The mechanism of the clock is intricate and fascinating.
+415	medal	n.	She won a medal in the swimming competition.
+416	medication	n.	The doctor prescribed medication for her condition.
+417	membership	n.	His gym membership includes access to all facilities.
+418	memorable	adj.	It was a memorable day that they would never forget.
+419	metaphor	n.	Her poetry uses metaphor to convey complex emotions.
+420	miner	n.	The coal miner worked long hours underground.
+421	miserable	adj.	The bad weather made them feel miserable.
+422	mode	n.	The device can be switched to silent mode.
+423	modest	adj.	He lives a modest lifestyle despite his wealth.
+424	monster	n.	Children's stories often feature a friendly monster.
+425	monthly	adj.	The report provides a monthly update on the project's progress.
+426	monument	n.	The monument commemorates those who lost their lives in the war.
+427	moreover	adv.	Moreover, the study shows that the benefits far outweigh the costs.
+428	mortgage	n.	They are paying off their mortgage over 25 years.
+429	mosque	n.	The mosque is a place of worship for Muslims.
+430	mosquito	n.	Mosquitoes are a common problem in wet, swampy areas.
+431	motion	n.	The motion of the waves can be hypnotic.
+432	motivate	v.	Teachers try to motivate their students to achieve their best.
+433	motivation	n.	Lack of motivation can hinder progress in any activity.
+434	moving	adj.	The film was deeply moving and brought many to tears.
+435	myth	n.	The myth of Atlantis has intrigued people for centuries.
+436	naked	adj.	The naked eye can see thousands of stars on a clear night.
+437	nasty	adj.	He received a nasty cut from the broken glass.
+438	navigation	n.	The ship's navigation system malfunctioned during the storm.
+439	nearby	adj.	There's a cafe nearby where we can get coffee.
+440	nearby	adv.	The park is nearby, just a few minutes' walk from here.
+441	necessity	n.	Fresh water is a basic necessity for survival.
+442	negotiate	v.	The leaders met to negotiate a peace treaty.
+443	negotiation	n.	Negotiation is a key skill in business and diplomacy.
+444	neutral	adj.	The room is painted in neutral colors to appeal to all buyers.
+445	newly	adv.	The newly opened restaurant has become very popular.
+446	nickel	n.	Nickel is a type of metal commonly used in coins.
+447	norm	n.	It's the norm to wear formal attire at the opera.
+448	notebook	n.	She took detailed notes in her notebook during the lecture.
+449	novelist	n.	The novelist won an award for her latest book.
+450	nowadays	adv.	Nowadays, people rely heavily on their smartphones.
+451	nursing	adj.	He is studying for a degree in nursing at the university.
+452	nutrition	n.	Good nutrition is vital for maintaining health.
+453	obesity	n.	Obesity is a growing problem in many countries.
+454	observer	n.	An observer was appointed to ensure the fairness of the election.
+455	obstacle	n.	Lack of funding is a major obstacle to the project's success.
+456	occupation	n.	His occupation as a journalist takes him all over the world.
+457	occupy	v.	The tenants occupy the apartment on a yearly lease.
+458	offender	n.	The offender was arrested and charged with theft.
+459	ongoing	adj.	The ongoing discussions are expected to lead to a resolution soon.
+460	openly	adv.	He spoke openly about his struggles and successes.
+461	opera	n.	They attended an opera at the famous Sydney Opera House.
+462	operator	n.	The operator of the facility is responsible for its maintenance.
+463	optimistic	adj.	Despite the challenges, he remains optimistic about the future.
+464	orchestra	n.	The orchestra performed a selection of classical music.
+465	organic	adj.	Many consumers prefer organic products because they are pesticide-free.
+466	outfit	n.	She chose an elegant outfit for the evening gala.
+467	output	n.	The factory's output has increased by 20% this year.
+468	outstanding	adj.	His outstanding performance earned him the leading role.
+469	overcome	v.	She had to overcome many difficulties to achieve her goals.
+470	overnight	adv.	The small town became famous overnight.
+471	ownership	n.	The ownership of the land is disputed.
+472	oxygen	n.	Oxygen is essential for breathing and combustion.
+473	packet	n.	The packet contains all the information you need for the assembly.
+474	palm	n.	He held the tiny bird gently in his palm.
+475	panic	n.	During the emergency, it was important not to panic.
+476	parade	n.	The parade featured floats, bands, and dancers.
+477	parallel	adj.	His career followed a path parallel to hers.
+478	parallel	n.	The river runs in parallel with the border for several miles.
+479	participation	n.	Employee participation in the decision-making process is encouraged.
+480	partnership	n.	The firm entered into a partnership with an overseas company.
+481	part-time	adj.	She works part-time while studying for her degree.
+482	part-time	adv.	He is employed part-time at the local bookstore.
+483	passionate	adj.	She is passionate about wildlife conservation.
+484	password	n.	You will need your password to access the account.
+485	patch	n.	He applied a patch to the hole in his jeans.
+486	patience	n.	Patience is required when learning a new skill.
+487	pause	n.	There was a brief pause in the conversation.
+488	pause	v.	Let's pause here and continue after the break.
+489	peer	n.	He respected the opinions of his peers.
+490	penalty	n.	The penalty for late submission is a reduction in marks.
+491	perceive	v.	She could perceive a change in his attitude.
+492	perception	n.	Public perception of the issue has evolved over time.
+493	permanently	adv.	The museum collection was permanently displayed for the public.
+494	pharmacy	n.	The pharmacy is located next to the clinic.
+495	physician	n.	The physician diagnosed the patient with anemia.
+496	pill	n.	She took a pill to relieve her headache.
+497	pity	n.	It's a pity you couldn't join us last night.
+498	placement	n.	His placement with the engineering firm will last six months.
+499	portion	n.	A portion of the proceeds will go to charity.
+500	potentially	adv.	Potentially, the new drug could save thousands of lives.
+501	precede	v.	The introduction will precede the main part of the book.
+502	precious	adj.	The precious gemstone was the centerpiece of the exhibit.
+503	precise	adj.	The scientist made precise measurements during the experiment.
+504	precisely	adv.	He arrived precisely at noon.
+505	predictable	adj.	His behavior was predictable, always following the same pattern.
+506	preference	n.	My preference is for classical music over rock.
+507	presidential	adj.	The presidential election is held every four years.
+508	pride	n.	He took great pride in his work.
+509	primarily	adv.	The fund is used primarily for educational purposes.
+510	principal	adj.	The principal reason for his success is his dedication.
+511	prior	adj.	Prior approval is required for any changes to the design.
+512	probability	n.	The probability of rain tomorrow is high.
+513	probable	adj.	It is probable that the meeting will be postponed.
+514	proceed	v.	Please proceed to the next step in the instructions.
+515	programming	n.	She is learning programming to enhance her job skills.
+516	progressive	adj.	The company is known for its progressive employment policies.
+517	prohibit	v.	Smoking is prohibited in all public buildings.
