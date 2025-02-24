@@ -20,10 +20,15 @@ def generate_audio(text):
 def main():
     st.title("Word Practice App")
     user_name = st.text_input("User name")
+
     data = load_data()
 
-    start_sid = st.number_input("Start SID", min_value=1, max_value=data['SID'].max(), value=1)
-    end_sid = st.number_input("End SID", min_value=1, max_value=data['SID'].max(), value=min(start_sid + 19, data['SID'].max()))
+    # Layout adjustment: Put Start SID and End SID in one row
+    col1, col2 = st.columns(2)
+    with col1:
+        start_sid = st.number_input("Start SID", min_value=1, max_value=data['SID'].max(), value=1)
+    with col2:
+        end_sid = st.number_input("End SID", min_value=1, max_value=data['SID'].max(), value=min(start_sid + 19, data['SID'].max()))
 
     # Filter words based on selected SID range
     filtered_data = data[(data['SID'] >= start_sid) & (data['SID'] <= end_sid)].reset_index(drop=True)
@@ -45,6 +50,7 @@ def main():
         for i, row in enumerate(filtered_data.itertuples()):
             audio_key = f'audio_{row.SID}'
             if audio_key in st.session_state.audio_data:
+                st.caption(f"SID {row.SID}")  # Display SID before each audio
                 st.audio(st.session_state.audio_data[audio_key], format='audio/mp3')
                 st.text_input("Type the word shown:", key=f'input_{row.SID}')
 
