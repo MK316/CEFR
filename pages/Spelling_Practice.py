@@ -2,6 +2,7 @@ import streamlit as st
 from gtts import gTTS
 from io import BytesIO
 import pandas as pd
+import re
 
 def clean_word(word):
     # Remove parts of speech or any characters following a space
