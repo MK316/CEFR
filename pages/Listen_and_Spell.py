@@ -28,7 +28,7 @@ def generate_audio(text):
     return audio_file.getvalue()  # Return byte content
 
 def main():
-    st.title("Word Practice App")
+    st.title("🎧 CEFR Listen & Spell Practice")
 
     # Define tabs for different word lists
     tab1, tab2 = st.tabs(["Level B", "Level C"])
