@@ -35,7 +35,7 @@ tabs = st.tabs(list(wordlist_urls.keys()))
 # Loop through tabs dynamically
 for idx, (tab_name, url) in enumerate(wordlist_urls.items()):
     with tabs[idx]:  # Assign content to each tab
-        st.caption("📅 Spring 2025")
+        st.caption("CEFR B1B2 (733 words), CEFR C1 (3,000 words)")
 
         # Load wordlist
         wordlist = load_wordlist(url)
@@ -55,8 +55,8 @@ for idx, (tab_name, url) in enumerate(wordlist_urls.items()):
             # Filter and display selected range
             filtered_words = wordlist[(wordlist['SID'] >= start_sid) & (wordlist['SID'] <= end_sid)].reset_index(drop=True)
 
-            # ✅ Hide the index using `st.table()` instead of `st.dataframe()`
-            st.table(filtered_words.style.hide(axis="index"))
+            # ✅ Hide the index by setting "SID" as the index
+            st.table(filtered_words.set_index("SID"))
 
         else:
             st.error("No data available for this wordlist.")
