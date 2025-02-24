@@ -2,6 +2,7 @@ import streamlit as st
 from gtts import gTTS
 from io import BytesIO
 import pandas as pd
+import re
 
 # URLs to your text files hosted on GitHub
 urls = {
@@ -9,9 +10,15 @@ urls = {
     'Level C': 'https://raw.githubusercontent.com/MK316/CEFR/refs/heads/main/data/CEFRC1.txt'
 }
 
+def clean_word(word):
+    # Remove parts of speech or any characters following a space
+    cleaned_word = re.sub(r'\s+.*', '', word)
+    return cleaned_word
+
 def load_data(level):
-    # Load data assuming that the file uses tabs as delimiters and has a header row
-    data = pd.read_csv(urls[level], sep='\t', usecols=['SID', 'WORD'])  # only load the SID and WORD columns
+    data = pd.read_csv(urls[level], sep='\t', usecols=['SID', 'WORD'])
+    # Clean each word in the dataframe
+    data['WORD'] = data['WORD'].apply(clean_word)
     return data
 
 def main():
