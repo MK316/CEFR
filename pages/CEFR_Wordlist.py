@@ -1,6 +1,7 @@
 import streamlit as st
 import requests
 import pandas as pd
+import io  # ✅ Corrected StringIO import
 
 # URLs for wordlists
 wordlist_urls = {
@@ -14,8 +15,10 @@ def load_wordlist(url):
     try:
         response = requests.get(url)
         response.raise_for_status()  # Raise an error for invalid requests
-        df = pd.read_csv(pd.compat.StringIO(response.text), sep='\t', usecols=['SID', 'WORD'], dtype=str)
-        
+
+        # ✅ Fixed: Using io.StringIO instead of pd.compat.StringIO
+        df = pd.read_csv(io.StringIO(response.text), sep='\t', usecols=['SID', 'WORD'], dtype=str)
+
         # Strip whitespace and convert SID to integer
         df.columns = df.columns.str.strip()
         df['SID'] = df['SID'].str.extract('(\d+)')[0].astype(int)  # Extract numbers and convert
