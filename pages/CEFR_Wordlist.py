@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 import pandas as pd
-import io  # ✅ Fixed StringIO issue
+import io
 
 # URLs for wordlists
 wordlist_urls = {
@@ -16,18 +16,19 @@ def load_wordlist(url):
         response = requests.get(url)
         response.raise_for_status()  # Raise error for invalid requests
 
-        # ✅ Fixed: Using io.StringIO instead of pd.compat.StringIO
-        df = pd.read_csv(io.StringIO(response.text), sep='\t', usecols=['SID', 'WORD'], dtype=str)
+        # ✅ Load all three columns: SID, WORD, and POS
+        df = pd.read_csv(io.StringIO(response.text), sep='\t', dtype=str)
 
         # Strip whitespace and convert SID to integer
-        df.columns = df.columns.str.strip()
+        df.columns = df.columns.str.strip()  # Strip any leading/trailing spaces from column names
         df['SID'] = df['SID'].str.extract('(\d+)')[0].astype(int)  # Extract numbers and convert
         df['WORD'] = df['WORD'].str.strip()  # Clean up words
+        df['POS'] = df['POS'].str.strip()  # Clean up POS
 
         return df
     except Exception as e:
         st.error(f"❌ Failed to load data: {e}")
-        return pd.DataFrame(columns=["SID", "WORD"])  # Return empty DataFrame on error
+        return pd.DataFrame(columns=["SID", "WORD", "POS"])  # Return empty DataFrame on error
 
 # Create tabs for different wordlists
 tabs = st.tabs(list(wordlist_urls.keys()))
@@ -37,6 +38,7 @@ for idx, (tab_name, url) in enumerate(wordlist_urls.items()):
     with tabs[idx]:  # Assign content to each tab
         st.caption("🔎 The B1B2 and C1 word lists contain a total of 733 and 3,000 words, respectively. Select the word numbers you want, then click the Show button.")
         st.markdown("---")
+        
         # Load wordlist
         wordlist = load_wordlist(url)
 
