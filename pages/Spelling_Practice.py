@@ -37,9 +37,13 @@ def main():
     if 'audio_data' not in st.session_state:
         st.session_state.audio_data = {}
 
+    if 'user_inputs' not in st.session_state:
+        st.session_state.user_inputs = {}
+
     if st.button('Generate Audio'):
         # Reset session state on new generation
         st.session_state.audio_data.clear()
+        st.session_state.user_inputs.clear()  # Reset user inputs
         st.session_state.generated = True  
 
         for i, row in enumerate(filtered_data.itertuples()):
@@ -52,7 +56,8 @@ def main():
             if audio_key in st.session_state.audio_data:
                 st.caption(f"SID {row.SID}")  # Display SID before each audio
                 st.audio(st.session_state.audio_data[audio_key], format='audio/mp3')
-                st.text_input("Type the word shown:", key=f'input_{row.SID}')
+                st.session_state.user_inputs[f'input_{row.SID}'] = ""  # Reset input box
+                st.text_input("Type the word shown:", key=f'input_{row.SID}', value=st.session_state.user_inputs[f'input_{row.SID}'])
 
     if st.button('Check Answers'):
         correct_count = 0
