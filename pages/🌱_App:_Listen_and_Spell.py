@@ -29,7 +29,7 @@ def generate_audio(text):
 
 def main():
     st.markdown("### 🎧 CEFR Listen & Spell Practice")
-    st.caption("Level B has 725 words and Level C has 1,381 words.")
+    st.caption("Level B has 725 words and Level C has 1,381 words. These are additional 2K contained in the Oxford 5K vocabulary.")
 
     # Define tabs for different word lists
     tab1, tab2 = st.tabs(["Level B", "Level C"])
