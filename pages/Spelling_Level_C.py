@@ -7,14 +7,17 @@ import pandas as pd
 @st.cache_data
 def load_data():
     url = 'https://raw.githubusercontent.com/MK316/Engpro-Class/refs/heads/main/data/CEFRC1.txt'
-    # Load the data
-    df = pd.read_csv(url, sep='\t', usecols=['SID', 'WORD', 'POS'])
+    df = pd.read_csv(url, sep='\t', usecols=['SID', 'WORD', 'POS'], dtype=str)  # Read all columns as strings
+
     # Strip any leading/trailing whitespace from column names
     df.columns = df.columns.str.strip()
-    # Strip whitespace from 'SID' and convert to integer
-    df['SID'] = df['SID'].str.strip().astype(int)
-    # Strip whitespace from 'WORD'
-    df['WORD'] = df['WORD'].str.strip()
+
+    # Extract only the numeric part of SID
+    df['SID'] = df['SID'].str.extract('(\d+)')[0].astype(int)  # Extract numbers only and convert to integer
+
+    # Extract only the first word from WORD column (in case extra info exists)
+    df['WORD'] = df['WORD'].str.split().str[0]
+
     return df
 
 def generate_audio(text):
@@ -70,7 +73,7 @@ def main():
                 st.caption(f"SID {row.SID}")  # Display SID before each audio
                 st.audio(st.session_state.audio_data[audio_key], format='audio/mp3')
 
-                # Force reset user input fields using `value=""`
+                # **Force reset user input fields using `value=""`**
                 st.text_input("Type the word shown:", key=sid_key, value="", placeholder="Type here...", label_visibility="collapsed")
 
     if st.button('Check Answers'):
