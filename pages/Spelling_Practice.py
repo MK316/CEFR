@@ -32,18 +32,18 @@ def main():
 
         user_input = st.text_input("Type the word shown:", key=f'input_{st.session_state.index}')
 
-        next_button = st.button('Next')
-        if next_button:
-            correct = user_input.strip().lower() == word.lower()
-            if correct:
+        if st.button('Next'):
+            if user_input.strip().lower() == word.lower():
                 st.session_state.correct_count += 1
             st.session_state.index += 1
 
-    if st.session_state.index == len(filtered_data):
+    if st.session_state.index >= len(filtered_data) and 'displayed_feedback' not in st.session_state:
         st.write(f"{user_name}: {st.session_state.correct_count}/{len(filtered_data)} correct.")
+        st.session_state.displayed_feedback = True
         if st.button('Restart'):
             st.session_state.index = 0
             st.session_state.correct_count = 0
+            del st.session_state.displayed_feedback
 
 if __name__ == "__main__":
     main()
