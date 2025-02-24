@@ -46,14 +46,14 @@ def main():
         )
 
 def run_practice_app(user_name, file_url):
-    user_name = st.text_input(f"User name ({user_name})")
-
     data = load_data(file_url)  # Load the dataset
     total_words = len(data)  # Count available words
 
     # **Display total words available in this level**
     st.info(f"📌 This level contains **{total_words} words**. Choose your SID range below.")
 
+    user_name = st.text_input(f"Type user name ({user_name})")
+    
     # Layout adjustment: Put Start SID and End SID in one row
     col1, col2 = st.columns(2)
     with col1:
