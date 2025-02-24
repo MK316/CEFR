@@ -17,10 +17,10 @@ def main():
     user_name = st.text_input("User name")
     data = load_data()
 
-    max_sid = data['SID'].max()
-    sid_ranges = [(i, min(i + 19, max_sid)) for i in range(1, max_sid + 1, 20)]
-    selected_range = st.selectbox("Select SID Range:", sid_ranges, format_func=lambda x: f"{x[0]}-{x[1]}")
-    filtered_data = data[(data['SID'] >= selected_range[0]) & (data['SID'] <= selected_range[1])]
+    start_sid = st.number_input("Start SID", min_value=1, max_value=data['SID'].max(), value=1, step=1)
+    end_sid = st.number_input("End SID", min_value=1, max_value=data['SID'].max(), value=20, step=1)
+
+    filtered_data = data[(data['SID'] >= start_sid) & (data['SID'] <= end_sid)]
 
     if 'index' not in st.session_state:
         st.session_state.index = 0
@@ -35,16 +35,19 @@ def main():
         st.audio(audio_file, format='audio/mp3')
         user_input = st.text_input("Type the word shown:", key=f'input_{st.session_state.index}')
 
-        if st.button('Next'):
-            if user_input.strip().lower() == word.lower():
-                st.session_state.correct_count += 1
-            st.session_state.index += 1
+        submit_button = st.button('Next', on_click=lambda: increment_index())
+
     else:
-        # Ensure feedback is shown when all items are completed
         st.write(f"{user_name}: {st.session_state.correct_count}/{len(filtered_data)} correct.")
         if st.button('Restart'):
             st.session_state.index = 0
             st.session_state.correct_count = 0
+            st.experimental_rerun()
+
+def increment_index():
+    if st.session_state.user_input.strip().lower() == st.session_state.word.lower():
+        st.session_state.correct_count += 1
+    st.session_state.index += 1
 
 if __name__ == "__main__":
     main()
