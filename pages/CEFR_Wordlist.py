@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 import pandas as pd
-import io  # ✅ Corrected StringIO import
+import io  # ✅ Fixed StringIO issue
 
 # URLs for wordlists
 wordlist_urls = {
@@ -14,7 +14,7 @@ wordlist_urls = {
 def load_wordlist(url):
     try:
         response = requests.get(url)
-        response.raise_for_status()  # Raise an error for invalid requests
+        response.raise_for_status()  # Raise error for invalid requests
 
         # ✅ Fixed: Using io.StringIO instead of pd.compat.StringIO
         df = pd.read_csv(io.StringIO(response.text), sep='\t', usecols=['SID', 'WORD'], dtype=str)
@@ -35,7 +35,7 @@ tabs = st.tabs(list(wordlist_urls.keys()))
 # Loop through tabs dynamically
 for idx, (tab_name, url) in enumerate(wordlist_urls.items()):
     with tabs[idx]:  # Assign content to each tab
-        st.caption("📅 Spring 2025")
+        st.caption("🌱 CEFR B1B2 (733 words) and C1 (3,000 words)")
 
         # Load wordlist
         wordlist = load_wordlist(url)
@@ -44,15 +44,15 @@ for idx, (tab_name, url) in enumerate(wordlist_urls.items()):
             # User selects SID range
             col1, col2 = st.columns(2)
             with col1:
-                start_sid = st.number_input("From SID", min_value=1, max_value=wordlist['SID'].max(), value=1)
+                start_sid = st.number_input(f"From SID ({tab_name})", min_value=1, max_value=wordlist['SID'].max(), value=1)
             with col2:
-                end_sid = st.number_input("To SID", min_value=start_sid, max_value=wordlist['SID'].max(), value=min(start_sid+19, wordlist['SID'].max()))
+                end_sid = st.number_input(f"To SID ({tab_name})", min_value=start_sid, max_value=wordlist['SID'].max(), value=min(start_sid+19, wordlist['SID'].max()))
 
             # Filter selected range
             filtered_words = wordlist[(wordlist['SID'] >= start_sid) & (wordlist['SID'] <= end_sid)].reset_index(drop=True)
 
-            # ✅ "Show Words" Button (Words only appear when clicked)
-            if st.button("🔍 Show Words"):
+            # ✅ "Show Words" Button with UNIQUE key per tab
+            if st.button(f"🔍 Show Words ({tab_name})", key=f"show_words_{idx}"):
                 st.table(filtered_words.set_index("SID"))
 
         else:
