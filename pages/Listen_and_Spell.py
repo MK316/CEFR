@@ -70,7 +70,7 @@ def run_practice_app(user_name, file_url):
     if f'{input_key_prefix}_inputs' not in st.session_state:
         st.session_state[f'{input_key_prefix}_inputs'] = {}
 
-    if st.button(f'🔉 Generate Audio - {file_url[-10:-3]}'):  # Unique button per file
+    if st.button(f'🔉 Generate Audio - {file_url[-6:-4]}'):  # Unique button per file
         # Reset session state on new generation
         st.session_state[f'{audio_key_prefix}_data'].clear()
         st.session_state[f'{input_key_prefix}_inputs'].clear()  # Reset user inputs
@@ -95,7 +95,7 @@ def run_practice_app(user_name, file_url):
                 # **Force reset user input fields using `value=""`**
                 st.text_input("Type the word shown:", key=sid_key, value="", placeholder="Type here...", label_visibility="collapsed")
 
-    if st.button(f'🔑 Check Answers - {file_url[-10:-3]}'):  # Unique check button per file
+    if st.button(f'🔑 Check Answers - {file_url[-6:-4]}'):  # Unique check button per file
         correct_count = 0
         for row in filtered_data.itertuples():
             sid_key = f'{input_key_prefix}_{row.SID}'
