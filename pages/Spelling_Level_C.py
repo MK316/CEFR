@@ -6,8 +6,11 @@ import pandas as pd
 # Load data with caching
 @st.cache_data
 def load_data():
-    url = 'https://raw.githubusercontent.com/MK316/Engpro-Class/refs/heads/main/data/CEFRC1.txt'
-    return pd.read_csv(url, sep='\t', usecols=['SID', 'WORD']).assign(WORD=lambda df: df['WORD'].str.split().str[0])
+    url = 'https://raw.githubusercontent.com/MK316/Engpro-Class/refs/heads/main/data/CEFRC1.txt' 
+    return pd.read_csv(url, sep='\t', usecols=['SID', 'WORD']).assign(
+        SID=lambda df: df['SID'].astype(int),  # <-- Fix: Convert "SID" column to integer
+        WORD=lambda df: df['WORD'].str.split().str[0]
+    )
 
 def generate_audio(text):
     """Generate speech audio for a given text using gTTS."""
