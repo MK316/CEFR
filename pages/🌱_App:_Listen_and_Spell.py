@@ -28,7 +28,7 @@ def generate_audio(text):
     return audio_file.getvalue()  # Return byte content
 
 def main():
-    st.title("🎧 CEFR Listen & Spell Practice")
+    st.markdown("### 🎧 CEFR Listen & Spell Practice")
     st.caption("Level B has 733 words and Level C has 3,000 words.")
 
     # Define tabs for different word lists
