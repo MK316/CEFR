@@ -1274,7 +1274,7 @@ SID	Word	POS
 1273	tolerate	v.
 1274	toll	n.
 1275	top	v.
-1276	torture	n., v.
+1276	torture	n.
 1277	toss	v.
 1278	total	v.
 1279	toxic	adj.
