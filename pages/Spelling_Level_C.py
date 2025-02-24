@@ -6,11 +6,16 @@ import pandas as pd
 # Load data with caching
 @st.cache_data
 def load_data():
-    url = 'https://raw.githubusercontent.com/MK316/Engpro-Class/refs/heads/main/data/CEFRC1.txt' 
-    return pd.read_csv(url, sep='\t', usecols=['SID', 'WORD']).assign(
-        SID=lambda df: df['SID'].astype(int),  # <-- Fix: Convert "SID" column to integer
-        WORD=lambda df: df['WORD'].str.split().str[0]
-    )
+    url = 'https://raw.githubusercontent.com/MK316/Engpro-Class/refs/heads/main/data/CEFRC1.txt'
+    # Load the data
+    df = pd.read_csv(url, sep='\t', usecols=['SID', 'WORD', 'POS'])
+    # Strip any leading/trailing whitespace from column names
+    df.columns = df.columns.str.strip()
+    # Strip whitespace from 'SID' and convert to integer
+    df['SID'] = df['SID'].str.strip().astype(int)
+    # Strip whitespace from 'WORD'
+    df['WORD'] = df['WORD'].str.strip()
+    return df
 
 def generate_audio(text):
     """Generate speech audio for a given text using gTTS."""
@@ -65,7 +70,7 @@ def main():
                 st.caption(f"SID {row.SID}")  # Display SID before each audio
                 st.audio(st.session_state.audio_data[audio_key], format='audio/mp3')
 
-                # **Force reset user input fields using `value=""`**
+                # Force reset user input fields using `value=""`
                 st.text_input("Type the word shown:", key=sid_key, value="", placeholder="Type here...", label_visibility="collapsed")
 
     if st.button('Check Answers'):
