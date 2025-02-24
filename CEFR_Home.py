@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.markdown("""### CEFR vocabulary
+st.markdown("""### 🍀 CEFR vocabulary
 The Common European Framework of Reference for Languages (CEFR) provides a structured way to categorize vocabulary based on language proficiency. Here’s an overview of the levels included in this application:
 
 + A1 (Beginner) – Includes basic words and phrases for everyday communication. Learners at this level can understand and use familiar expressions, introduce themselves, and interact in simple conversations.
@@ -10,7 +10,7 @@ The Common European Framework of Reference for Languages (CEFR) provides a struc
 + **C1 (Advanced)** – Includes specialized and academic vocabulary, allowing users to comprehend abstract ideas, participate in professional discourse, and understand complex texts. This level is ideal for learners aiming for fluency in academic and work environments.
 + C2 (Proficient) – Represents near-native fluency, allowing learners to understand nuanced meanings, write at an academic level, and express ideas effortlessly in any context.
 
-### What This Application Covers
+### 🍀 What This Application Covers
 
 This application focuses on the **B1B2 and C1** vocabulary levels, providing:
 
