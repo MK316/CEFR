@@ -1,5 +1,6 @@
-1	Word	POS
-2	absorb	v.
+SID	Word	POS
+1	absorb	v.
+2	abstract	n.
 3	abstract	adj.
 4	accent	n.
 5	accidentally	adv.
