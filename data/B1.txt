@@ -1,3 +1,4 @@
+Word POS
 absorb v.
 abstract adj.
 accent n.
@@ -61,7 +62,8 @@ beside prep.
 besides prep.
 besides adv.
 bias n.
-bid n., v.
+bid n.
+bid v.
 biological adj.
 blanket n.
 blow n.
@@ -557,7 +559,8 @@ revenue n.
 revision n.
 ridiculous adj.
 risky adj.
-rival n., adj.
+rival n.
+rival adj.
 rob v.
 robbery n.
 rocket n.
@@ -568,7 +571,8 @@ ruin v.
 ruin n.
 satisfaction n.
 scandal n.
-scare v., n.
+scare v.
+scare n.
 scenario n.
 scholar n.
 scholarship n.
