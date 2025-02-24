@@ -1,4 +1,4 @@
-SID	Word	POS
+SID	WORD	POS
 1	absorb	v.
 2	abstract	n.
 3	abstract	adj.
