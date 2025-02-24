@@ -17,8 +17,9 @@ def main():
     user_name = st.text_input("User name")
     data = load_data()
 
-    start_sid = st.number_input("Start SID", min_value=1, max_value=data['SID'].max(), value=1, step=1)
-    end_sid = st.number_input("End SID", min_value=1, max_value=data['SID'].max(), value=20, step=1)
+    max_sid = data['SID'].max()
+    start_sid = st.number_input("Start SID", min_value=1, max_value=max_sid, value=1, step=1)
+    end_sid = st.number_input("End SID", min_value=1, max_value=max_sid, value=20, step=1)
 
     filtered_data = data[(data['SID'] >= start_sid) & (data['SID'] <= end_sid)]
 
@@ -35,19 +36,15 @@ def main():
         st.audio(audio_file, format='audio/mp3')
         user_input = st.text_input("Type the word shown:", key=f'input_{st.session_state.index}')
 
-        submit_button = st.button('Next', on_click=lambda: increment_index())
-
-    else:
-        st.write(f"{user_name}: {st.session_state.correct_count}/{len(filtered_data)} correct.")
-        if st.button('Restart'):
-            st.session_state.index = 0
-            st.session_state.correct_count = 0
-            st.experimental_rerun()
-
-def increment_index():
-    if st.session_state.user_input.strip().lower() == st.session_state.word.lower():
-        st.session_state.correct_count += 1
-    st.session_state.index += 1
+        if st.button('Next'):
+            if user_input.strip().lower() == word.lower():
+                st.session_state.correct_count += 1
+            st.session_state.index += 1
+            if st.session_state.index == len(filtered_data):
+                st.write(f"{user_name}: {st.session_state.correct_count}/{len(filtered_data)} correct.")
+                st.button('Restart')
+                st.session_state.index = 0
+                st.session_state.correct_count = 0
 
 if __name__ == "__main__":
     main()
