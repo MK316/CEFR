@@ -18,32 +18,27 @@ def main():
     end_sid = st.number_input("End SID", min_value=1, max_value=data['SID'].max(), value=20)
     filtered_data = data[(data['SID'] >= start_sid) & (data['SID'] <= end_sid)]
 
-    if 'index' not in st.session_state:
-        st.session_state.index = 0
-        st.session_state.correct_count = 0
+    if 'answers' not in st.session_state:
+        st.session_state.answers = [None] * len(filtered_data)
 
-    if st.session_state.index < len(filtered_data):
-        word = filtered_data.iloc[st.session_state.index]['WORD']
-        tts = gTTS(text=word, lang='en')
-        audio_file = BytesIO()
-        tts.write_to_fp(audio_file)
-        audio_file.seek(0)
-        st.audio(audio_file, format='audio/mp3')
+    if st.button('Generate Audio'):
+        for i, row in enumerate(filtered_data.itertuples()):
+            tts = gTTS(text=row.WORD, lang='en')
+            audio_file = BytesIO()
+            tts.write_to_fp(audio_file)
+            audio_file.seek(0)
+            st.audio(audio_file, format='audio/mp3', key=f'audio_{i}')
+            st.text_input("Type the word shown:", key=f'input_{i}')
 
-        user_input = st.text_input("Type the word shown:", key=f'input_{st.session_state.index}')
+    if st.button('Check Answers'):
+        correct_count = 0
+        for i, row in enumerate(filtered_data.itertuples()):
+            user_input = st.session_state[f'input_{i}']
+            if user_input.strip().lower() == row.WORD.lower():
+                correct_count += 1
+            st.write(f"Word: {row.WORD}, Your Input: {user_input}, Correct: {user_input.strip().lower() == row.WORD.lower()}")
 
-        if st.button('Next'):
-            if user_input.strip().lower() == word.lower():
-                st.session_state.correct_count += 1
-            st.session_state.index += 1
-
-    if st.session_state.index >= len(filtered_data) and 'displayed_feedback' not in st.session_state:
-        st.write(f"{user_name}: {st.session_state.correct_count}/{len(filtered_data)} correct.")
-        st.session_state.displayed_feedback = True
-        if st.button('Restart'):
-            st.session_state.index = 0
-            st.session_state.correct_count = 0
-            del st.session_state.displayed_feedback
+        st.write(f"{user_name}: {correct_count}/{len(filtered_data)} correct.")
 
 if __name__ == "__main__":
     main()
