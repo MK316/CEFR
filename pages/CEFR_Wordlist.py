@@ -23,6 +23,7 @@ def load_wordlist(url):
         df.columns = df.columns.str.strip()
         df['SID'] = df['SID'].str.extract('(\d+)')[0].astype(int)  # Extract numbers and convert
         df['WORD'] = df['WORD'].str.strip()  # Clean up words
+
         return df
     except Exception as e:
         st.error(f"❌ Failed to load data: {e}")
@@ -52,10 +53,10 @@ for idx, (tab_name, url) in enumerate(wordlist_urls.items()):
                 end_sid = st.number_input("To SID", min_value=start_sid, max_value=wordlist['SID'].max(), value=min(start_sid+19, wordlist['SID'].max()))
 
             # Filter and display selected range
-            filtered_words = wordlist[(wordlist['SID'] >= start_sid) & (wordlist['SID'] <= end_sid)]
+            filtered_words = wordlist[(wordlist['SID'] >= start_sid) & (wordlist['SID'] <= end_sid)].reset_index(drop=True)
 
-            # Display words in table format
-            st.dataframe(filtered_words, use_container_width=True, index=False)
+            # ✅ Hide the index using `st.table()` instead of `st.dataframe()`
+            st.table(filtered_words.style.hide(axis="index"))
 
         else:
             st.error("No data available for this wordlist.")
