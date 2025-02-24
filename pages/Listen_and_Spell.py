@@ -25,7 +25,7 @@ def generate_audio(text):
     audio_file = BytesIO()
     tts.write_to_fp(audio_file)
     audio_file.seek(0)
-    return audio_file.getvalue()  # Return the byte content
+    return audio_file.getvalue()  # Return byte content
 
 def main():
     st.title("Word Practice App")
@@ -48,7 +48,11 @@ def main():
 def run_practice_app(user_name, file_url):
     user_name = st.text_input(f"User name ({user_name})")
 
-    data = load_data(file_url)
+    data = load_data(file_url)  # Load the dataset
+    total_words = len(data)  # Count available words
+
+    # **Display total words available in this level**
+    st.info(f"📌 This level contains **{total_words} words**. Choose your SID range below.")
 
     # Layout adjustment: Put Start SID and End SID in one row
     col1, col2 = st.columns(2)
