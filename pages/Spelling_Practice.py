@@ -15,6 +15,12 @@ def load_data(level):
     data['WORD'] = data['WORD'].apply(clean_word)
     return data
 
+def initialize_state():
+    if 'index' not in st.session_state:
+        st.session_state.index = 0
+    if 'correct_count' not in st.session_state:
+        st.session_state.correct_count = 0
+
 def main():
     st.title("Word Practice App")
 
@@ -27,32 +33,26 @@ def main():
     selected_range = st.selectbox("Select SID Range:", sid_ranges, format_func=lambda x: f"{x[0]}-{x[1]}")
     selected_data = data[(data['SID'] >= selected_range[0]) & (data['SID'] <= selected_range[1])]
 
-    if 'index' not in st.session_state:
-        st.session_state.index = 0
-        st.session_state.correct_count = 0
+    initialize_state()
 
-    with st.form(key='word_form'):
-        if st.session_state.index < len(selected_data):
-            word = selected_data.iloc[st.session_state.index]['WORD']
-            tts = gTTS(text=word, lang='en')
-            audio_file = BytesIO()
-            tts.write_to_fp(audio_file)
-            audio_file.seek(0)
-            st.audio(audio_file, format='audio/mp3')
-            user_input = st.text_input("Type the word shown:", key=f'word_{st.session_state.index}')
-            submit_button = st.form_submit_button('Show next word')
-        else:
-            st.success("All words completed. Click 'Show result' to see your score.")
-            st.session_state.index = 0  # Reset index for a possible restart
+    if st.button('Show next word') and st.session_state.index < len(selected_data):
+        word = selected_data.iloc[st.session_state.index]['WORD']
+        tts = gTTS(text=word, lang='en')
+        audio_file = BytesIO()
+        tts.write_to_fp(audio_file)
+        audio_file.seek(0)
+        st.audio(audio_file, format='audio/mp3')
+        user_input = st.text_input("Type the word shown:", key=f'word_{st.session_state.index}')
 
-        if submit_button and st.session_state.index < len(selected_data):
+        if st.button('Next', key=f'next_{st.session_state.index}'):
             correct = user_input.strip().lower() == word.lower()
             if correct:
                 st.session_state.correct_count += 1
             st.session_state.index += 1
 
-    if st.button('Show result'):
+    if st.session_state.index >= len(selected_data) and st.button('Show result'):
         st.write(f"{user_name}: {st.session_state.correct_count}/{len(selected_data)} correct.")
+        st.session_state.index = 0  # Reset index for possible restart
 
 if __name__ == "__main__":
     main()
