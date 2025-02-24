@@ -1,725 +1,725 @@
-Word POS
-absorb v.
-abstract adj.
-accent n.
-accidentally adv.
-accommodate v.
-accomplish v.
-accountant n.
-accuracy n.
-accurately adv.
-acid n.
-activate v.
-addiction n.
-additionally adv.
-adequate adj.
-adequately adv.
-adjust v.
-affordable adj.
-agriculture n.
-AIDS n.
-alien n.
-alongside prep.
-altogether adv.
-ambulance n.
-amusing adj.
-analyst n.
-ancestor n.
-animation n.
-annually adv.
-anticipate v.
-anxiety n.
-apology n.
-applicant n.
-appropriately adv.
-arrow n.
-artwork n.
-aside adv.
-asset n.
-assign v.
-assistance n.
-assumption n.
-assure v.
-astonishing adj.
-attachment n.
-auction n.
-audio adj.
-automatic adj.
-automatically adv.
-awareness n.
-awkward adj.
-badge n.
-balanced adj.
-ballet n.
-balloon n.
-barely adv.
-bargain n.
-basement n.
-basket n.
-bat n.
-beneficial adj.
-beside prep.
-besides prep.
-besides adv.
-bias n.
-bid n.
-bid v.
-biological adj.
-blanket n.
-blow n.
-bold adj.
-bombing n.
-booking n.
-boost v.
-boost n.
-bound adj.
-brick n.
-briefly adv.
-broadcaster n.
-broadly adv.
-bug n.
-cabin n.
-canal n.
-candle n.
-carbon n.
-casual adj.
-cave n.
-certainty n.
-certificate n.
-challenging adj.
-championship n.
-charming adj.
-chase v.
-chase n.
-cheek n.
-cheer v.
-cheer n.
-choir n.
-chop v.
-circuit n.
-civilization n.
-clarify v.
-classify v.
-clerk n.
-cliff n.
-clinic n.
-clip n.
-coincidence n.
-collector n.
-colony n.
-colourful adj.
-comic adj.
-comic n.
-commander n.
-comparative adj.
-completion n.
-compose v.
-composer n.
-compound n.
-comprehensive adj.
-comprise v.
-compulsory adj.
-concrete adj.
-concrete n.
-confess v.
-confusion n.
-consequently adv.
-conservation n.
-considerable adj.
-considerably adv.
-consistently adv.
-conspiracy n.
-consult v.
-consultant n.
-consumption n.
-controversial adj.
-controversy n.
-convenience n.
-convention n.
-conventional adj.
-convey v.
-convincing adj.
-cope v.
-corporation n.
-corridor n.
-counter n.
-coverage n.
-crack v.
-crack n.
-craft n.
-creativity n.
-critically adv.
-cruise n.
-cruise v.
-cue n.
-curious adj.
-curriculum n.
-cute adj.
-dairy n.
-dairy adj.
-dare v.
-darkness n.
-database n.
-deadline n.
-deadly adj.
-dealer n.
-deck n.
-defender n.
-delete v.
-democracy n.
-democratic adj.
-demonstration n.
-depart v.
-dependent adj.
-deposit n.
-depression n.
-derive v.
-desperately adv.
-destruction n.
-determination n.
-devote v.
-differ v.
-disability n.
-disabled adj.
-disagreement n.
-disappoint v.
-disappointment n.
-discourage v.
-disorder n.
-distant adj.
-distinct adj.
-distinguish v.
-distract v.
-disturb v.
-dive v.
-diverse adj.
-diversity n.
-divorce v.
-dominant adj.
-donation n.
-dot n.
-downtown n.
-dramatically adv.
-drought n.
-dull adj.
-dump v.
-duration n.
-dynamic adj.
-economics n.
-economist n.
-editorial adj.
-efficiently adv.
-elbow n.
-electronics n.
-elegant adj.
-elementary adj.
-eliminate v.
-embrace v.
-emission n.
-emotionally adv.
-empire n.
-enjoyable adj.
-entertaining adj.
-entrepreneur n.
-envelope n.
-equip v.
-equivalent adj.
-era n.
-erupt v.
-essentially adv.
-ethic n.
-ethnic adj.
-evaluation n.
-evident adj.
-evolution n.
-evolve v.
-exceed v.
-exception n.
-excessive adj.
-exclude v.
-exhibit v.
-exit n.
-exotic adj.
-expansion n.
-expertise n.
-exploit v.
-exposure n.
-extension n.
-extensive adj.
-extensively adv.
-extract n.
-fabric n.
-fabulous adj.
-failed adj.
-fake adj.
-fame n.
-fantasy n.
-fare n.
-federal adj.
-fever n.
-firefighter n.
-firework n.
-firm adj.
-firmly adv.
-flavour n.
-fond adj.
-fool n.
-forbid v.
-forecast v.
-format n.
-formation n.
-formerly adv.
-fortunate adj.
-forum n.
-fossil n.
-foundation n.
-founder n.
-fraction n.
-fragment n.
-framework n.
-fraud n.
-freely adv.
-frequent adj.
-fulfil v.
-full-time adj.
-fundamentally adv.
-furious adj.
-gaming n.
-gay adj.
-gender n.
-gene n.
-genetic adj.
-genius n.
-genuine adj.
-genuinely adv.
-gesture n.
-gig n.
-globalization n.
-globe n.
-golden adj.
-goodness n.
-gorgeous adj.
-governor n.
-graphic adj.
-graphics n.
-greatly adv.
-greenhouse n.
-grocery n.
-guideline n.
-habitat n.
-harbour n.
-headquarters n.
-heal v.
-healthcare n.
-helmet n.
-hence adv.
-herb n.
-hidden adj.
-highway n.
-hilarious adj.
-hip n.
-historian n.
-homeless adj.
-honesty n.
-hook n.
-hopefully adv.
-hunger n.
-hypothesis n.
-icon n.
-identical adj.
-illusion n.
-immigration n.
-immune adj.
-implement v.
-implication n.
-incentive n.
-incorporate v.
-incorrect adj.
-independence n.
-index n.
-indication n.
-inevitable adj.
-inevitably adv.
-infer v.
-inflation n.
-info n.
-infrastructure n.
-inhabitant n.
-inherit v.
-ink n.
-innovation n.
-innovative adj.
-input n.
-insert v.
-inspector n.
-installation n.
-instant adj.
-instantly adv.
-integrate v.
-intellectual adj.
-interact v.
-interaction n.
-interpretation n.
-interval n.
-invade v.
-invasion n.
-investor n.
-isolate v.
-isolated adj.
-jail n.
-jet n.
-joint adj.
-joint n.
-journalism n.
-jury n.
-kit n.
-ladder n.
-landing n.
-lane n.
-lately adv.
-leaflet n.
-legend n.
-lens n.
-lifetime n.
-lighting n.
-likewise adv.
-limitation n.
-literally adv.
-literary adj.
-litre n.
-litter n.
-logo n.
-lottery n.
-loyal adj.
-lyric n.
-magnificent adj.
-make-up n.
-making n.
-manufacture v.
-manufacturing n.
-marathon n.
-margin n.
-marker n.
-martial adj.
-mate n.
-mate v.
-mayor n.
-mechanic n.
-mechanical adj.
-mechanism n.
-medal n.
-medication n.
-membership n.
-memorable adj.
-metaphor n.
-miner n.
-miserable adj.
-mode n.
-modest adj.
-monster n.
-monthly adj.
-monument n.
-moreover adv.
-mortgage n.
-mosque n.
-motion n.
-motivate v.
-motivation n.
-moving adj.
-myth n.
-naked adj.
-nasty adj.
-navigation n.
-nearby adj.
-nearby adv.
-necessity n.
-negotiate v.
-negotiation n.
-neutral adj.
-newly adv.
-norm n.
-notebook n.
-novelist n.
-nowadays adv.
-nursing adj.
-nutrition n.
-obesity n.
-observer n.
-obstacle n.
-occupation n.
-occupy v.
-offender n.
-ongoing adj.
-openly adv.
-opera n.
-operator n.
-optimistic adj.
-orchestra n.
-organic adj.
-outfit n.
-output n.
-outstanding adj.
-overcome v.
-overnight adv.
-overseas adv.
-overseas adj.
-ownership n.
-oxygen n.
-packet n.
-palm n.
-panic n.
-parade n.
-parallel adj.
-parallel n.
-participation n.
-partnership n.
-part-time adj.
-part-time adv.
-passionate adj.
-password n.
-patience n.
-pause v.
-pause n.
-peer n.
-penalty n.
-perceive v.
-perception n.
-permanently adv.
-pill n.
-pity n.
-placement n.
-portion n.
-potentially adv.
-precede v.
-precious adj.
-precise adj.
-precisely adv.
-predictable adj.
-preference n.
-pride n.
-primarily adv.
-principal adj.
-prior adj.
-probability n.
-probable adj.
-proceed v.
-programming n.
-progressive adj.
-prohibit v.
-promising adj.
-promotion n.
-prompt v.
-proportion n.
-protein n.
-protester n.
-psychological adj.
-publicity n.
-publishing n.
-punk n.
-purely adv.
-pursuit n.
-puzzle n.
-questionnaire n.
-racial adj.
-racism n.
-racist n.
-radiation n.
-rail n.
-random adj.
-rat n.
-rating n.
-reasonably adv.
-rebuild v.
-receiver n.
-recession n.
-reckon v.
-recognition n.
-recovery n.
-recruit v.
-recruit n.
-recruitment n.
-referee n.
-refugee n.
-registration n.
-regulate v.
-reinforce v.
-relieve v.
-relieved adj.
-remarkable adj.
-remarkably adv.
-reporting n.
-resign v.
-resolution n.
-restore v.
-restrict v.
-restriction n.
-retail n.
-retirement n.
-revenue n.
-revision n.
-ridiculous adj.
-risky adj.
-rival n.
-rival adj.
-rob v.
-robbery n.
-rocket n.
-romance n.
-rose n.
-roughly adv.
-ruin v.
-ruin n.
-satisfaction n.
-scandal n.
-scare v.
-scare n.
-scenario n.
-scholar n.
-scholarship n.
-scratch v.
-scratch n.
-screening n.
-seeker n.
-seminar n.
-settler n.
-severely adv.
-sexy adj.
-shaped adj.
-shocking adj.
-shore n.
-shortage n.
-shortly adv.
-short-term adj.
-sibling n.
-signature n.
-significance n.
-skilled adj.
-skull n.
-slogan n.
-so-called adj.
-somehow adv.
-sometime adv.
-sophisticated adj.
-spare adj.
-specialize v.
-specify v.
-spectacular adj.
-spectator n.
-speculate v.
-speculation n.
-spice n.
-spill v.
-spite n.
-spoil v.
-spokesman n.
-spokesperson n.
-spokeswoman n.
-sponsorship n.
-sporting adj.
-stall n.
-stance n.
-starve v.
-steadily adv.
-steam n.
-stimulate v.
-strengthen v.
-strictly adv.
-stroke n.
-stunning adj.
-subsequent adj.
-subsequently adv.
-suburb n.
-suffering n.
-sufficient adj.
-sufficiently adv.
-super adj.
-surgeon n.
-survival n.
-survivor n.
-suspend v.
-sustainable adj.
-swallow v.
-sympathetic adj.
-tackle v.
-tag n.
-tag v.
-tap v.
-tap n.
-technological adj.
-teens n.
-temple n.
-temporarily adv.
-tendency n.
-tension n.
-terminal n.
-terms n.
-terribly adv.
-terrify v.
-territory n.
-terror n.
-terrorism n.
-terrorist n.
-testing n.
-textbook n.
-theft n.
-therapist n.
-thesis n.
-thorough adj.
-thoroughly adv.
-thumb n.
-timing n.
-tissue n.
-ton n.
-tonne n.
-tournament n.
-trace v.
-trading n.
-tragedy n.
-tragic adj.
-trait n.
-transmit v.
-transportation n.
-trap v.
-trap n.
-treasure n.
-tribe n.
-trigger v.
-trillion num.
-troop n.
-tsunami n.
-ultimate adj.
-unacceptable adj.
-uncertainty n.
-undergo v.
-undertake v.
-unfold v.
-unfortunate adj.
-unite v.
-unity n.
-universal adj.
-urgent adj.
-usage n.
-useless adj.
-valid adj.
-variation n.
-vertical adj.
-viewpoint n.
-visa n.
-visible adj.
-voluntary adj.
-voting n.
-wander v.
-warming n.
-weekly adj.
-weird adj.
-welfare n.
-wheat n.
-whoever pron.
-widespread adj.
-wisdom n.
-withdraw v.
-workforce n.
-workplace n.
-workshop n.
-worm n.
-wrist n
+1	Word	POS
+2	absorb	v.
+3	abstract	adj.
+4	accent	n.
+5	accidentally	adv.
+6	accommodate	v.
+7	accomplish	v.
+8	accountant	n.
+9	accuracy	n.
+10	accurately	adv.
+11	acid	n.
+12	activate	v.
+13	addiction	n.
+14	additionally	adv.
+15	adequate	adj.
+16	adequately	adv.
+17	adjust	v.
+18	affordable	adj.
+19	agriculture	n.
+20	AIDS	n.
+21	alien	n.
+22	alongside	prep.
+23	altogether	adv.
+24	ambulance	n.
+25	amusing	adj.
+26	analyst	n.
+27	ancestor	n.
+28	animation	n.
+29	annually	adv.
+30	anticipate	v.
+31	anxiety	n.
+32	apology	n.
+33	applicant	n.
+34	appropriately	adv.
+35	arrow	n.
+36	artwork	n.
+37	aside	adv.
+38	asset	n.
+39	assign	v.
+40	assistance	n.
+41	assumption	n.
+42	assure	v.
+43	astonishing	adj.
+44	attachment	n.
+45	auction	n.
+46	audio	adj.
+47	automatic	adj.
+48	automatically	adv.
+49	awareness	n.
+50	awkward	adj.
+51	badge	n.
+52	balanced	adj.
+53	ballet	n.
+54	balloon	n.
+55	barely	adv.
+56	bargain	n.
+57	basement	n.
+58	basket	n.
+59	bat	n.
+60	beneficial	adj.
+61	beside	prep.
+62	besides	prep.
+63	besides	adv.
+64	bias	n.
+65	bid	n.
+66	bid	v.
+67	biological	adj.
+68	blanket	n.
+69	blow	n.
+70	bold	adj.
+71	bombing	n.
+72	booking	n.
+73	boost	v.
+74	boost	n.
+75	bound	adj.
+76	brick	n.
+77	briefly	adv.
+78	broadcaster	n.
+79	broadly	adv.
+80	bug	n.
+81	cabin	n.
+82	canal	n.
+83	candle	n.
+84	carbon	n.
+85	casual	adj.
+86	cave	n.
+87	certainty	n.
+88	certificate	n.
+89	challenging	adj.
+90	championship	n.
+91	charming	adj.
+92	chase	v.
+93	chase	n.
+94	cheek	n.
+95	cheer	v.
+96	cheer	n.
+97	choir	n.
+98	chop	v.
+99	circuit	n.
+100	civilization	n.
+101	clarify	v.
+102	classify	v.
+103	clerk	n.
+104	cliff	n.
+105	clinic	n.
+106	clip	n.
+107	coincidence	n.
+108	collector	n.
+109	colony	n.
+110	colourful	adj.
+111	comic	adj.
+112	comic	n.
+113	commander	n.
+114	comparative	adj.
+115	completion	n.
+116	compose	v.
+117	composer	n.
+118	compound	n.
+119	comprehensive	adj.
+120	comprise	v.
+121	compulsory	adj.
+122	concrete	adj.
+123	concrete	n.
+124	confess	v.
+125	confusion	n.
+126	consequently	adv.
+127	conservation	n.
+128	considerable	adj.
+129	considerably	adv.
+130	consistently	adv.
+131	conspiracy	n.
+132	consult	v.
+133	consultant	n.
+134	consumption	n.
+135	controversial	adj.
+136	controversy	n.
+137	convenience	n.
+138	convention	n.
+139	conventional	adj.
+140	convey	v.
+141	convincing	adj.
+142	cope	v.
+143	corporation	n.
+144	corridor	n.
+145	counter	n.
+146	coverage	n.
+147	crack	v.
+148	crack	n.
+149	craft	n.
+150	creativity	n.
+151	critically	adv.
+152	cruise	n.
+153	cruise	v.
+154	cue	n.
+155	curious	adj.
+156	curriculum	n.
+157	cute	adj.
+158	dairy	n.
+159	dairy	adj.
+160	dare	v.
+161	darkness	n.
+162	database	n.
+163	deadline	n.
+164	deadly	adj.
+165	dealer	n.
+166	deck	n.
+167	defender	n.
+168	delete	v.
+169	democracy	n.
+170	democratic	adj.
+171	demonstration	n.
+172	depart	v.
+173	dependent	adj.
+174	deposit	n.
+175	depression	n.
+176	derive	v.
+177	desperately	adv.
+178	destruction	n.
+179	determination	n.
+180	devote	v.
+181	differ	v.
+182	disability	n.
+183	disabled	adj.
+184	disagreement	n.
+185	disappoint	v.
+186	disappointment	n.
+187	discourage	v.
+188	disorder	n.
+189	distant	adj.
+190	distinct	adj.
+191	distinguish	v.
+192	distract	v.
+193	disturb	v.
+194	dive	v.
+195	diverse	adj.
+196	diversity	n.
+197	divorce	v.
+198	dominant	adj.
+199	donation	n.
+200	dot	n.
+201	downtown	n.
+202	dramatically	adv.
+203	drought	n.
+204	dull	adj.
+205	dump	v.
+206	duration	n.
+207	dynamic	adj.
+208	economics	n.
+209	economist	n.
+210	editorial	adj.
+211	efficiently	adv.
+212	elbow	n.
+213	electronics	n.
+214	elegant	adj.
+215	elementary	adj.
+216	eliminate	v.
+217	embrace	v.
+218	emission	n.
+219	emotionally	adv.
+220	empire	n.
+221	enjoyable	adj.
+222	entertaining	adj.
+223	entrepreneur	n.
+224	envelope	n.
+225	equip	v.
+226	equivalent	adj.
+227	era	n.
+228	erupt	v.
+229	essentially	adv.
+230	ethic	n.
+231	ethnic	adj.
+232	evaluation	n.
+233	evident	adj.
+234	evolution	n.
+235	evolve	v.
+236	exceed	v.
+237	exception	n.
+238	excessive	adj.
+239	exclude	v.
+240	exhibit	v.
+241	exit	n.
+242	exotic	adj.
+243	expansion	n.
+244	expertise	n.
+245	exploit	v.
+246	exposure	n.
+247	extension	n.
+248	extensive	adj.
+249	extensively	adv.
+250	extract	n.
+251	fabric	n.
+252	fabulous	adj.
+253	failed	adj.
+254	fake	adj.
+255	fame	n.
+256	fantasy	n.
+257	fare	n.
+258	federal	adj.
+259	fever	n.
+260	firefighter	n.
+261	firework	n.
+262	firm	adj.
+263	firmly	adv.
+264	flavour	n.
+265	fond	adj.
+266	fool	n.
+267	forbid	v.
+268	forecast	v.
+269	format	n.
+270	formation	n.
+271	formerly	adv.
+272	fortunate	adj.
+273	forum	n.
+274	fossil	n.
+275	foundation	n.
+276	founder	n.
+277	fraction	n.
+278	fragment	n.
+279	framework	n.
+280	fraud	n.
+281	freely	adv.
+282	frequent	adj.
+283	fulfil	v.
+284	full-time	adj.
+285	fundamentally	adv.
+286	furious	adj.
+287	gaming	n.
+288	gay	adj.
+289	gender	n.
+290	gene	n.
+291	genetic	adj.
+292	genius	n.
+293	genuine	adj.
+294	genuinely	adv.
+295	gesture	n.
+296	gig	n.
+297	globalization	n.
+298	globe	n.
+299	golden	adj.
+300	goodness	n.
+301	gorgeous	adj.
+302	governor	n.
+303	graphic	adj.
+304	graphics	n.
+305	greatly	adv.
+306	greenhouse	n.
+307	grocery	n.
+308	guideline	n.
+309	habitat	n.
+310	harbour	n.
+311	headquarters	n.
+312	heal	v.
+313	healthcare	n.
+314	helmet	n.
+315	hence	adv.
+316	herb	n.
+317	hidden	adj.
+318	highway	n.
+319	hilarious	adj.
+320	hip	n.
+321	historian	n.
+322	homeless	adj.
+323	honesty	n.
+324	hook	n.
+325	hopefully	adv.
+326	hunger	n.
+327	hypothesis	n.
+328	icon	n.
+329	identical	adj.
+330	illusion	n.
+331	immigration	n.
+332	immune	adj.
+333	implement	v.
+334	implication	n.
+335	incentive	n.
+336	incorporate	v.
+337	incorrect	adj.
+338	independence	n.
+339	index	n.
+340	indication	n.
+341	inevitable	adj.
+342	inevitably	adv.
+343	infer	v.
+344	inflation	n.
+345	info	n.
+346	infrastructure	n.
+347	inhabitant	n.
+348	inherit	v.
+349	ink	n.
+350	innovation	n.
+351	innovative	adj.
+352	input	n.
+353	insert	v.
+354	inspector	n.
+355	installation	n.
+356	instant	adj.
+357	instantly	adv.
+358	integrate	v.
+359	intellectual	adj.
+360	interact	v.
+361	interaction	n.
+362	interpretation	n.
+363	interval	n.
+364	invade	v.
+365	invasion	n.
+366	investor	n.
+367	isolate	v.
+368	isolated	adj.
+369	jail	n.
+370	jet	n.
+371	joint	adj.
+372	joint	n.
+373	journalism	n.
+374	jury	n.
+375	kit	n.
+376	ladder	n.
+377	landing	n.
+378	lane	n.
+379	lately	adv.
+380	leaflet	n.
+381	legend	n.
+382	lens	n.
+383	lifetime	n.
+384	lighting	n.
+385	likewise	adv.
+386	limitation	n.
+387	literally	adv.
+388	literary	adj.
+389	litre	n.
+390	litter	n.
+391	logo	n.
+392	lottery	n.
+393	loyal	adj.
+394	lyric	n.
+395	magnificent	adj.
+396	make-up	n.
+397	making	n.
+398	manufacture	v.
+399	manufacturing	n.
+400	marathon	n.
+401	margin	n.
+402	marker	n.
+403	martial	adj.
+404	mate	n.
+405	mate	v.
+406	mayor	n.
+407	mechanic	n.
+408	mechanical	adj.
+409	mechanism	n.
+410	medal	n.
+411	medication	n.
+412	membership	n.
+413	memorable	adj.
+414	metaphor	n.
+415	miner	n.
+416	miserable	adj.
+417	mode	n.
+418	modest	adj.
+419	monster	n.
+420	monthly	adj.
+421	monument	n.
+422	moreover	adv.
+423	mortgage	n.
+424	mosque	n.
+425	motion	n.
+426	motivate	v.
+427	motivation	n.
+428	moving	adj.
+429	myth	n.
+430	naked	adj.
+431	nasty	adj.
+432	navigation	n.
+433	nearby	adj.
+434	nearby	adv.
+435	necessity	n.
+436	negotiate	v.
+437	negotiation	n.
+438	neutral	adj.
+439	newly	adv.
+440	norm	n.
+441	notebook	n.
+442	novelist	n.
+443	nowadays	adv.
+444	nursing	adj.
+445	nutrition	n.
+446	obesity	n.
+447	observer	n.
+448	obstacle	n.
+449	occupation	n.
+450	occupy	v.
+451	offender	n.
+452	ongoing	adj.
+453	openly	adv.
+454	opera	n.
+455	operator	n.
+456	optimistic	adj.
+457	orchestra	n.
+458	organic	adj.
+459	outfit	n.
+460	output	n.
+461	outstanding	adj.
+462	overcome	v.
+463	overnight	adv.
+464	overseas	adv.
+465	overseas	adj.
+466	ownership	n.
+467	oxygen	n.
+468	packet	n.
+469	palm	n.
+470	panic	n.
+471	parade	n.
+472	parallel	adj.
+473	parallel	n.
+474	participation	n.
+475	partnership	n.
+476	part-time	adj.
+477	part-time	adv.
+478	passionate	adj.
+479	password	n.
+480	patience	n.
+481	pause	v.
+482	pause	n.
+483	peer	n.
+484	penalty	n.
+485	perceive	v.
+486	perception	n.
+487	permanently	adv.
+488	pill	n.
+489	pity	n.
+490	placement	n.
+491	portion	n.
+492	potentially	adv.
+493	precede	v.
+494	precious	adj.
+495	precise	adj.
+496	precisely	adv.
+497	predictable	adj.
+498	preference	n.
+499	pride	n.
+500	primarily	adv.
+501	principal	adj.
+502	prior	adj.
+503	probability	n.
+504	probable	adj.
+505	proceed	v.
+506	programming	n.
+507	progressive	adj.
+508	prohibit	v.
+509	promising	adj.
+510	promotion	n.
+511	prompt	v.
+512	proportion	n.
+513	protein	n.
+514	protester	n.
+515	psychological	adj.
+516	publicity	n.
+517	publishing	n.
+518	punk	n.
+519	purely	adv.
+520	pursuit	n.
+521	puzzle	n.
+522	questionnaire	n.
+523	racial	adj.
+524	racism	n.
+525	racist	n.
+526	radiation	n.
+527	rail	n.
+528	random	adj.
+529	rat	n.
+530	rating	n.
+531	reasonably	adv.
+532	rebuild	v.
+533	receiver	n.
+534	recession	n.
+535	reckon	v.
+536	recognition	n.
+537	recovery	n.
+538	recruit	v.
+539	recruit	n.
+540	recruitment	n.
+541	referee	n.
+542	refugee	n.
+543	registration	n.
+544	regulate	v.
+545	reinforce	v.
+546	relieve	v.
+547	relieved	adj.
+548	remarkable	adj.
+549	remarkably	adv.
+550	reporting	n.
+551	resign	v.
+552	resolution	n.
+553	restore	v.
+554	restrict	v.
+555	restriction	n.
+556	retail	n.
+557	retirement	n.
+558	revenue	n.
+559	revision	n.
+560	ridiculous	adj.
+561	risky	adj.
+562	rival	n.
+563	rival	adj.
+564	rob	v.
+565	robbery	n.
+566	rocket	n.
+567	romance	n.
+568	rose	n.
+569	roughly	adv.
+570	ruin	v.
+571	ruin	n.
+572	satisfaction	n.
+573	scandal	n.
+574	scare	v.
+575	scare	n.
+576	scenario	n.
+577	scholar	n.
+578	scholarship	n.
+579	scratch	v.
+580	scratch	n.
+581	screening	n.
+582	seeker	n.
+583	seminar	n.
+584	settler	n.
+585	severely	adv.
+586	sexy	adj.
+587	shaped	adj.
+588	shocking	adj.
+589	shore	n.
+590	shortage	n.
+591	shortly	adv.
+592	short-term	adj.
+593	sibling	n.
+594	signature	n.
+595	significance	n.
+596	skilled	adj.
+597	skull	n.
+598	slogan	n.
+599	so-called	adj.
+600	somehow	adv.
+601	sometime	adv.
+602	sophisticated	adj.
+603	spare	adj.
+604	specialize	v.
+605	specify	v.
+606	spectacular	adj.
+607	spectator	n.
+608	speculate	v.
+609	speculation	n.
+610	spice	n.
+611	spill	v.
+612	spite	n.
+613	spoil	v.
+614	spokesman	n.
+615	spokesperson	n.
+616	spokeswoman	n.
+617	sponsorship	n.
+618	sporting	adj.
+619	stall	n.
+620	stance	n.
+621	starve	v.
+622	steadily	adv.
+623	steam	n.
+624	stimulate	v.
+625	strengthen	v.
+626	strictly	adv.
+627	stroke	n.
+628	stunning	adj.
+629	subsequent	adj.
+630	subsequently	adv.
+631	suburb	n.
+632	suffering	n.
+633	sufficient	adj.
+634	sufficiently	adv.
+635	super	adj.
+636	surgeon	n.
+637	survival	n.
+638	survivor	n.
+639	suspend	v.
+640	sustainable	adj.
+641	swallow	v.
+642	sympathetic	adj.
+643	tackle	v.
+644	tag	n.
+645	tag	v.
+646	tap	v.
+647	tap	n.
+648	technological	adj.
+649	teens	n.
+650	temple	n.
+651	temporarily	adv.
+652	tendency	n.
+653	tension	n.
+654	terminal	n.
+655	terms	n.
+656	terribly	adv.
+657	terrify	v.
+658	territory	n.
+659	terror	n.
+660	terrorism	n.
+661	terrorist	n.
+662	testing	n.
+663	textbook	n.
+664	theft	n.
+665	therapist	n.
+666	thesis	n.
+667	thorough	adj.
+668	thoroughly	adv.
+669	thumb	n.
+670	timing	n.
+671	tissue	n.
+672	ton	n.
+673	tonne	n.
+674	tournament	n.
+675	trace	v.
+676	trading	n.
+677	tragedy	n.
+678	tragic	adj.
+679	trait	n.
+680	transmit	v.
+681	transportation	n.
+682	trap	v.
+683	trap	n.
+684	treasure	n.
+685	tribe	n.
+686	trigger	v.
+687	trillion	num.
+688	troop	n.
+689	tsunami	n.
+690	ultimate	adj.
+691	unacceptable	adj.
+692	uncertainty	n.
+693	undergo	v.
+694	undertake	v.
+695	unfold	v.
+696	unfortunate	adj.
+697	unite	v.
+698	unity	n.
+699	universal	adj.
+700	urgent	adj.
+701	usage	n.
+702	useless	adj.
+703	valid	adj.
+704	variation	n.
+705	vertical	adj.
+706	viewpoint	n.
+707	visa	n.
+708	visible	adj.
+709	voluntary	adj.
+710	voting	n.
+711	wander	v.
+712	warming	n.
+713	weekly	adj.
+714	weird	adj.
+715	welfare	n.
+716	wheat	n.
+717	whoever	pron.
+718	widespread	adj.
+719	wisdom	n.
+720	withdraw	v.
+721	workforce	n.
+722	workplace	n.
+723	workshop	n.
+724	worm	n.
+725	wrist	n
