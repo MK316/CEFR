@@ -25,7 +25,6 @@ def main():
     if 'index' not in st.session_state:
         st.session_state.index = 0
         st.session_state.correct_count = 0
-        st.session_state.submit = False  # Initialize 'submit' here
 
     if st.session_state.index < len(filtered_data):
         word = filtered_data.iloc[st.session_state.index]['WORD']
@@ -33,20 +32,19 @@ def main():
         audio_file = BytesIO()
         tts.write_to_fp(audio_file)
         audio_file.seek(0)
-        st.audio(audio_file, format='audio/mp3')
-        user_input = st.text_input("Type the word shown:", key=f'word_{st.session_state.index}')
+        st.audio(audio_file, format='audio/mp3', key=f'audio_{st.session_state.index}')
+        user_input = st.text_input("Type the word shown:", key=f'input_{st.session_state.index}')
 
         if st.button('Next', key=f'next_{st.session_state.index}'):
             if user_input.strip().lower() == word.lower():
                 st.session_state.correct_count += 1
             st.session_state.index += 1
-            st.session_state.submit = True  # Update 'submit' state here
+            st.experimental_rerun()
     else:
         st.write(f"{user_name}: {st.session_state.correct_count}/{len(filtered_data)} correct.")
         if st.button('Restart'):
             st.session_state.index = 0
             st.session_state.correct_count = 0
-            st.session_state.submit = False  # Reset 'submit' on restart
 
 if __name__ == "__main__":
     main()
