@@ -18,26 +18,38 @@ def main():
     end_sid = st.number_input("End SID", min_value=1, max_value=data['SID'].max(), value=20)
     filtered_data = data[(data['SID'] >= start_sid) & (data['SID'] <= end_sid)]
 
-    if st.button('Generate Audio'):
-        # Create an audio player for each word
+    if 'generated' not in st.session_state:
+        st.session_state.generated = False
+
+    generate_button = st.button('Generate Audio')
+    if generate_button or st.session_state.generated:
+        st.session_state.generated = True
         for i, row in enumerate(filtered_data.itertuples()):
-            tts = gTTS(text=row.WORD, lang='en')
-            audio_file = BytesIO()
-            tts.write_to_fp(audio_file)
-            audio_file.seek(0)
-            st.audio(audio_file, format='audio/mp3')  # Removed the 'key' argument
-            st.text_input("Type the word shown:", key=f'input_{i}')
+            with st.container():
+                key = f'audio_{i}'
+                audio_data = generate_audio(row.WORD)
+                st.audio(audio_data, format='audio/mp3', key=key)
+                st.text_input("Type the word shown:", key=f'input_{i}')
 
     if st.button('Check Answers'):
-        correct_count = 0
-        for i, row in enumerate(filtered_data.itertuples()):
-            user_input = st.session_state.get(f'input_{i}', '')
-            correct = user_input.strip().lower() == row.WORD.lower()
-            if correct:
-                correct_count += 1
-            st.write(f"Word: {row.WORD}, Your Input: {user_input}, Correct: {correct}")
+        check_answers(filtered_data)
 
-        st.write(f"{user_name}: {correct_count}/{len(filtered_data)} correct.")
+def generate_audio(text):
+    tts = gTTS(text=text, lang='en')
+    audio_file = BytesIO()
+    tts.write_to_fp(audio_file)
+    audio_file.seek(0)
+    return audio_file
+
+def check_answers(filtered_data):
+    correct_count = 0
+    for i, row in enumerate(filtered_data.itertuples()):
+        user_input = st.session_state.get(f'input_{i}', '')
+        correct = user_input.strip().lower() == row.WORD.lower()
+        if correct:
+            correct_count += 1
+        st.write(f"Word: {row.WORD}, Your Input: {user_input}, Correct: {correct}")
+    st.write(f"{st.session_state.user_name}: {correct_count}/{len(filtered_data)} correct.")
 
 if __name__ == "__main__":
     main()
