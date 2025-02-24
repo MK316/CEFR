@@ -55,7 +55,7 @@ for idx, (tab_name, url) in enumerate(wordlist_urls.items()):
             filtered_words = wordlist[(wordlist['SID'] >= start_sid) & (wordlist['SID'] <= end_sid)]
 
             # Display words in table format
-            st.dataframe(filtered_words, use_container_width=True)
+            st.dataframe(filtered_words, use_container_width=True, index=False)
 
         else:
             st.error("No data available for this wordlist.")
