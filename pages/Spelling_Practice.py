@@ -3,7 +3,7 @@ from gtts import gTTS
 from io import BytesIO
 import pandas as pd
 
-# Load data with the recommended caching
+# Load data with caching
 @st.cache_data
 def load_data():
     url = 'https://raw.githubusercontent.com/MK316/CEFR/refs/heads/main/data/CEFRB1B2.txt'
@@ -16,27 +16,20 @@ def main():
 
     start_sid = st.number_input("Start SID", min_value=1, max_value=data['SID'].max(), value=1)
     end_sid = st.number_input("End SID", min_value=1, max_value=data['SID'].max(), value=20)
-    filtered_data = data[(data['SID'] >= start_sid) & (data['SID'] <= end_sid)]
+    filtered_data = data[(data['SID'] >= start_sid) & (data['SID'] <= end_sid)].reset_index(drop=True)
 
-    # Handling audio generation
     if 'audio_data' not in st.session_state:
         st.session_state.audio_data = {}
 
-    generate_button = st.button('Generate Audio')
-    if generate_button:
-        st.session_state.generated = True  # Flag to indicate generation was done
-
-    if st.session_state.get('generated', False):
+    if st.button('Generate Audio'):
         for i, row in enumerate(filtered_data.itertuples()):
             audio_key = f'audio_{i}'
             if audio_key not in st.session_state.audio_data:
-                # Generate and store audio
                 tts = gTTS(text=row.WORD, lang='en')
                 audio_file = BytesIO()
                 tts.write_to_fp(audio_file)
                 audio_file.seek(0)
                 st.session_state.audio_data[audio_key] = audio_file.getvalue()
-            # Display audio and input
             st.audio(st.session_state.audio_data[audio_key], format='audio/mp3')
             st.text_input("Type the word shown:", key=f'input_{i}')
 
