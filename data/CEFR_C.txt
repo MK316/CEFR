@@ -1218,3 +1218,175 @@
 1218	suicide	n.	He was deeply saddened by the news of his friend’s suicide, which had a lasting impact on him.
 1219	suite	n.	They booked a luxury suite at the hotel, hoping for a relaxing weekend getaway.
 1220	summit	n.	They finally reached the summit of the mountain after days of challenging climbing.
+1221	superb	adj.	The chef's superb culinary skills impressed all the guests at the dinner party.
+1222	superintendent	n.	The superintendent of the school district made an important announcement about new policies.
+1223	superior	adj.	Her superior knowledge of the subject made her the go-to expert for the team.
+1224	supervise	v.	He was hired to supervise the new project, ensuring everything ran smoothly.
+1225	supervision	n.	The children were under the close supervision of their parents during the field trip.
+1226	supervisor	n.	Her supervisor praised her for completing the project ahead of schedule.
+1227	supplement	v.	You can supplement your diet with vitamins to ensure you get all the necessary nutrients.
+1228	supplement	n.	She took a calcium supplement to improve her bone health.
+1229	supportive	adj.	He was very supportive of his friend during the difficult times, offering both emotional and practical help.
+1230	supposedly	adv.	The meeting was supposedly scheduled for 3 p.m., but it was delayed.
+1231	suppress	v.	He tried to suppress his emotions during the tense situation, but it was hard.
+1232	supreme	adj.	The supreme court made a landmark ruling on the case, setting a legal precedent.
+1233	surge	n.	There was a sudden surge in demand for the new product after the successful advertising campaign.
+1234	surge	v.	The river surged after the heavy rainfall, flooding the nearby streets.
+1235	surgical	adj.	The hospital performed a surgical operation to remove the tumor, ensuring a quick recovery.
+1236	surplus	n.	There was a surplus of food donated to the food bank after the charity event.
+1237	surrender	v.	After a long battle, the army decided to surrender, accepting defeat.
+1238	surveillance	n.	The store had extensive surveillance systems to monitor any suspicious activity.
+1239	suspension	n.	He received a suspension from school after breaking the rules repeatedly.
+1240	suspicion	n.	Her late arrival raised suspicion among the group, and they began asking questions.
+1241	suspicious	adj.	The man’s suspicious behavior caught the attention of the security staff.
+1242	sustain	v.	The team worked hard to sustain their lead throughout the final minutes of the game.
+1243	swing	n.	They enjoyed the swing in the park, taking turns pushing each other higher into the air.
+1244	swing	v.	He watched the pendulum swing back and forth in a steady rhythm.
+1245	sword	n.	The knight drew his sword in preparation for the duel.
+1246	symbolic	adj.	Her actions were symbolic of the change she wanted to bring about in the community.
+1247	syndrome	n.	He was diagnosed with a rare syndrome that causes muscle weakness over time.
+1248	synthesis	n.	Protein synthesis occurs within cells, where amino acids are combined to form proteins.
+1249	systematic	adj.	The team adopted a systematic approach to solving the problem, breaking it down into smaller tasks.
+1250	tackle	n.	The player made a successful tackle, preventing the opposing team from scoring.
+1251	tactic	n.	They used a new tactic during the game, focusing on defense to prevent the other team from advancing.
+1252	tactical	adj.	The general’s tactical decision to reposition his troops turned the battle in their favor.
+1253	taxpayer	n.	The government uses taxpayer money to fund public services like education and healthcare.
+1254	tempt	v.	The advertisement tried to tempt customers with a special discount offer for a limited time.
+1255	tenant	n.	The tenant signed a one-year lease for the apartment, agreeing to the terms set by the landlord.
+1256	tender	adj.	She offered a tender smile, showing kindness and warmth to everyone in the room.
+1257	tenure	n.	After years of hard work, he achieved tenure at the university, securing his position for life.
+1258	terminal	adj.	The patient was diagnosed with a terminal illness, and the doctors provided palliative care.
+1259	terminate	v.	They decided to terminate the contract after several breaches of the agreement.
+1260	terrain	n.	The rugged terrain made hiking difficult, with steep slopes and dense vegetation.
+1261	terrific	adj.	Her presentation was terrific, impressing everyone with her clear and engaging style.
+1262	testify	v.	He was called to testify in court as a witness to the incident.
+1263	testimony	n.	The witness provided valuable testimony that helped clarify the events of that night.
+1264	texture	n.	The texture of the fabric was soft and smooth, making it pleasant to touch.
+1265	thankfully	adv.	Thankfully, the storm passed quickly without causing much damage.
+1266	theatrical	adj.	The actor’s theatrical performance captured the audience's attention and left a lasting impression.
+1267	theology	n.	He studied theology at the university, exploring the philosophical and religious foundations of different belief systems.
+1268	theoretical	adj.	Her research was largely theoretical, focusing on concepts that had not yet been proven in practice.
+1269	thereafter	adv.	He moved to the city to pursue his career and thereafter found success in his field.
+1270	thereby	adv.	The new policy will increase efficiency, thereby reducing operational costs across the company.
+1271	thoughtful	adj.	Her thoughtful gift showed how well she knew me and how much she cared.
+1272	thought-provoking	adj.	The documentary was thought-provoking, leaving the audience questioning their beliefs.
+1273	thread	n.	The thread of conversation between the two friends kept flowing easily through the evening.
+1274	threshold	n.	He stood at the threshold of the house, unsure whether to knock on the door.
+1275	thrilled	adj.	She was thrilled to receive the invitation to the exclusive gala event.
+1276	thrive	v.	The small business continued to thrive despite the challenges posed by the pandemic.
+1277	tide	n.	The tide came in, covering the beach with smooth, wet sand.
+1278	tighten	v.	He needed to tighten the bolts on the bicycle to ensure it was safe to ride.
+1279	timber	n.	The carpenter worked with high-quality timber to create a beautiful, handcrafted table.
+1280	timely	adj.	The timely arrival of the rescue team helped save lives during the emergency.
+1281	tobacco	n.	Doctors warn that tobacco use is a leading cause of preventable health issues.
+1282	tolerance	n.	Tolerance for different cultures is essential in promoting global peace and understanding.
+1283	tolerate	v.	He couldn't tolerate the constant noise, so he moved to a quieter neighborhood.
+1284	toll	n.	The toll for crossing the bridge is collected at the entrance to the bridge.
+1285	top	v.	She was determined to top the leaderboard by completing the challenge in the fastest time.
+1286	torture	n.	The prisoners endured unimaginable torture during the conflict.
+1287	torture	v.	He tried to torture the truth out of the suspect, but they remained silent.
+1288	toss	v.	She decided to toss the old shoes, which had become worn and uncomfortable.
+1289	total	v.	The total cost of the project exceeded our initial budget by 15%.
+1290	toxic	adj.	Exposure to toxic chemicals can cause serious health problems over time.
+1291	trace	n.	The detective followed the trace of the suspect's footprints through the mud.
+1292	trademark	n.	The company's logo is a trademark that represents their commitment to quality.
+1293	trail	n.	They followed the trail through the woods, hoping to spot wildlife along the way.
+1294	trail	v.	The dog began to trail behind as it got tired during the long hike.
+1295	trailer	n.	He parked his trailer by the lake for a weekend getaway in the countryside.
+1296	transaction	n.	Each financial transaction was recorded carefully to ensure transparency.
+1297	transcript	n.	She received a copy of her academic transcript after completing the semester.
+1298	transformation	n.	The company's transformation was remarkable, moving from a small startup to a multinational corporation.
+1299	transit	n.	She took the bus during her daily transit to work to avoid the hassle of driving.
+1300	transmission	n.	The transmission in the car broke down, causing the vehicle to stop functioning properly.
+1301	transparency	n.	The company prides itself on its transparency in financial dealings.
+1302	transparent	adj.	The material was so transparent that you could see right through it.
+1303	trauma	n.	He struggled to recover from the trauma he experienced during the accident.
+1304	treaty	n.	The two countries signed a peace treaty, ending years of conflict.
+1305	tremendous	adj.	Her tremendous effort in organizing the event was recognized by everyone involved.
+1306	tribal	adj.	The tribal leaders gathered to discuss the future of their community.
+1307	tribute	n.	He paid tribute to his late mentor by continuing the important work they had started.
+1308	trigger	n.	The sudden noise acted as a trigger, causing the dog to bark loudly.
+1309	trio	n.	The musical trio performed a beautiful concert, showcasing their different talents.
+1310	triumph	n.	Winning the championship was a great triumph for the team after years of hard work.
+1311	trophy	n.	He proudly displayed the trophy on his mantel, a symbol of his victory.
+1312	troubled	adj.	She looked troubled after hearing the bad news about her friend.
+1313	trustee	n.	The trustee of the charity was responsible for overseeing its financial decisions.
+1314	tuition	n.	He worked part-time to help pay for his college tuition and living expenses.
+1315	tumor	n.	Doctors discovered a benign tumor during a routine checkup.
+1316	turnout	n.	The turnout for the concert was impressive, with all tickets sold out in advance.
+1317	turnover	n.	The company’s turnover increased significantly after launching their new product line.
+1318	twist	v.	He tried to twist the key, but it wouldn’t budge from the lock.
+1319	twist	n.	The plot of the movie had a surprising twist that none of the audience expected.
+1320	unconstitutional	adj.	The law was deemed unconstitutional after a court review of its impact on civil rights.
+1321	undergraduate	n.	The undergraduate students gathered in the lecture hall to hear the guest speaker.
+1322	underlying	adj.	There are many underlying causes for the economic downturn that need to be addressed.
+1323	undermine	v.	His actions were meant to undermine the authority of the manager.
+1324	undoubtedly	adv.	She is undoubtedly one of the most talented artists of her generation.
+1325	unify	v.	The leader worked hard to unify the country after years of division.
+1326	unprecedented	adj.	The company achieved unprecedented success after launching its new product.
+1327	unveil	v.	The artist will unveil his latest masterpiece at the gallery this Friday.
+1328	upcoming	adj.	She is excited for the upcoming concert next weekend.
+1329	upgrade	v.	We decided to upgrade our software to take advantage of the new features.
+1330	upgrade	n.	The hotel is offering a free room upgrade for all loyal customers.
+1331	uphold	v.	The court ruled to uphold the original decision.
+1332	utility	n.	The new software tool offers great utility in managing large datasets.
+1333	utilize	v.	We should utilize all available resources to complete the project on time.
+1334	utterly	adv.	She was utterly shocked by the news of the sudden cancellation.
+1335	vacuum	n.	The vacuum cleaner made quick work of cleaning the large living room.
+1336	vague	adj.	The instructions were vague, leaving many people confused about what to do.
+1337	validity	n.	The validity of the research findings was confirmed by a peer review process.
+1338	vanish	v.	After the magician waved his wand, the rabbit seemed to vanish into thin air.
+1339	variable	n.	Temperature is a variable that can greatly affect the outcome of the experiment.
+1340	variable	adj.	The variable nature of the weather makes it difficult to predict the weekend forecast.
+1341	varied	adj.	Her interests are varied, ranging from music to environmental activism.
+1342	vein	n.	The doctor explained that the vein had become swollen due to an underlying condition.
+1343	venture	n.	Starting a new business is a risky venture, but it can also lead to great rewards.
+1344	venture	v.	They decided to venture into the unknown market, hoping for success.
+1345	verbal	adj.	Her verbal communication skills are excellent, making her an effective leader.
+1346	verdict	n.	The jury returned a guilty verdict after hours of deliberation.
+1347	verify	v.	We need to verify the authenticity of the document before proceeding with the transaction.
+1348	verse	n.	The poet recited a verse from his latest collection during the poetry reading.
+1349	versus	conj.	The match between Team A versus Team B was the highlight of the tournament.
+1350	vessel	n.	The ship was a large vessel that could carry hundreds of passengers at once.
+1351	veteran	n.	He was a veteran of the military, having served for over two decades.
+1352	viable	adj.	The project was determined to be viable after a thorough feasibility study.
+1353	vibrant	adj.	The city is known for its vibrant arts scene and lively street festivals.
+1354	vice	n.	His biggest vice was his addiction to gambling, which caused him much trouble.
+1355	vicious	adj.	The attack was vicious, leaving the victim with serious injuries.
+1356	violate	v.	He was accused of violating the terms of his contract.
+1357	violation	n.	The company's actions were deemed a violation of environmental laws.
+1358	virtue	n.	Patience is a virtue that many people strive to develop over time.
+1359	vocal	adj.	She was a vocal advocate for environmental sustainability in her community.
+1360	vow	v.	They vowed to continue their mission despite the many challenges they faced.
+1361	vulnerability	n.	The vulnerability of the system was exposed during the security audit.
+1362	vulnerable	adj.	The region is vulnerable to floods during the rainy season.
+1363	ward	n.	She was assigned to the pediatric ward to take care of the children.
+1364	warehouse	n.	The company stored all its products in a large warehouse at the edge of town.
+1365	warfare	n.	The documentary explored the impact of modern warfare on civilian populations.
+1366	warrant	n.	Police obtained a warrant to search the suspect's home for evidence.
+1367	warrant	v.	Her actions warranted a response from the authorities, as they posed a significant risk.
+1368	warrior	n.	He was known as a fierce warrior who had earned respect on the battlefield.
+1369	weaken	v.	The drought began to weaken the plants, making them more susceptible to pests.
+1370	weave	v.	She learned how to weave intricate patterns using colorful threads for her art project.
+1371	weed	n.	The farmer spent hours pulling weeds from the garden to ensure the plants could grow properly.
+1372	well	n.	They drilled a deep well to provide fresh water for the entire village.
+1373	well-being	n.	Exercise and a balanced diet are important for maintaining your overall well-being.
+1374	whatsoever	adv.	He had no doubts whatsoever about his decision to move abroad.
+1375	whereby	adv.	The company created a new system whereby employees could submit their ideas for improvement.
+1376	whip	v.	The rider used a whip to guide the horse through the obstacle course.
+1377	wholly	adv.	The team was wholly dedicated to the success of the project.
+1378	widen	v.	They decided to widen the road to accommodate more traffic during rush hours.
+1379	widow	n.	After her husband's passing, she became a widow, navigating life without him.
+1380	width	n.	The width of the river made it difficult to cross without a bridge.
+1381	willingness	n.	Her willingness to help others earned her the respect of her colleagues.
+1382	wipe	v.	He had to wipe the chalk off the board before the next lesson began.
+1383	wit	n.	Her sharp wit made her a popular speaker at social events.
+1384	withdrawal	n.	After months of preparation, he faced withdrawal symptoms when he stopped drinking coffee.
+1385	workout	n.	She went to the gym every day for her regular workout to stay in shape.
+1386	worship	n.	The temple was a place of quiet worship, where people went to pray and reflect.
+1387	worship	v.	They gathered every Sunday to worship and sing hymns together.
+1388	worthwhile	adj.	Spending time with family is always a worthwhile way to spend your weekend.
+1389	worthy	adj.	Her hard work and dedication made her a worthy candidate for the promotion.
+1390	yell	v.	He had to yell to get their attention over the loud noise of the crowd.
+1391	yield	n.	The farmer’s yield of apples was especially high this season, thanks to the good weather.
+1392	yield	v.	By investing in stocks, you can yield a significant return over time if you make smart choices.
