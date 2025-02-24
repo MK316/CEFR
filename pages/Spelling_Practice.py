@@ -46,9 +46,11 @@ def main():
         st.session_state.user_inputs.clear()  # Reset user inputs
         st.session_state.generated = True  
 
+        # Initialize new user input fields
         for i, row in enumerate(filtered_data.itertuples()):
             audio_key = f'audio_{row.SID}'  # Use SID directly to ensure uniqueness
             st.session_state.audio_data[audio_key] = generate_audio(row.WORD)
+            st.session_state.user_inputs[f'input_{row.SID}'] = ""  # Ensure all inputs are reset
 
     if st.session_state.get('generated', False):
         for i, row in enumerate(filtered_data.itertuples()):
@@ -56,7 +58,6 @@ def main():
             if audio_key in st.session_state.audio_data:
                 st.caption(f"SID {row.SID}")  # Display SID before each audio
                 st.audio(st.session_state.audio_data[audio_key], format='audio/mp3')
-                st.session_state.user_inputs[f'input_{row.SID}'] = ""  # Reset input box
                 st.text_input("Type the word shown:", key=f'input_{row.SID}', value=st.session_state.user_inputs[f'input_{row.SID}'])
 
     if st.button('Check Answers'):
