@@ -50,7 +50,7 @@ def run_practice_app(user_name, file_url):
     total_words = len(data)  # Count available words
 
     # **Display total words available in this level**
-    st.info(f"📌 This level contains **{total_words} words**. Choose your SID range below.")
+    st.info(f"🔎 This level contains **{total_words} words**. Choose your SID range below.")
 
     user_name = st.text_input(f"Type user name ({user_name})")
     
