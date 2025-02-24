@@ -35,24 +35,27 @@ tabs = st.tabs(list(wordlist_urls.keys()))
 # Loop through tabs dynamically
 for idx, (tab_name, url) in enumerate(wordlist_urls.items()):
     with tabs[idx]:  # Assign content to each tab
-        st.caption("🌱 CEFR B1B2 (733 words) and C1 (3,000 words)")
+        st.caption("📅 Spring 2025")
 
         # Load wordlist
         wordlist = load_wordlist(url)
 
         if not wordlist.empty:
+            total_words = len(wordlist)  # Get total words in the wordlist
+            
             # User selects SID range
             col1, col2 = st.columns(2)
             with col1:
-                start_sid = st.number_input(f"From SID ({tab_name})", min_value=1, max_value=wordlist['SID'].max(), value=1)
+                start_sid = st.number_input(f"From SID (Total: {total_words} words)", min_value=1, max_value=wordlist['SID'].max(), value=1)
             with col2:
-                end_sid = st.number_input(f"To SID ({tab_name})", min_value=start_sid, max_value=wordlist['SID'].max(), value=min(start_sid+19, wordlist['SID'].max()))
+                end_sid = st.number_input(f"To SID (Total: {total_words} words)", min_value=start_sid, max_value=wordlist['SID'].max(), value=min(start_sid+19, wordlist['SID'].max()))
 
             # Filter selected range
             filtered_words = wordlist[(wordlist['SID'] >= start_sid) & (wordlist['SID'] <= end_sid)].reset_index(drop=True)
 
-            # ✅ "Show Words" Button with UNIQUE key per tab
-            if st.button(f"🔍 Show Words ({tab_name})", key=f"show_words_{idx}"):
+            # ✅ "Show Words" Button with number of selected words
+            num_selected = len(filtered_words)
+            if st.button(f"🔍 Show {num_selected} Words", key=f"show_words_{idx}"):
                 st.table(filtered_words.set_index("SID"))
 
         else:
