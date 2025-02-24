@@ -3,3 +3,4 @@ pydub
 matplotlib
 numpy
 gtts
+pandas
