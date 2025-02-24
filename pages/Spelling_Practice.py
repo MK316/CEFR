@@ -4,16 +4,24 @@ from io import BytesIO
 import pandas as pd
 import re
 
-def clean_word(word):
-    # Remove parts of speech or any characters following a space
-    cleaned_word = re.sub(r'\s+.*', '', word)
-    return cleaned_word
+# Define URLs to your text files hosted on GitHub
+urls = {
+    'Level B': 'https://raw.githubusercontent.com/MK316/CEFR/refs/heads/main/data/CEFRB1B2.txt',
+    'Level C': 'https://raw.githubusercontent.com/MK316/CEFR/refs/heads/main/data/CEFRC1.txt'
+}
 
 def load_data(level):
     data = pd.read_csv(urls[level], sep='\t', usecols=['SID', 'WORD'])
     # Clean each word in the dataframe
-    data['WORD'] = data['WORD'].apply(clean_word)
+    data['WORD'] = data['WORD'].apply(lambda x: re.sub(r'\s+.*', '', x))
     return data
+
+def main():
+    st.title("Word Practice App")
+    
+    user_name = st.text_input("User name")
+    level = st.radio("Select Level:", list(urls.keys()))
+    data = load_data(level)
 
 def main():
     st.title("Word Practice App")
