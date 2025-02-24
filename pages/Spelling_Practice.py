@@ -15,17 +15,20 @@ def load_data():
 def main():
     st.title("Word Practice App")
     user_name = st.text_input("User name")
+    data = load_data()
 
-    if 'words_total' not in st.session_state:
-        data = load_data()
-        st.session_state.words_total = len(data)
+    max_sid = data['SID'].max()
+    sid_ranges = [(i, min(i + 19, max_sid)) for i in range(1, max_sid + 1, 20)]
+    selected_range = st.selectbox("Select SID Range:", sid_ranges, format_func=lambda x: f"{x[0]}-{x[1]}")
+    filtered_data = data[(data['SID'] >= selected_range[0]) & (data['SID'] <= selected_range[1])]
 
     if 'index' not in st.session_state:
         st.session_state.index = 0
         st.session_state.correct_count = 0
+        st.session_state.words_total = len(filtered_data)
 
     if st.session_state.index < st.session_state.words_total:
-        word = data.iloc[st.session_state.index]['WORD']
+        word = filtered_data.iloc[st.session_state.index]['WORD']
         tts = gTTS(text=word, lang='en')
         audio_file = BytesIO()
         tts.write_to_fp(audio_file)
