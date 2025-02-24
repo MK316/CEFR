@@ -19,12 +19,13 @@ def main():
     filtered_data = data[(data['SID'] >= start_sid) & (data['SID'] <= end_sid)]
 
     if st.button('Generate Audio'):
+        # Create an audio player for each word
         for i, row in enumerate(filtered_data.itertuples()):
             tts = gTTS(text=row.WORD, lang='en')
             audio_file = BytesIO()
             tts.write_to_fp(audio_file)
             audio_file.seek(0)
-            st.audio(audio_file, format='audio/mp3', key=f'audio_{i}')
+            st.audio(audio_file, format='audio/mp3')  # Removed the 'key' argument
             st.text_input("Type the word shown:", key=f'input_{i}')
 
     if st.button('Check Answers'):
