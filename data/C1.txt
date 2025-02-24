@@ -4,7 +4,8 @@ absence n.
 absent adj.
 absurd adj.
 abundance n.
-abuse n., v.
+abuse n.
+abuse v.
 academy n.
 accelerate v.
 acceptance n.
@@ -35,7 +36,8 @@ admission n.
 adolescent n.
 adoption n.
 adverse adj.
-advocate n., v.
+advocate n.
+advocate v.
 aesthetic adj.
 affection n.
 aftermath n.
@@ -43,11 +45,13 @@ aggression n.
 agricultural adj.
 aide n.
 albeit conj.
-alert v., n., adj.
+alert v.
+alert n.
 alien adj.
 align v.
 alignment n.
-alike adv., adj.
+alike adv.
+alike adj.
 allegation n.
 allege v.
 allegedly adv.
@@ -57,7 +61,7 @@ allocation n.
 allowance n.
 ally n.
 aluminium n.
-amateur adj., n.
+amateur n.
 ambassador n.
 amend v.
 amendment n.
@@ -85,19 +89,20 @@ ash n.
 aspiration n.
 aspire v.
 assassination n.
-assault n., v.
+assault n.
+assault v.
 assemble v.
 assembly n.
 assert v.
 assertion n.
 assurance n.
 asylum n.
-© Oxford University Press The Oxford 5000™ by CEFR level 4 / 8
 atrocity n.
 attain v.
 attendance n.
 attorney n.
-attribute v., n.
+attribute v.
+attribute n.
 audit n.
 authentic adj.
 authorize v.
@@ -131,9 +136,11 @@ biography n.
 bishop n.
 bizarre adj.
 blade n.
-blast n., v.
+blast n.
+blast v.
 bleed v.
-blend v., n.
+blend v.
+blend n.
 bless v.
 blessing n.
 boast v.
@@ -141,11 +148,14 @@ bonus n.
 boom n.
 bounce v.
 boundary n.
-bow1 v., n.
-breach n., v.
+bow1 v.
+bow1 n.
+breach n.
+breach v.
 breakdown n.
 breakthrough n.
-breed v., n.
+breed v.
+breed n.
 broadband n.
 browser n.
 brutal adj.
@@ -186,7 +196,7 @@ circulate v.
 circulation n.
 citizenship n.
 civic adj.
-civilian n., adj.
+civilian n.
 clarity n.
 clash n.
 classification n.
@@ -205,7 +215,8 @@ collective adj.
 collision n.
 colonial adj.
 columnist n.
-combat n., v.
+combat n.
+combat v.
 commence v.
 commentary n.
 commentator n.
@@ -229,7 +240,8 @@ compliance n.
 complication n.
 comply v.
 composition n.
-compromise n., v.
+compromise n.
+compromise v.
 compute v.
 conceal v.
 concede v.
@@ -252,7 +264,8 @@ conscience n.
 consciousness n.
 consecutive adj.
 consensus n.
-consent n., v.
+consent n.
+consent v.
 conserve v.
 consistency n.
 consolidate v.
@@ -271,7 +284,8 @@ contention n.
 continually adv.
 contractor n.
 contradiction n.
-contrary adj., n.
+contrary adj.
+contrary n.
 contributor n.
 conversion n.
 convict v.
@@ -313,7 +327,7 @@ crown n.
 crude adj.
 crush v.
 crystal n.
-cult n., adj.
+cult n.
 cultivate v.
 curiosity n.
 custody n.
@@ -373,7 +387,6 @@ differentiate v.
 dignity n.
 dilemma n.
 dimension n.
-© Oxford University Press The Oxford 5000™ by CEFR level 5 / 8
 diminish v.
 dip v.
 diplomat n.
@@ -391,14 +404,16 @@ dismissal n.
 displace v.
 disposal n.
 dispose v.
-dispute n., v.
+dispute n.
+dispute v.
 disrupt v.
 disruption n.
 dissolve v.
 distinction n.
 distinctive adj.
 distort v.
-distress n., v.
+distress n.
+distress v.
 disturbing adj.
 divert v.
 divine adj.
@@ -419,8 +434,10 @@ duo n.
 dynamic n.
 eager adj.
 earnings n.
-ease n., v.
-echo v., n.
+ease n.
+ease v.
+echo v.
+echo n.
 ecological adj.
 educator n.
 effectiveness n.
@@ -474,7 +491,8 @@ evolutionary adj.
 exaggerate v.
 excellence n.
 exceptional adj.
-excess n., adj.
+excess n.
+excess adj.
 exclusion n.
 exclusive adj.
 exclusively adv.
@@ -489,7 +507,8 @@ expire v.
 explicit adj.
 explicitly adv.
 exploitation n.
-explosive adj., n.
+explosive adj.
+explosive n.
 extract v.
 extremist n.
 facilitate v.
@@ -501,12 +520,15 @@ fatal adj.
 fate n.
 favourable adj.
 feat n.
-feminist adj., n.
+feminist adj.
+feminist n.
 fibre n.
 fierce adj.
 film-maker n.
-filter n., v.
-fine n., v.
+filter n.
+filter v.
+fine n.
+fine v.
 firearm n.
 fit n.
 fixture n.
@@ -538,25 +560,30 @@ funeral n.
 gallon n.
 gambling n.
 gathering n.
-gaze n., v.
+gaze n.
+gaze v.
 gear n.
 generic adj.
 genocide n.
-glance n., v.
+glance n.
+glance v.
 glimpse n.
 glorious adj.
 glory n.
 governance n.
 grace n.
-grasp v., n.
-grave (for dead person) n.
-grave (serious) adj.
+grasp v.
+grasp n.
+grave n.
+grave adj.
 gravity n.
 grid n.
 grief n.
-grin v., n.
+grin v.
+grin n.
 grind v.
-grip n., v.
+grip n.
+grip v.
 gross adj.
 guerrilla n.
 guidance n.
@@ -564,7 +591,8 @@ guilt n.
 gut n.
 hail v.
 halfway adv.
-halt v., n.
+halt v.
+halt n.
 handful n.
 handling n.
 handy adj.
@@ -572,7 +600,8 @@ harassment n.
 hardware n.
 harmony n.
 harsh adj.
-harvest n., v.
+harvest n.
+harvest v.
 hatred n.
 haunt v.
 hazard n.
@@ -580,7 +609,7 @@ heighten v.
 heritage n.
 hierarchy n.
 high-profile adj.
-hint n., v.
+hint n.
 homeland n.
 hook v.
 hopeful adj.
@@ -639,7 +668,8 @@ institutional adj.
 instruct v.
 instrumental adj.
 insufficient adj.
-insult n., v.
+insult n.
+insult v.
 intact adj.
 intake n.
 integral adj.
@@ -654,7 +684,6 @@ intent n.
 interactive adj.
 interface n.
 interfere v.
-© Oxford University Press The Oxford 5000™ by CEFR level 6 / 8
 interference n.
 interim adj.
 interior adj., n.
@@ -686,12 +715,15 @@ landmark n.
 lap n.
 large-scale adj.
 laser n.
-latter adj., n.
+latter adj.
+latter n.
 lawn n.
 lawsuit n.
 layout n.
-leak v., n.
-leap v., n.
+leak v.
+leak n.
+leap v.
+leap n.
 legacy n.
 legendary adj.
 legislation n.
@@ -703,7 +735,8 @@ lesbian adj.
 lesser adj.
 lethal adj.
 liable adj.
-liberal adj., n.
+liberal adj.
+liberal n.
 liberation n.
 liberty n.
 license v.
@@ -716,8 +749,9 @@ linger v.
 listing n.
 literacy n.
 liver n.
-lobby n., v.
-log n., v.
+lobby n.
+log n.
+log v.
 logic n.
 long-standing adj.
 long-time adj.
@@ -730,7 +764,8 @@ magistrate n.
 magnetic adj.
 magnitude n.
 mainland n.
-mainstream n., adj.
+mainstream n.
+mainstream adj.
 maintenance n.
 mandate n.
 mandatory adj.
@@ -738,14 +773,16 @@ manifest v.
 manipulate v.
 manipulation n.
 manuscript n.
-march n., v.
+march n.
+march v.
 marginal adj.
 marine adj.
 marketplace n.
 mask n.
 massacre n.
 mathematical adj.
-mature adj., v.
+mature adj.
+mature v.
 maximize v.
 meaningful adj.
 meantime n.
@@ -766,7 +803,8 @@ merit n.
 methodology n.
 midst n.
 migration n.
-militant n., adj.
+militant n.
+militant adj.
 militia n.
 mill n.
 minimal adj.
@@ -795,7 +833,8 @@ mutual adj.
 namely adv.
 nationwide adj.
 naval adj.
-neglect v., n.
+neglect v.
+neglect n.
 neighbouring adj.
 nest n.
 net adj.
@@ -837,7 +876,8 @@ outbreak n.
 outing n.
 outlet n.
 outlook n.
-outrage n., v.
+outrage n.
+outrage v.
 outsider n.
 overlook v.
 overly adv.
@@ -858,7 +898,8 @@ pastor n.
 patch n.
 patent n.
 pathway n.
-patrol n., v.
+patrol n.
+patrol v.
 patron n.
 peak n.
 peasant n.
@@ -870,14 +911,16 @@ petition n.
 philosopher n.
 philosophical adj.
 physician n.
-pioneer n., v.
+pioneer n.
 pipeline n.
 pirate n.
 pit n.
 plea n.
 plead v.
-pledge v., n.
-plug v., n.
+pledge v.
+pledge n.
+plug v.
+plug n.
 plunge v.
 pole n.
 poll n.
@@ -917,7 +960,8 @@ prey n.
 principal n.
 privatization n.
 privilege n.
-probe n., v.
+probe n.
+probe v.
 problematic adj.
 proceedings n.
 proceeds n.
@@ -936,7 +980,6 @@ proposition n.
 prosecute v.
 prosecution n.
 prosecutor n.
-© Oxford University Press The Oxford 5000™ by CEFR level 7 / 8
 prospective adj.
 prosperity n.
 protective adj.
@@ -947,25 +990,26 @@ provision n.
 provoke v.
 psychiatric adj.
 pulse n.
-pump v., n.
-punch n., v.
+pump v.
+punch n.
 query n.
 quest n.
 quota n.
 radar n.
 radical adj.
 rage n.
-raid n., v.
-rally n., v.
+raid n.
+rally n.
 ranking n.
-rape n., v.
+rape v.
 ratio n.
 rational adj.
 ray n.
 readily adv.
 realization n.
 realm n.
-rear adj., n.
+rear adj.
+rear n.
 reasoning n.
 reassure v.
 rebel n.
@@ -984,7 +1028,8 @@ regime n.
 regulator n.
 regulatory adj.
 rehabilitation n.
-reign n., v.
+reign n.
+reign v.
 rejection n.
 relevance n.
 reliability n.
@@ -1016,11 +1061,12 @@ respectively adv.
 restoration n.
 restraint n.
 resume v.
-retreat n., v.
+retreat n.
+retreat v.
 retrieve v.
 revelation n.
 revenge n.
-reverse v. , n., adj.
+reverse v.
 revival n.
 revive v.
 revolutionary adj.
@@ -1038,7 +1084,8 @@ ruling n.
 rumour n.
 sack v.
 sacred adj.
-sacrifice n., v.
+sacrifice n.
+sacrifice v.
 saint n.
 sake n.
 sanction n.
@@ -1046,9 +1093,10 @@ say n.
 scattered adj.
 sceptical adj.
 scope n.
-screw v., n.
+screw n.
 scrutiny n.
-seal v., n.
+seal v.
+seal n.
 secular adj.
 seemingly adv.
 segment n.
@@ -1072,7 +1120,8 @@ shipping n.
 shoot n.
 shrink v.
 shrug v.
-sigh v., n.
+sigh v.
+sigh n.
 simulate v.
 simulation n.
 simultaneously adv.
@@ -1094,11 +1143,12 @@ sole adj.
 solely adv.
 solicitor n.
 solidarity n.
-solo adj., n.
+solo n.
 sound adj.
 sovereignty n.
 spam n.
-span v., n.
+span v.
+span n.
 spare v.
 spark v.
 specialized adj.
@@ -1108,11 +1158,12 @@ spectacle n.
 spectrum n.
 spell n.
 sphere n.
-spin v., n.
+spin v.
+spin n.
 spine n.
 spotlight n.
 spouse n.
-spy n., v.
+spy n.
 squad n.
 squeeze v.
 stab v.
@@ -1123,7 +1174,8 @@ standing adj.
 stark adj.
 statistical adj.
 steer v.
-stem n., v.
+stem n.
+stem v.
 stereotype n.
 stimulus n.
 stir v.
@@ -1145,7 +1197,8 @@ subscription n.
 subsidy n.
 substantial adj.
 substantially adv.
-substitute n., v.
+substitute n.
+substitute v.
 substitution n.
 subtle adj.
 suburban adj.
@@ -1162,12 +1215,14 @@ superior adj.
 supervise v.
 supervision n.
 supervisor n.
-supplement n., v.
+supplement n.
+supplement v.
 supportive adj.
 supposedly adv.
 suppress v.
 supreme adj.
-surge n., v.
+surge n.
+surge v.
 surgical adj.
 surplus n.
 surrender v.
@@ -1176,7 +1231,7 @@ suspension n.
 suspicion n.
 suspicious adj.
 sustain v.
-swing v., n.
+swing n.
 sword n.
 symbolic adj.
 syndrome n.
@@ -1217,7 +1272,6 @@ tobacco n.
 tolerance n.
 tolerate v.
 toll n.
-© Oxford University Press The Oxford 5000™ by CEFR level 8 / 8
 top v.
 torture n., v.
 toss v.
@@ -1225,7 +1279,8 @@ total v.
 toxic adj.
 trace n.
 trademark n.
-trail n., v.
+trail n.
+trail v.
 trailer n.
 transaction n.
 transcript n.
@@ -1249,7 +1304,7 @@ trustee n.
 tuition n.
 turnout n.
 turnover n.
-twist v., n.
+twist v.
 undergraduate n.
 underlying adj.
 undermine v.
@@ -1258,7 +1313,7 @@ unify v.
 unprecedented adj.
 unveil v.
 upcoming adj.
-upgrade v., n.
+upgrade v.
 uphold v.
 utility n.
 utilize v.
@@ -1267,10 +1322,12 @@ vacuum n.
 vague adj.
 validity n.
 vanish v.
-variable n., adj.
+variable n.
+variable adj.
 varied adj.
 vein n.
-venture n., v.
+venture n.
+venture v.
 verbal adj.
 verdict n.
 verify v.
@@ -1293,7 +1350,8 @@ vulnerable adj.
 ward n.
 warehouse n.
 warfare n.
-warrant n., v.
+warrant n.
+warrant v.
 warrior n.
 weaken v.
 weave v.
@@ -1313,9 +1371,11 @@ wipe v.
 wit n.
 withdrawal n.
 workout n.
-worship n., v.
+worship n.
+worship v.
 worthwhile adj.
 worthy adj.
 yell v.
-yield n., v.
+yield n.
+yield v.
 youngster n.
