@@ -1,5 +1,5 @@
 import streamlit as st
-import request
+import requests
 
 
 # Create tabs for different sections of the course
