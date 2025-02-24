@@ -3,14 +3,11 @@ from gtts import gTTS
 from io import BytesIO
 import pandas as pd
 
-# URL for Level B file hosted on GitHub
-url = 'https://raw.githubusercontent.com/MK316/CEFR/refs/heads/main/data/CEFRB1B2.txt'
-
+# Load data with caching
 @st.cache_data
 def load_data():
-    data = pd.read_csv(url, sep='\t', usecols=['SID', 'WORD'])
-    data['WORD'] = data['WORD'].apply(lambda x: x.split()[0])  # Clean the words
-    return data
+    url = 'https://raw.githubusercontent.com/MK316/CEFR/refs/heads/main/data/CEFRB1B2.txt'
+    return pd.read_csv(url, sep='\t', usecols=['SID', 'WORD']).assign(WORD=lambda df: df['WORD'].str.split().str[0])
 
 def main():
     st.title("Word Practice App")
@@ -35,11 +32,14 @@ def main():
 
         user_input = st.text_input("Type the word shown:", key=f'input_{st.session_state.index}')
 
-        if st.button('Next'):
-            if user_input.strip().lower() == word.lower():
+        next_button = st.button('Next')
+        if next_button:
+            correct = user_input.strip().lower() == word.lower()
+            if correct:
                 st.session_state.correct_count += 1
             st.session_state.index += 1
-    else:
+
+    if st.session_state.index == len(filtered_data):
         st.write(f"{user_name}: {st.session_state.correct_count}/{len(filtered_data)} correct.")
         if st.button('Restart'):
             st.session_state.index = 0
