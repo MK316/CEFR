@@ -47,24 +47,30 @@ def main():
         st.session_state.generated = True  
 
         # Initialize new user input fields
-        for i, row in enumerate(filtered_data.itertuples()):
+        for row in filtered_data.itertuples():
+            sid_key = f'input_{row.SID}'
+            st.session_state.user_inputs[sid_key] = ""  # Force reset inputs
             audio_key = f'audio_{row.SID}'  # Use SID directly to ensure uniqueness
             st.session_state.audio_data[audio_key] = generate_audio(row.WORD)
-            st.session_state.user_inputs[f'input_{row.SID}'] = ""  # Ensure all inputs are reset
 
     if st.session_state.get('generated', False):
-        for i, row in enumerate(filtered_data.itertuples()):
+        for row in filtered_data.itertuples():
             audio_key = f'audio_{row.SID}'
+            sid_key = f'input_{row.SID}'
+
             if audio_key in st.session_state.audio_data:
                 st.caption(f"SID {row.SID}")  # Display SID before each audio
                 st.audio(st.session_state.audio_data[audio_key], format='audio/mp3')
-                st.text_input("Type the word shown:", key=f'input_{row.SID}', value=st.session_state.user_inputs[f'input_{row.SID}'])
+
+                # **Force reset user input fields using `value=""`**
+                st.text_input("Type the word shown:", key=sid_key, value="", placeholder="Type here...", label_visibility="collapsed")
 
     if st.button('Check Answers'):
         correct_count = 0
-        for i, row in enumerate(filtered_data.itertuples()):
-            user_input = st.session_state.get(f'input_{row.SID}', '')
-            correct = user_input.strip().lower() == row.WORD.lower()
+        for row in filtered_data.itertuples():
+            sid_key = f'input_{row.SID}'
+            user_input = st.session_state.get(sid_key, '').strip().lower()
+            correct = user_input == row.WORD.lower()
             if correct:
                 correct_count += 1
             st.write(f"Word: {row.WORD}, Your Input: {user_input}, Correct: {correct}")
