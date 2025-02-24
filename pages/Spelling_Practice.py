@@ -32,14 +32,14 @@ def main():
         audio_file = BytesIO()
         tts.write_to_fp(audio_file)
         audio_file.seek(0)
-        st.audio(audio_file, format='audio/mp3', key=f'audio_{st.session_state.index}')
+        # Using simple key assignment for audio
+        st.audio(audio_file, format='audio/mp3')
         user_input = st.text_input("Type the word shown:", key=f'input_{st.session_state.index}')
 
-        if st.button('Next', key=f'next_{st.session_state.index}'):
+        if st.button('Next'):
             if user_input.strip().lower() == word.lower():
                 st.session_state.correct_count += 1
             st.session_state.index += 1
-            st.experimental_rerun()
     else:
         st.write(f"{user_name}: {st.session_state.correct_count}/{len(filtered_data)} correct.")
         if st.button('Restart'):
