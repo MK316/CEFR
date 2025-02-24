@@ -18,9 +18,6 @@ def main():
     end_sid = st.number_input("End SID", min_value=1, max_value=data['SID'].max(), value=20)
     filtered_data = data[(data['SID'] >= start_sid) & (data['SID'] <= end_sid)]
 
-    if 'answers' not in st.session_state:
-        st.session_state.answers = [None] * len(filtered_data)
-
     if st.button('Generate Audio'):
         for i, row in enumerate(filtered_data.itertuples()):
             tts = gTTS(text=row.WORD, lang='en')
@@ -33,10 +30,11 @@ def main():
     if st.button('Check Answers'):
         correct_count = 0
         for i, row in enumerate(filtered_data.itertuples()):
-            user_input = st.session_state[f'input_{i}']
-            if user_input.strip().lower() == row.WORD.lower():
+            user_input = st.session_state.get(f'input_{i}', '')
+            correct = user_input.strip().lower() == row.WORD.lower()
+            if correct:
                 correct_count += 1
-            st.write(f"Word: {row.WORD}, Your Input: {user_input}, Correct: {user_input.strip().lower() == row.WORD.lower()}")
+            st.write(f"Word: {row.WORD}, Your Input: {user_input}, Correct: {correct}")
 
         st.write(f"{user_name}: {correct_count}/{len(filtered_data)} correct.")
 
