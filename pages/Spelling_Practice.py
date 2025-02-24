@@ -18,18 +18,16 @@ def main():
     end_sid = st.number_input("End SID", min_value=1, max_value=data['SID'].max(), value=20)
     filtered_data = data[(data['SID'] >= start_sid) & (data['SID'] <= end_sid)]
 
-    if 'generated' not in st.session_state:
-        st.session_state.generated = False
+    if 'audio_generated' not in st.session_state:
+        st.session_state.audio_generated = {}
 
-    generate_button = st.button('Generate Audio')
-    if generate_button or st.session_state.generated:
-        st.session_state.generated = True
+    if st.button('Generate Audio'):
         for i, row in enumerate(filtered_data.itertuples()):
-            with st.container():
-                key = f'audio_{i}'
+            if i not in st.session_state.audio_generated:
                 audio_data = generate_audio(row.WORD)
-                st.audio(audio_data, format='audio/mp3', key=key)
-                st.text_input("Type the word shown:", key=f'input_{i}')
+                st.session_state.audio_generated[i] = audio_data.getvalue()
+            st.audio(st.session_state.audio_generated[i], format='audio/mp3')
+            st.text_input("Type the word shown:", key=f'input_{i}')
 
     if st.button('Check Answers'):
         check_answers(filtered_data)
@@ -49,7 +47,7 @@ def check_answers(filtered_data):
         if correct:
             correct_count += 1
         st.write(f"Word: {row.WORD}, Your Input: {user_input}, Correct: {correct}")
-    st.write(f"{st.session_state.user_name}: {correct_count}/{len(filtered_data)} correct.")
+    st.write(f"{user_name}: {correct_count}/{len(filtered_data)} correct.")
 
 if __name__ == "__main__":
     main()
