@@ -10,7 +10,8 @@ urls = {
 }
 
 def load_data(level):
-    data = pd.read_csv(urls[level], sep='\t')  # Adjust delimiter based on your file format
+    # Load data assuming that the file uses tabs as delimiters and has a header row
+    data = pd.read_csv(urls[level], sep='\t', usecols=['SID', 'WORD'])  # only load the SID and WORD columns
     return data
 
 def main():
@@ -32,7 +33,7 @@ def main():
 
     if st.button("Start"):
         for _, row in selected_data.iterrows():
-            word = row['WORD']
+            word = row['WORD'].strip()  # strip any whitespace
             tts = gTTS(text=word, lang='en')
             audio_file = BytesIO()
             tts.write_to_fp(audio_file)
@@ -40,7 +41,7 @@ def main():
             st.audio(audio_file, format='audio/mp3')
             user_input = st.text_input("Type the word shown:", key=row['SID'])
             if user_input:
-                correct = "Correct" if user_input.lower() == word.lower() else "Incorrect"
+                correct = "Correct" if user_input.strip().lower() == word.lower() else "Incorrect"
                 st.write(f"{word} - {correct}")
 
     if st.button("Complete"):
