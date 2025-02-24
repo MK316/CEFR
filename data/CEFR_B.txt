@@ -476,3 +476,219 @@ SID	WORD	POS	Sentence
 515	programming	n.	She is learning programming to enhance her job skills.
 516	progressive	adj.	The company is known for its progressive employment policies.
 517	prohibit	v.	Smoking is prohibited in all public buildings.
+518	promising	adj.	The young athlete has a promising future in professional sports.
+519	promotion	n.	She received a promotion after successfully leading the project.
+520	prompt	v.	The teacher's question prompted a lively discussion among the students.
+521	proportion	n.	A large proportion of the budget was allocated to research.
+522	protein	n.	Chicken and fish are excellent sources of protein for muscle growth.
+523	protester	n.	The police arrested a protester who refused to leave the demonstration site.
+524	psychological	adj.	Stress can have serious psychological effects on a person's well-being.
+525	publicity	n.	The new product launch received a lot of publicity in the media.
+526	publishing	n.	She has worked in the publishing industry for over a decade.
+527	punk	n.	He was a fan of punk music and often attended underground concerts.
+528	purely	adv.	Her decision was purely based on logic rather than emotions.
+529	pursuit	n.	He left his job in pursuit of his dream to become a filmmaker.
+530	puzzle	n.	She enjoys solving crossword puzzles in her free time.
+531	questionnaire	n.	All participants were asked to complete a questionnaire about their experiences.
+532	racial	adj.	The government introduced policies to address racial discrimination.
+533	racism	n.	The organization fights against racism and promotes equality for all.
+534	racist	adj.	He was criticized for making racist comments in public.
+535	racist	n.	He was labeled a racist after his controversial statements about immigration.
+536	radiation	n.	Excessive exposure to radiation can be harmful to human health.
+537	rail	n.	The country is investing in an advanced rail system for faster transportation.
+538	random	adj.	The lottery numbers were drawn in a completely random order.
+539	rat	n.	They saw a rat running across the kitchen floor and called pest control.
+540	rating	n.	The movie received a high rating from critics and audiences alike.
+541	reasonably	adv.	The hotel was reasonably priced considering its great location.
+542	rebuild	v.	After the earthquake, the city had to rebuild many of its homes and roads.
+543	receiver	n.	He picked up the phone receiver and answered the call.
+544	recession	n.	The country is struggling with high unemployment due to the economic recession.
+545	reckon	v.	I reckon it will take us about two hours to get to the destination.
+546	recognition	n.	Her hard work and dedication finally earned her the recognition she deserved.
+547	recovery	n.	His recovery after the surgery was faster than expected.
+548	recruit	v.	The company plans to recruit more employees next year.
+549	recruit	n.	The new recruit quickly adapted to the company's work culture.
+550	referee	n.	The referee made a controversial decision during the match.
+551	refugee	n.	Thousands of refugees fled their country due to the ongoing war.
+552	registration	n.	Registration for the new semester begins next Monday.
+553	regulate	v.	The government introduced new laws to regulate online transactions.
+554	reinforce	v.	The teacher used real-life examples to reinforce the lesson.
+555	relieve	v.	The painkiller helped relieve her headache within minutes.
+556	relieved	adj.	She was relieved to hear that her family was safe after the storm.
+557	remarkable	adj.	He made a remarkable recovery after the accident.
+558	remarkably	adv.	She performed remarkably well in her final exams.
+559	reporting	n.	His job in journalism involves investigative reporting.
+560	resign	v.	She decided to resign from her position due to personal reasons.
+561	resolution	n.	The two parties reached a peaceful resolution after long negotiations.
+562	restore	v.	The government plans to restore the historical building to its original state.
+563	restrict	v.	They decided to restrict access to sensitive information.
+564	restriction	n.	There are travel restrictions due to the ongoing pandemic.
+565	resume	n.	She updated her resume before applying for new jobs.
+566	retail	n.	Many small businesses in the retail sector struggled during the pandemic.
+567	retirement	n.	He is looking forward to his retirement after working for 40 years.
+568	revenue	n.	The company's annual revenue has increased by 20%.
+569	revision	n.	He spent the weekend doing revision for his final exams.
+570	ridiculous	adj.	The idea of flying cars seemed ridiculous a few decades ago.
+571	risky	adj.	Investing in cryptocurrency can be quite risky.
+572	rival	n.	Their biggest rival in the competition was a team from another country.
+573	rival	adj.	Two rival companies are competing to release the latest smartphone technology.
+574	rob	v.	The thieves planned to rob the bank at midnight.
+575	robbery	n.	The police arrested three suspects involved in the robbery.
+576	rocket	n.	The space agency successfully launched a rocket to Mars.
+577	romance	n.	The novel is about a forbidden romance between two young lovers.
+578	rose	n.	She received a beautiful red rose on Valentine's Day.
+579	roughly	adv.	The journey took roughly three hours by car.
+580	ruin	v.	The heavy rain ruined our outdoor picnic.
+581	ruin	n.	They explored the ancient ruins of a lost civilization.
+582	satisfaction	n.	She felt great satisfaction after completing the marathon.
+583	scandal	n.	The political scandal caused public outrage.
+584	scare	v.	The loud noise scared the children in the park.
+585	scare	n.	There was a health scare due to contaminated water in the area.
+586	scenario	n.	In the worst-case scenario, the project might be delayed for months.
+587	scholar	n.	The historian is a respected scholar in medieval studies.
+588	scholarship	n.	She received a full scholarship to study at a prestigious university.
+589	scratch	v.	The cat scratched the furniture with its sharp claws.
+590	scratch	n.	He got a small scratch on his arm while hiking.
+591	screening	n.	The airport security screening process took longer than expected.
+592	seeker	n.	Job seekers should update their resumes frequently.
+593	seminar	n.	She attended a seminar on digital marketing strategies.
+594	settler	n.	The first settlers in the region built homes near the river.
+595	severely	adv.	The storm severely damaged homes along the coast.
+596	sexy	adj.	She wore a stylish and sexy dress to the party.
+597	shaped	adj.	The cookies were shaped like stars and hearts.
+598	shocking	adj.	The news of the accident was shocking to everyone.
+599	shore	n.	They walked along the shore, collecting seashells.
+600	shortage	n.	There is a shortage of affordable housing in the city.
+601	shortly	adv.	The train will be arriving shortly at platform three.
+602	short-term	adj.	This is just a short-term solution; we need a long-term plan.
+603	sibling	n.	She has one sibling, an older brother.
+604	sidewalk	n.	They built a new sidewalk to improve pedestrian safety.
+605	signature	n.	Please provide your signature at the bottom of the form.
+606	significance	n.	The discovery of the new species has great scientific significance.
+607	skilled	adj.	He is a highly skilled surgeon with years of experience.
+608	skull	n.	Archaeologists found an ancient human skull in the cave.
+609	slogan	n.	The company's slogan is "Quality You Can Trust."
+610	so-called	adj.	The so-called expert failed to answer basic questions.
+611	somehow	adv.	Somehow, she managed to finish the project on time.
+612	sometime	adv.	Let's meet for coffee sometime next week.
+613	sophisticated	adj.	The software uses a sophisticated algorithm to analyze data.
+614	spare	adj.	She always carries a spare key in her bag.
+615	specify	v.	Please specify your dietary preferences when booking the meal.
+616	spectacular	adj.	The fireworks display was absolutely spectacular.
+617	spectator	n.	Thousands of spectators attended the championship match.
+618	speculate	v.	Analysts speculate that the economy will improve next year.
+619	speculation	n.	There is a lot of speculation about who will win the election.
+620	spice	n.	This dish has a unique blend of spices for extra flavor.
+621	spill	v.	He accidentally spilled coffee on his laptop.
+622	spite	n.	In spite of the bad weather, they continued their journey.
+623	spoil	v.	The food spoiled because it was left outside in the heat.
+624	spokesman	n.	The company’s spokesman issued a statement about the incident.
+625	spokesperson	n.	A spokesperson for the government addressed the media.
+626	spokeswoman	n.	The company’s spokeswoman announced the launch of a new product.
+627	sponsorship	n.	The sports team secured sponsorship from a major brand.
+628	stall	n.	She bought fresh fruit from a market stall.
+629	stance	n.	The politician took a firm stance on climate change.
+630	starve	v.	Without food, the animals would starve within days.
+631	steadily	adv.	Her health has been improving steadily over the past month.
+632	steam	n.	Steam rose from the cup of hot tea.
+633	stimulate	v.	Caffeine can stimulate brain activity and improve alertness.
+634	strengthen	v.	Regular exercise helps strengthen muscles and bones.
+635	strictly	adv.	Smoking is strictly prohibited in this area.
+636	striking	adj.	She has striking blue eyes that capture everyone's attention.
+637	stroke	n.	He suffered a stroke and had to be hospitalized.
+638	stunning	adj.	The sunset over the mountains was absolutely stunning.
+639	subsequent	adj.	The subsequent investigation revealed more details about the case.
+640	subsequently	adv.	He was arrested and subsequently charged with theft.
+641	suburb	n.	They moved to a quiet suburb outside the city.
+642	suffering	n.	The war caused immense suffering for the local people.
+643	sufficient	adj.	We need sufficient funds to complete the project successfully.
+644	sufficiently	adv.	The instructions were sufficiently clear for everyone to follow.
+645	super	adj.	She was super excited about her upcoming vacation.
+646	surgeon	n.	The surgeon performed a complex operation successfully.
+647	survival	n.	Fresh water is essential for human survival in extreme conditions.
+648	survivor	n.	Only a few survivors were found after the earthquake.
+649	suspend	v.	The school decided to suspend the student for breaking the rules.
+650	sustainable	adj.	Sustainable farming practices help protect the environment.
+651	swallow	v.	He took a sip of water to help him swallow the pill.
+652	sympathetic	adj.	She was very sympathetic and listened to my problems with concern.
+653	tackle	v.	The team worked together to tackle the difficult project.
+654	tag	n.	The price tag on the jacket showed a 50% discount.
+655	tag	v.	She tagged her friend in a social media post.
+656	tap	v.	He tapped the screen to unlock his phone.
+657	tap	n.	She turned on the tap to fill the glass with water.
+658	technological	adj.	Technological advancements have transformed the way we communicate.
+659	teen	n.	The teen spent most of his free time playing video games.
+660	temple	n.	They visited an ancient temple during their trip to Japan.
+661	temporarily	adv.	The shop is temporarily closed for renovations.
+662	tendency	n.	She has a tendency to talk quickly when she’s nervous.
+663	tension	n.	There was a lot of tension in the room before the exam results were announced.
+664	terminal	n.	We waited at the airport terminal for our flight to board.
+665	terms	n.	They agreed to the terms of the contract before signing.
+666	terribly	adv.	She felt terribly guilty for forgetting her friend's birthday.
+667	terrify	v.	The horror movie terrified the audience.
+668	territory	n.	Wild animals are very protective of their territory.
+669	terror	n.	She screamed in terror when she saw the spider.
+670	terrorism	n.	The government is taking strict measures to combat terrorism.
+671	terrorist	n.	The authorities arrested a suspected terrorist near the border.
+672	testing	n.	The new software is still in the testing phase before its release.
+673	textbook	n.	She bought a new biology textbook for the semester.
+674	theft	n.	He was arrested for theft after stealing a car.
+675	therapist	n.	The therapist helped her manage her anxiety.
+676	thesis	n.	He spent months writing his thesis for his master’s degree.
+677	thorough	adj.	The detective conducted a thorough investigation of the case.
+678	thoroughly	adv.	She cleaned the house thoroughly before the guests arrived.
+679	thumb	n.	He accidentally cut his thumb while chopping vegetables.
+680	timing	n.	The timing of the meeting was perfect for everyone’s schedule.
+681	tissue	n.	She used a tissue to wipe her tears.
+682	tournament	n.	He won first place in the chess tournament.
+683	trace	v.	The police traced the call back to its origin.
+684	trading	n.	The company specializes in international trading of goods.
+685	tragedy	n.	The fire was a terrible tragedy that left many homeless.
+686	tragic	adj.	It was a tragic accident that claimed several lives.
+687	trait	n.	Honesty is an important trait in a good leader.
+688	transmit	v.	The virus can be transmitted through close contact.
+689	trap	v.	They got trapped in the elevator when the power went out.
+690	trap	n.	The hunters set a trap to catch the wild animal.
+691	treasure	n.	The pirates searched for hidden treasure on the island.
+692	tribe	n.	The tribe has preserved its unique traditions for centuries.
+693	trigger	v.	Her allergy can be triggered by dust and pollen.
+694	trillion	num.	The national debt has reached several trillion dollars.
+695	troop	n.	The troop of soldiers marched through the city streets.
+696	tsunami	n.	The tsunami caused massive destruction along the coastline.
+697	ultimate	adj.	His ultimate goal is to become a world champion.
+698	unacceptable	adj.	Her rude behavior was completely unacceptable at the meeting.
+699	uncertainty	n.	There is a lot of uncertainty about the future of the economy.
+700	undergo	v.	She had to undergo surgery after the accident.
+701	undertake	v.	The company will undertake a new project to develop renewable energy.
+702	unfold	v.	The mystery slowly unfolded as the story progressed.
+703	unfortunate	adj.	It was unfortunate that the event had to be canceled due to rain.
+704	unite	v.	The two countries decided to unite against a common threat.
+705	unity	n.	The team played with great unity and cooperation.
+706	universal	adj.	The desire for happiness is a universal human trait.
+707	urgent	adj.	He received an urgent call from the hospital.
+708	usage	n.	The correct usage of punctuation is important in writing.
+709	useless	adj.	The remote control was useless because the batteries were dead.
+710	valid	adj.	His passport is valid for another five years.
+711	variation	n.	There is a lot of variation in temperatures between summer and winter.
+712	vertical	adj.	They climbed a steep vertical rock wall during their hike.
+713	viewpoint	n.	Everyone in the discussion had a different viewpoint on the issue.
+714	visa	n.	He applied for a tourist visa to visit the United States.
+715	visible	adj.	The moon was clearly visible in the night sky.
+716	voluntary	adj.	She does voluntary work at the local animal shelter.
+717	voting	n.	Voting is an important right in a democratic society.
+718	wander	v.	She likes to wander through the forest on quiet mornings.
+719	warming	n.	Global warming is a major environmental concern.
+720	weekly	adj.	She attends a weekly yoga class at the gym.
+721	weird	adj.	He had a weird feeling that someone was watching him.
+722	welfare	n.	The government provides welfare programs to support low-income families.
+723	wheat	n.	Wheat is one of the most widely grown crops in the world.
+724	whoever	pron.	Whoever arrives first will get the best seat.
+725	widespread	adj.	The disease caused widespread panic in the community.
+726	wisdom	n.	The old man shared his wisdom with the younger generation.
+727	withdraw	v.	She decided to withdraw from the competition due to an injury.
+728	wolf	n.	A lone wolf was spotted near the village last night.
+729	workforce	n.	The company has a diverse and skilled workforce.
+730	workplace	n.	She maintains a positive attitude in the workplace.
+731	workshop	n.	The workshop focused on improving communication skills.
+732	worm	n.	The farmer found a worm in the freshly dug soil.
+733	wrist	n.	He wore a watch on his left wrist.
