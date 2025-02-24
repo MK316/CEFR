@@ -1,4 +1,4 @@
-SID  Word
+SID	Word
 1393	selection
 1394	incorporate
 1395	illustrate
