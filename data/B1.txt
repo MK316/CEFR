@@ -58,7 +58,8 @@ basket n.
 bat n.
 beneficial adj.
 beside prep.
-besides prep., adv.
+besides prep.
+besides adv.
 bias n.
 bid n., v.
 biological adj.
@@ -67,7 +68,8 @@ blow n.
 bold adj.
 bombing n.
 booking n.
-boost v., n.
+boost v.
+boost n.
 bound adj.
 brick n.
 briefly adv.
@@ -85,9 +87,11 @@ certificate n.
 challenging adj.
 championship n.
 charming adj.
-chase v., n.
+chase v.
+chase n.
 cheek n.
-cheer v., n.
+cheer v.
+cheer n.
 choir n.
 chop v.
 circuit n.
@@ -102,7 +106,8 @@ coincidence n.
 collector n.
 colony n.
 colourful adj.
-comic adj., n.
+comic adj.
+comic n.
 commander n.
 comparative adj.
 completion n.
@@ -112,7 +117,8 @@ compound n.
 comprehensive adj.
 comprise v.
 compulsory adj.
-concrete adj., n.
+concrete adj.
+concrete n.
 confess v.
 confusion n.
 consequently adv.
@@ -134,18 +140,21 @@ convincing adj.
 cope v.
 corporation n.
 corridor n.
-counter (long flat surface) n.
+counter n.
 coverage n.
-crack v., n.
+crack v.
+crack n.
 craft n.
 creativity n.
 critically adv.
-cruise n., v.
+cruise n.
+cruise v.
 cue n.
 curious adj.
 curriculum n.
 cute adj.
-dairy n., adj.
+dairy n.
+dairy adj.
 dare v.
 darkness n.
 database n.
@@ -180,14 +189,14 @@ distinct adj.
 distinguish v.
 distract v.
 disturb v.
-dive v., n.
+dive v.
 diverse adj.
 diversity n.
-divorce n., v.
+divorce v.
 dominant adj.
 donation n.
 dot n.
-downtown n., adj., adv.
+downtown n.
 dramatically adv.
 drought n.
 dull adj.
@@ -212,7 +221,7 @@ entertaining adj.
 entrepreneur n.
 envelope n.
 equip v.
-equivalent n., adj.
+equivalent adj.
 era n.
 erupt v.
 essentially adv.
@@ -226,7 +235,7 @@ exceed v.
 exception n.
 excessive adj.
 exclude v.
-exhibit v., n.
+exhibit v.
 exit n.
 exotic adj.
 expansion n.
@@ -236,7 +245,6 @@ exposure n.
 extension n.
 extensive adj.
 extensively adv.
-© Oxford University Press The Oxford 5000™ by CEFR level 2 / 8
 extract n.
 fabric n.
 fabulous adj.
@@ -255,7 +263,7 @@ flavour n.
 fond adj.
 fool n.
 forbid v.
-forecast n., v.
+forecast v.
 format n.
 formation n.
 formerly adv.
@@ -271,7 +279,7 @@ fraud n.
 freely adv.
 frequent adj.
 fulfil v.
-full-time adj./adv.
+full-time adj.
 fundamentally adv.
 furious adj.
 gaming n.
@@ -316,7 +324,6 @@ hopefully adv.
 hunger n.
 hypothesis n.
 icon n.
-ID n.
 identical adj.
 illusion n.
 immigration n.
@@ -357,9 +364,10 @@ invasion n.
 investor n.
 isolate v.
 isolated adj.
-jail n., v.
+jail n.
 jet n.
-joint adj., n.
+joint adj.
+joint n.
 journalism n.
 jury n.
 kit n.
@@ -391,7 +399,8 @@ marathon n.
 margin n.
 marker n.
 martial adj.
-mate n., v.
+mate n.
+mate v.
 mayor n.
 mechanic n.
 mechanical adj.
@@ -419,7 +428,8 @@ myth n.
 naked adj.
 nasty adj.
 navigation n.
-nearby adj., adv.
+nearby adj.
+nearby adv.
 necessity n.
 negotiate v.
 negotiation n.
@@ -449,21 +459,25 @@ output n.
 outstanding adj.
 overcome v.
 overnight adv.
-overseas adv., adj.
+overseas adv.
+overseas adj.
 ownership n.
 oxygen n.
 packet n.
 palm n.
 panic n.
 parade n.
-parallel adj., n.
+parallel adj.
+parallel n.
 participation n.
 partnership n.
-part-time adj./adv.
+part-time adj.
+part-time adv.
 passionate adj.
 password n.
 patience n.
-pause v., n.
+pause v.
+pause n.
 peer n.
 penalty n.
 perceive v.
@@ -506,7 +520,7 @@ puzzle n.
 questionnaire n.
 racial adj.
 racism n.
-racist adj., n.
+racist n.
 radiation n.
 rail n.
 random adj.
@@ -517,10 +531,10 @@ rebuild v.
 receiver n.
 recession n.
 reckon v.
-© Oxford University Press The Oxford 5000™ by CEFR level 3 / 8
 recognition n.
 recovery n.
-recruit v., n.
+recruit v.
+recruit n.
 recruitment n.
 referee n.
 refugee n.
@@ -550,14 +564,16 @@ rocket n.
 romance n.
 rose n.
 roughly adv.
-ruin v., n.
+ruin v.
+ruin n.
 satisfaction n.
 scandal n.
 scare v., n.
 scenario n.
 scholar n.
 scholarship n.
-scratch v., n.
+scratch v.
+scratch n.
 screening n.
 seeker n.
 seminar n.
@@ -621,8 +637,10 @@ sustainable adj.
 swallow v.
 sympathetic adj.
 tackle v.
-tag n., v.
-tap v., n.
+tag n.
+tag v.
+tap v.
+tap n.
 technological adj.
 teens n.
 temple n.
@@ -657,11 +675,12 @@ tragic adj.
 trait n.
 transmit v.
 transportation n.
-trap v., n.
+trap v.
+trap n.
 treasure n.
 tribe n.
 trigger v.
-trillion number
+trillion num.
 troop n.
 tsunami n.
 ultimate adj.
