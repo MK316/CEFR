@@ -6,7 +6,7 @@ import pandas as pd
 # Load data with caching
 @st.cache_data
 def load_data():
-    url = 'https://raw.githubusercontent.com/MK316/CEFR/refs/heads/main/data/CEFRC1.txt'
+    url = 'https://raw.githubusercontent.com/MK316/Engpro-Class/refs/heads/main/data/CEFRC1.txt'
     return pd.read_csv(url, sep='\t', usecols=['SID', 'WORD']).assign(WORD=lambda df: df['WORD'].str.split().str[0])
 
 def generate_audio(text):
