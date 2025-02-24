@@ -29,6 +29,7 @@ def generate_audio(text):
 
 def main():
     st.title("🎧 CEFR Listen & Spell Practice")
+    st.caption("Level B has 733 words and Level C has 3,000 words.")
 
     # Define tabs for different word lists
     tab1, tab2 = st.tabs(["Level B", "Level C"])
@@ -50,7 +51,7 @@ def run_practice_app(user_name, file_url):
     total_words = len(data)  # Count available words
 
     # **Display total words available in this level**
-    st.info(f"🔎 This level contains **{total_words} words**. Choose your SID range below.")
+    # st.info(f"🔎 This level contains **{total_words} words**. Choose your SID range below.")
 
     user_name = st.text_input(f"Type user name ({user_name})")
     
