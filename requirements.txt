@@ -2,3 +2,4 @@ streamlit
 pydub
 matplotlib
 numpy
+gtts
