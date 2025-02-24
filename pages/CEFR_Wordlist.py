@@ -35,7 +35,7 @@ tabs = st.tabs(list(wordlist_urls.keys()))
 # Loop through tabs dynamically
 for idx, (tab_name, url) in enumerate(wordlist_urls.items()):
     with tabs[idx]:  # Assign content to each tab
-        st.caption("📅 Spring 2025")
+        st.caption("🔎 The B1B2 word list contains a total of 733 words. Select the word numbers you want, then click the Show button.")
 
         # Load wordlist
         wordlist = load_wordlist(url)
