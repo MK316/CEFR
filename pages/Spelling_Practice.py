@@ -7,8 +7,8 @@ import random
 
 # Assuming URLs to your text files hosted on GitHub
 urls = {
-    'Level B': 'https://raw.githubusercontent.com/yourusername/yourrepo/main/level_b.txt',
-    'Level C': 'https://raw.githubusercontent.com/yourusername/yourrepo/main/level_c.txt'
+    'Level B': 'https://raw.githubusercontent.com/MK316/CEFR/refs/heads/main/data/CEFRB1B2.txt',
+    'Level C': 'https://raw.githubusercontent.com/MK316/CEFR/refs/heads/main/data/CEFRC1.txt'
 }
 
 def load_data(level):
