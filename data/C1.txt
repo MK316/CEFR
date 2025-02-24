@@ -1,4 +1,4 @@
-SID	Word	POS
+SID	WORD	POS
 1	abolish	v.
 2	abortion	n.
 3	absence	n.
