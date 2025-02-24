@@ -1,54 +1,50 @@
 import streamlit as st
-import pandas as pd
-import numpy as np
 from gtts import gTTS
 from io import BytesIO
-import random
+import pandas as pd
 
-# Assuming URLs to your text files hosted on GitHub
+# URLs to your text files hosted on GitHub
 urls = {
     'Level B': 'https://raw.githubusercontent.com/MK316/CEFR/refs/heads/main/data/CEFRB1B2.txt',
     'Level C': 'https://raw.githubusercontent.com/MK316/CEFR/refs/heads/main/data/CEFRC1.txt'
 }
 
 def load_data(level):
-    url = urls[level]
-    data = pd.read_csv(url, sep='\t')  # Adjust delimiter based on your file format
+    data = pd.read_csv(urls[level], sep='\t')  # Adjust delimiter based on your file format
     return data
 
 def main():
     st.title("Word Practice App")
     
-    # User inputs
     user_name = st.text_input("User name")
-    level = st.radio("Select Level:", ['Level B', 'Level C'])
+    level = st.radio("Select Level:", list(urls.keys()))
     data = load_data(level)
-    
-    sid_options = st.selectbox("Select SID:", data['SID'].unique())
-    selected_data = data[data['SID'] == sid_options]
-    
-    order_type = st.radio("Choose order:", ['Sequential', 'Random'])
+
+    # Generate SID ranges based on the data
+    max_sid = data['SID'].max()
+    sid_ranges = [(i, min(i+19, max_sid)) for i in range(1, max_sid, 20)]
+    selected_range = st.selectbox("Select SID Range:", sid_ranges, format_func=lambda x: f"{x[0]}-{x[1]}")
+    selected_data = data[(data['SID'] >= selected_range[0]) & (data['SID'] <= selected_range[1])]
+
+    order_type = st.radio("Choose Order:", ['Sequential', 'Random'])
     if order_type == 'Random':
         selected_data = selected_data.sample(frac=1).reset_index(drop=True)
-    
-    start = st.button("Start")
-    
-    if start:
-        for i, row in selected_data.iterrows():
+
+    if st.button("Start"):
+        for _, row in selected_data.iterrows():
             word = row['WORD']
-            audio = gTTS(text=word, lang='en')
+            tts = gTTS(text=word, lang='en')
             audio_file = BytesIO()
-            audio.save(audio_file)
+            tts.write_to_fp(audio_file)
             audio_file.seek(0)
-            
-            st.audio(audio_file)
-            user_input = st.text_input("Type the word shown:", key=str(i))
-            
+            st.audio(audio_file, format='audio/mp3')
+            user_input = st.text_input("Type the word shown:", key=row['SID'])
             if user_input:
-                correct = "Correct!" if user_input.lower() == word.lower() else "Incorrect"
+                correct = "Correct" if user_input.lower() == word.lower() else "Incorrect"
                 st.write(f"{word} - {correct}")
-        
-        st.button("Complete")
+
+    if st.button("Complete"):
+        st.write(f"{user_name}: Score goes here")  # Implement scoring logic
 
 if __name__ == "__main__":
     main()
