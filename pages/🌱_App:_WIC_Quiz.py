@@ -22,8 +22,7 @@ def generate_audio(text):
 
 def mask_word(sentence, target_word):
     """Replace the target word in the sentence with '_______'."""
-    masked_sentence = re.sub(rf'\b{re.escape(target_word)}\b', '_______', sentence, flags=re.IGNORECASE)
-    return masked_sentence
+    return re.sub(rf'\b{re.escape(target_word)}\b', '_______', sentence, flags=re.IGNORECASE)
 
 def main():
     st.markdown("### 🎧 Words in Context (WIC) Practice")
@@ -63,7 +62,7 @@ def run_practice_app(level, file_url):
 
     filtered_data = data[(data['SID'] >= start_sid) & (data['SID'] <= end_sid)]
 
-    # Store user inputs in session state
+    # **Ensure session state for storing user inputs**
     if f'{level}_user_inputs' not in st.session_state:
         st.session_state[f'{level}_user_inputs'] = {}
 
@@ -83,8 +82,17 @@ def run_practice_app(level, file_url):
             st.caption(f"SID {row['SID']} - {masked_sentence}")
             st.audio(st.session_state[audio_key], format='audio/mp3')
 
-            # Input field for user's answer
-            st.session_state[f'{level}_user_inputs'][sid_key] = st.text_input("Type the missing word:", key=sid_key, value="", placeholder="Type here...")
+            # **Persistent user input field**
+            if sid_key not in st.session_state[f'{level}_user_inputs']:
+                st.session_state[f'{level}_user_inputs'][sid_key] = ""
+
+            # Allow user to type answer without resetting previous inputs
+            st.session_state[f'{level}_user_inputs'][sid_key] = st.text_input(
+                "Type the missing word:",
+                key=sid_key,
+                value=st.session_state[f'{level}_user_inputs'][sid_key],
+                placeholder="Type here..."
+            )
 
     # Checking answers
     if st.button(f'🔑 Check Answers - {level}'):
