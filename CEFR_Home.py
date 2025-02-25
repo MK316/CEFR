@@ -10,3 +10,4 @@ image_url = "https://github.com/MK316/CEFR/raw/main/data/learnfun.png"
 
 # Display image with specified width
 st.image(image_url, width=300)
+st.caption("Last updated: Feb. 25, 2025")
