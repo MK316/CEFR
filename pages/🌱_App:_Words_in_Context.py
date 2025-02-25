@@ -48,7 +48,7 @@ def run_practice_app(level, file_url):
     with col1:
         start_sid = st.number_input('Start SID', min_value=int(data['SID'].min()), max_value=int(data['SID'].max()), value=int(data['SID'].min()), help=f"Choose a starting SID from 1 to {total_sids}")
     with col2:
-        end_sid = st.number_input(f'End SID (total words: {total_sids})', min_value=int(data['SID'].min()), max_value=int(data['SID'].max()), value=min(int(data['SID'].min()) + 20, int(data['SID'].max())), help=f"Choose an ending SID from 1 to {total_sids}")
+        end_sid = st.number_input(f'End SID (total words: {total_sids})', min_value=int(data['SID'].min()+1), max_value=int(data['SID'].max()), value=min(int(data['SID'].min()) + 20, int(data['SID'].max())), help=f"Choose an ending SID from 1 to {total_sids}")
 
     filtered_data = data[(data['SID'] >= start_sid) & (data['SID'] <= end_sid)]
 
