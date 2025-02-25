@@ -40,7 +40,7 @@ def run_practice_app(level, file_url):
         st.error("Failed to load data or data is empty.")
         return
 
-    st.subheader(f"Generate Audio for {level}")
+    st.subheader(f"Practice with sound: {level}")
     total_sids = len(data)  # Calculate the total number of SIDs available
 
     # User can input the exact numbers for SID start and end
