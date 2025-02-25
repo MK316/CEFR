@@ -309,9 +309,9 @@ SID	WORD	POS
 308	corrupt	adj.
 309	corruption	n.
 310	costly	adj.
-311	councillor	n.
+311	councilor	n.
 312	counseling	n.
-313	counsellor	n.
+313	counselor	n.
 314	counter	(argue against) v.
 315	counterpart	n.
 316	countless	adj.
