@@ -3,6 +3,7 @@ import requests
 import pandas as pd
 import io
 from gtts import gTTS
+from pydub import AudioSegment
 from io import BytesIO
 
 # ✅ Load wordlist from GitHub
@@ -47,25 +48,24 @@ if not wordlist.empty:
 
     # ✅ Generate audio with 1-second silence between words
     def generate_audio(words):
-        combined_audio = BytesIO()
+        silence = AudioSegment.silent(duration=1000)  # 1-second silence
+        combined_audio = AudioSegment.empty()
 
         for word in words:
             tts = gTTS(word, lang='en')
-            tts_audio = BytesIO()
-            tts.write_to_fp(tts_audio)
-            tts_audio.seek(0)
+            word_audio = BytesIO()
+            tts.write_to_fp(word_audio)
+            word_audio.seek(0)
 
-            combined_audio.write(tts_audio.read())  # Append audio to combined file
+            # Convert gTTS output to AudioSegment
+            segment = AudioSegment.from_file(word_audio, format="mp3")
+            combined_audio += segment + silence  # Add silence after each word
 
-            # Generate 1-second silence
-            silence = gTTS(" ", lang="en")
-            silence_audio = BytesIO()
-            silence.write_to_fp(silence_audio)
-            silence_audio.seek(0)
-            combined_audio.write(silence_audio.read())  # Append silence
-
-        combined_audio.seek(0)
-        return combined_audio
+        # Export final audio
+        output_audio = BytesIO()
+        combined_audio.export(output_audio, format="mp3")
+        output_audio.seek(0)
+        return output_audio
 
     # ✅ Button to generate and play audio
     if st.button("🎧 Generate Audio"):
