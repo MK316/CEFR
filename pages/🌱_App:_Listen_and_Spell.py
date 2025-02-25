@@ -69,7 +69,7 @@ def run_practice_app(user_name, file_url):
     if f'{input_key_prefix}_inputs' not in st.session_state:
         st.session_state[f'{input_key_prefix}_inputs'] = {}
 
-    if st.button(f'🔉 Practice with Sound - {file_url[-6:-4]}'):
+    if st.button(f'🔉 Generate Audio - {file_url[-6:-4]}'):
         st.session_state[f'{audio_key_prefix}_data'].clear()
         st.session_state[f'{input_key_prefix}_inputs'].clear()
         st.session_state[f'{audio_key_prefix}_generated'] = True  
