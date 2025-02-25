@@ -41,10 +41,12 @@ def run_practice_app(level, file_url):
         return
 
     st.subheader(f"Generate Audio for {level}")
-    start_sid, end_sid = st.select_slider(
-        'Select a range of SIDs:',
-        options=list(data['SID']),
-        value=(data['SID'].min(), data['SID'].min() + 20))
+    # User can input the exact numbers for SID start and end
+    col1, col2 = st.columns(2)
+    with col1:
+        start_sid = st.number_input('Start SID', min_value=int(data['SID'].min()), max_value=int(data['SID'].max()), value=int(data['SID'].min()))
+    with col2:
+        end_sid = st.number_input('End SID', min_value=int(data['SID'].min()), max_value=int(data['SID'].max()), value=int(data['SID'].min()) + 20)
 
     filtered_data = data[(data['SID'] >= start_sid) & (data['SID'] <= end_sid)]
 
@@ -53,6 +55,7 @@ def run_practice_app(level, file_url):
             audio_key = f"audio_{level}_{row['SID']}"
             if audio_key not in st.session_state:
                 st.session_state[audio_key] = generate_audio(row['Context'])
+            st.caption(f"SID {row['SID']} - {row['WORD']}")
             st.audio(st.session_state[audio_key], format='audio/mp3', start_time=0)
 
 if __name__ == "__main__":
