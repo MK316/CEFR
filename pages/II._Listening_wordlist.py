@@ -46,38 +46,32 @@ if not wordlist.empty:
         end_sid = st.number_input("To SID", min_value=start_sid, max_value=wordlist['SID'].max(), value=min(start_sid+19, wordlist['SID'].max()))
 
     # Filter selected words
-    selected_words = wordlist[(wordlist['SID'] >= start_sid) & (wordlist['SID'] <= end_sid)]['WORD'].tolist()
+    selected_data = wordlist[(wordlist['SID'] >= start_sid) & (wordlist['SID'] <= end_sid)][['SID', 'WORD']]
 
-    # ✅ Generate audio with real 1-second silence using an MP3 file
-    def generate_audio(words):
+    # ✅ Generate audio including SID + WORD
+    def generate_audio(data):
         combined_audio = BytesIO()
 
-        # ✅ Fetch pre-recorded 1-second silence MP3 from GitHub
-        silent_mp3_url = "https://github.com/MK316/CEFR/raw/main/data/silence.mp3"
-        silent_response = requests.get(silent_mp3_url)
-        silent_audio = silent_response.content  # Silent MP3 as bytes
-
-        for word in words:
-            # Generate TTS audio
-            tts = gTTS(word, lang='en')
+        for row in data.itertuples():
+            text = f"Number {row.SID}, {row.WORD}"  # Example: "Number 1, specialize"
+            tts = gTTS(text, lang='en')
             tts_audio = BytesIO()
             tts.write_to_fp(tts_audio)
             tts_audio.seek(0)
 
             combined_audio.write(tts_audio.read())  # Append word audio
-            combined_audio.write(silent_audio)  # Append real silent MP3
 
         combined_audio.seek(0)
         return combined_audio
 
     # ✅ Button to generate and play audio
     if st.button("🎧 Generate Audio"):
-        audio_file = generate_audio(selected_words)
+        audio_file = generate_audio(selected_data)
         st.audio(audio_file, format="audio/mp3")
 
-    # ✅ Display selected word list
-    if selected_words:
+    # ✅ Display selected words with SID
+    if not selected_data.empty:
         st.write("**Selected Words:**")
-        st.write(", ".join(selected_words))
+        st.dataframe(selected_data, hide_index=True)
 else:
     st.error("No data available in the wordlist.")
