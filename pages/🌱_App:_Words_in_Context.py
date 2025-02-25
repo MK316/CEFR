@@ -2,6 +2,7 @@ import streamlit as st
 from gtts import gTTS
 from io import BytesIO
 import pandas as pd
+import hashlib
 
 @st.cache_data
 def load_data(file_url):
@@ -32,9 +33,6 @@ def load_data(file_url):
         st.error(f"Error loading data: {str(e)}")
         raise
 
-
-
-
 def generate_audio(text):
     """Generate speech audio for a given text using gTTS."""
     tts = gTTS(text=text, lang='en')
@@ -42,6 +40,12 @@ def generate_audio(text):
     tts.write_to_fp(audio_file)
     audio_file.seek(0)
     return audio_file.getvalue()  # Return byte content
+
+def create_unique_key(base_key, sid, file_url):
+    # Create a unique hash of the file URL
+    hash_object = hashlib.md5(file_url.encode())
+    file_hash = hash_object.hexdigest()
+    return f"{base_key}_{sid}_{file_hash}"
 
 def main():
     st.markdown("### 🎧 CEFR Listen & Spell Practice")
@@ -84,12 +88,15 @@ def run_practice_app(user_name, file_url):
 
     if st.button(f'🔉 Generate Audio - {file_url[-6:-4]}', key=f'generate_audio_{user_name}_{file_url[-6:-4]}'):
         # Reset session state on new generation
-        st.session_state[audio_key_prefix] = {f'{audio_key_prefix}_{row.SID}': generate_audio(row.Context) for row in filtered_data.itertuples()}
+        for row in filtered_data.itertuples():
+            audio_key = create_unique_key(audio_key_prefix, row.SID, file_url)
+            st.session_state[audio_key] = generate_audio(row.Context)
+
         st.session_state[f'{audio_key_prefix}_generated'] = True  
 
     if st.session_state.get(f'{audio_key_prefix}_generated', False):
         for row in filtered_data.itertuples():
-            audio_key = f'{audio_key_prefix}_{row.SID}'
+            audio_key = create_unique_key(audio_key_prefix, row.SID, file_url)
             st.caption(f"SID {row.SID} - {row.WORD}")
             st.audio(st.session_state[audio_key], format='audio/mp3')
 
