@@ -4,6 +4,7 @@ import pandas as pd
 import io
 from gtts import gTTS
 from io import BytesIO
+from pydub import AudioSegment
 
 # ✅ Load wordlist from GitHub
 @st.cache_data
@@ -48,14 +49,14 @@ if not wordlist.empty:
     # Filter selected words
     selected_words = wordlist[(wordlist['SID'] >= start_sid) & (wordlist['SID'] <= end_sid)]['WORD'].tolist()
 
-    # ✅ Generate audio with real 1-second silence (using a silent MP3)
+    # ✅ Generate audio with 1-second silence between words (Using pydub for merging)
     def generate_audio(words):
-        combined_audio = BytesIO()
+        combined_audio = AudioSegment.empty()
 
-        # ✅ Fetch the pre-generated 1-second silent MP3 file from GitHub
+        # ✅ Load pre-generated 1-second silent MP3
         silent_mp3_url = "https://github.com/MK316/CEFR/raw/main/data/silence.mp3"
         silent_response = requests.get(silent_mp3_url)
-        silent_mp3 = silent_response.content  # Silent MP3 as bytes
+        silent_audio = AudioSegment.from_file(BytesIO(silent_response.content), format="mp3")
 
         for word in words:
             # Generate TTS audio
@@ -64,11 +65,17 @@ if not wordlist.empty:
             tts.write_to_fp(tts_audio)
             tts_audio.seek(0)
 
-            combined_audio.write(tts_audio.read())  # Append word audio
-            combined_audio.write(silent_mp3)  # Append real silent MP3
+            # Convert gTTS output to AudioSegment
+            word_audio = AudioSegment.from_file(tts_audio, format="mp3")
 
-        combined_audio.seek(0)
-        return combined_audio
+            # ✅ Append word audio + silence
+            combined_audio += word_audio + silent_audio
+
+        # ✅ Export final audio
+        output_audio = BytesIO()
+        combined_audio.export(output_audio, format="mp3")
+        output_audio.seek(0)
+        return output_audio
 
     # ✅ Button to generate and play audio
     if st.button("🎧 Generate Audio"):
