@@ -61,7 +61,7 @@ if not wordlist.empty:
             combined_audio.write(tts_audio.read())  # Append word audio
 
             # ✅ Insert 1-second silent MP3 (pre-generated silent file)
-            silent_mp3_url = "https://github.com/MK316/Engpro-Class/raw/main/data/silence_1s.mp3"
+            silent_mp3_url = "https://github.com/MK316/CEFR/raw/main/data/silence.mp3"
             silent_response = requests.get(silent_mp3_url)
             combined_audio.write(silent_response.content)  # Append silence
 
