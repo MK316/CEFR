@@ -28,7 +28,7 @@ def generate_audio(text):
     return audio_file.getvalue()  # Return byte content
 
 def main():
-    st.markdown("### 🎧 CEFR Listen & Spell Practice")
+    st.markdown("### 🎧 Listen & Spell Practice")
     st.caption("Level B has 725 words and Level C has 1,380 words. These are additional 2K contained in the Oxford 5K vocabulary.")
     st.markdown("e.g., **'acid'** in _'Lemon juice is known for its high **acid** content._'")
     # Define tabs for different word lists
