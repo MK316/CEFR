@@ -31,17 +31,20 @@ def main():
 
     st.markdown("e.g., **'acid'** after listening to the audio saying _'Lemon juice is known for its high _______ content._'")
 
-    tab1, tab2 = st.tabs(["💙 Level B", "💜 Level C"])
+    user_id = st.text_input("👤 Enter your User ID", key="user_id")
 
-    with tab1:
-        data_url = "https://raw.githubusercontent.com/MK316/CEFR/refs/heads/main/data/B2WICf.csv"
-        run_practice_app("Level B", data_url)
+    if user_id:
+        tab1, tab2 = st.tabs(["💙 Level B", "💜 Level C"])
 
-    with tab2:
-        data_url = "https://raw.githubusercontent.com/MK316/CEFR/refs/heads/main/data/C1WICff.csv"
-        run_practice_app("Level C", data_url)
+        with tab1:
+            data_url = "https://raw.githubusercontent.com/MK316/CEFR/refs/heads/main/data/B2WICf.csv"
+            run_practice_app("Level B", data_url, user_id)
 
-def run_practice_app(level, file_url):
+        with tab2:
+            data_url = "https://raw.githubusercontent.com/MK316/CEFR/refs/heads/main/data/C1WICff.csv"
+            run_practice_app("Level C", data_url, user_id)
+
+def run_practice_app(level, file_url, user_id):
     data = load_data(file_url)
     if data.empty:
         st.error("Failed to load data or data is empty.")
@@ -51,7 +54,7 @@ def run_practice_app(level, file_url):
     total_sids = len(data)
 
     # SID Selection
-    col1, col2 = st.columns(2)
+    col1, col2, col3 = st.columns(3)
     min_sid = max(int(data['SID'].min()), 1)
     max_sid = int(data['SID'].max())
 
@@ -59,50 +62,52 @@ def run_practice_app(level, file_url):
         start_sid = st.number_input("Start SID", min_value=min_sid, max_value=max_sid, value=min_sid)
     with col2:
         end_sid = st.number_input("End SID", min_value=min_sid, max_value=max_sid, value=min(start_sid + 19, max_sid))
+    with col3:
+        num_words = st.number_input("Number of words", min_value=1, max_value=20, value=10, help="Select how many words to practice.")
 
     filtered_data = data[(data['SID'] >= start_sid) & (data['SID'] <= end_sid)]
 
-    # Select 10 random words from the range
-    if f"{level}_selected_words" not in st.session_state:
-        st.session_state[f"{level}_selected_words"] = random.sample(filtered_data.to_dict(orient="records"), min(10, len(filtered_data)))
+    # Ensure session state for generated words
+    if f"{user_id}_{level}_generated_items" not in st.session_state:
+        st.session_state[f"{user_id}_{level}_generated_items"] = {}
 
-    # Ensure session state for storing user inputs
-    if f"{level}_user_inputs" not in st.session_state:
-        st.session_state[f"{level}_user_inputs"] = {}
+    if f"{user_id}_{level}_user_inputs" not in st.session_state:
+        st.session_state[f"{user_id}_{level}_user_inputs"] = {}
 
-    # **Generate and Store Quiz Items**
+    # **Button to generate quiz**
     if st.button(f'🔉 Generate Quiz for {level}'):
-        st.session_state[f"{level}_generated_items"] = {}
+        # Select random words based on user input
+        selected_words = random.sample(filtered_data.to_dict(orient="records"), min(num_words, len(filtered_data)))
+        st.session_state[f"{user_id}_{level}_generated_items"] = {}
 
-        for row in st.session_state[f"{level}_selected_words"]:
-            sid_key = f"{level}_input_{row['SID']}"
-            audio_key = f"audio_{level}_{row['SID']}"
+        for row in selected_words:
+            sid_key = f"{user_id}_{level}_input_{row['SID']}"
+            audio_key = f"{user_id}_audio_{level}_{row['SID']}"
 
-            if sid_key not in st.session_state[f"{level}_generated_items"]:
+            if sid_key not in st.session_state[f"{user_id}_{level}_generated_items"]:
                 masked_sentence = mask_word(row['Context'], row['WORD'])
 
-                st.session_state[f"{level}_generated_items"][sid_key] = {
-                    "sid": row['SID'],
+                st.session_state[f"{user_id}_{level}_generated_items"][sid_key] = {
                     "audio": generate_audio(row['Context']),
                     "masked_sentence": masked_sentence,
                     "correct_word": row['WORD']
                 }
 
             # Ensure user input persists
-            if sid_key not in st.session_state[f"{level}_user_inputs"]:
-                st.session_state[f"{level}_user_inputs"][sid_key] = ""
+            if sid_key not in st.session_state[f"{user_id}_{level}_user_inputs"]:
+                st.session_state[f"{user_id}_{level}_user_inputs"][sid_key] = ""
 
-    # **Display Quiz Items Persistently**
-    if f"{level}_generated_items" in st.session_state:
-        for sid_key, item in st.session_state[f"{level}_generated_items"].items():
-            st.caption(f"SID {item['sid']} - {item['masked_sentence']}")
+    # **Display Questions Only After Generating Quiz**
+    if f"{user_id}_{level}_generated_items" in st.session_state and st.session_state[f"{user_id}_{level}_generated_items"]:
+        for sid_key, item in st.session_state[f"{user_id}_{level}_generated_items"].items():
+            st.caption(f"{item['masked_sentence']}")
             st.audio(item["audio"], format='audio/mp3')
 
-            # Ensure user input field persists
-            st.session_state[f"{level}_user_inputs"][sid_key] = st.text_input(
+            # Persistent text input
+            st.session_state[f"{user_id}_{level}_user_inputs"][sid_key] = st.text_input(
                 "Type the missing word:", 
                 key=sid_key, 
-                value=st.session_state[f"{level}_user_inputs"][sid_key], 
+                value=st.session_state[f"{user_id}_{level}_user_inputs"][sid_key], 
                 placeholder="Type here..."
             )
 
@@ -111,17 +116,17 @@ def run_practice_app(level, file_url):
         correct_count = 0
         incorrect_sentences = []
 
-        for sid_key, item in st.session_state[f"{level}_generated_items"].items():
-            user_input = st.session_state[f"{level}_user_inputs"].get(sid_key, "").strip().lower()
+        for sid_key, item in st.session_state[f"{user_id}_{level}_generated_items"].items():
+            user_input = st.session_state[f"{user_id}_{level}_user_inputs"].get(sid_key, "").strip().lower()
             correct_word = item["correct_word"].lower()
 
             if user_input == correct_word:
                 correct_count += 1
             else:
-                incorrect_sentences.append(f"SID {item['sid']} - {item['masked_sentence']}")
+                incorrect_sentences.append(f"{item['masked_sentence']}")
 
         # Display results
-        st.write(f"✅ Correct: {correct_count} / {len(st.session_state[f'{level}_generated_items'])}")
+        st.write(f"✅ Correct: {correct_count} / {len(st.session_state[f'{user_id}_{level}_generated_items'])}")
 
         if incorrect_sentences:
             st.markdown("### ❌ Incorrect Sentences (Try Again)")
