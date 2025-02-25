@@ -12,11 +12,13 @@ st.markdown("""### 🍀 CEFR vocabulary
 
 ### 🍀 What This Application Covers
 
-This application focuses on the **B1B2 and C1** vocabulary levels, providing:
+This application focuses on the **B2 and C1** vocabulary levels included in [Oxoford learners' vocabulary 5K](https://www.oxfordlearnersdictionaries.com/wordlists/oxford3000-5000), providing:
 
-✅ B1B2 Word List (733 words) – Essential for learners aiming to improve communication and academic English.
+✅ B2 Word List (725 words) – Essential for learners aiming to improve communication and academic English.
 
-✅ C1 Word List (3,000 words) – Designed for advanced learners working toward full language proficiency.
+✅ C1 Word List (1,381words) – Designed for advanced learners working toward full language proficiency.
+
++ [pdf version](https://myeltcafe.com/wp-content/uploads/2019/11/Oxford-5000-Key-Words.pdf)
 
 📌 How to Use: 
 
