@@ -59,11 +59,11 @@ def run_practice_app(level, file_url, user_id):
     max_sid = int(data['SID'].max())
 
     with col1:
-        start_sid = st.number_input("Start SID", min_value=min_sid, max_value=max_sid, value=min_sid)
+        start_sid = st.number_input(f"Start SID ({level})", min_value=min_sid, max_value=max_sid, value=min_sid, key=f"start_sid_{level}")
     with col2:
-        end_sid = st.number_input("End SID", min_value=min_sid, max_value=max_sid, value=min(start_sid + 19, max_sid))
+        end_sid = st.number_input(f"End SID ({level})", min_value=min_sid, max_value=max_sid, value=min(start_sid + 19, max_sid), key=f"end_sid_{level}")
     with col3:
-        num_words = st.number_input("Number of words", min_value=1, max_value=20, value=10, help="Select how many words to practice.")
+        num_words = st.number_input(f"Number of words ({level})", min_value=1, max_value=20, value=10, key=f"num_words_{level}", help="Select how many words to practice.")
 
     filtered_data = data[(data['SID'] >= start_sid) & (data['SID'] <= end_sid)]
 
