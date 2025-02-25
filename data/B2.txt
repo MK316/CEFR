@@ -108,7 +108,7 @@ SID	WORD	POS
 107	coincidence	n.
 108	collector	n.
 109	colony	n.
-110	colourful	adj.
+110	colorful	adj.
 111	comic	adj.
 112	comic	n.
 113	commander	n.
