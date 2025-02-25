@@ -30,9 +30,9 @@ def generate_audio(text):
 def main():
     st.markdown("### 🎧 CEFR Listen & Spell Practice")
     st.caption("Level B has 725 words and Level C has 1,380 words. These are additional 2K contained in the Oxford 5K vocabulary.")
-
+    st.markdown("e.g., **'acid'** in _'Lemon juice is known for its high **acid** content._'")
     # Define tabs for different word lists
-    tab1, tab2 = st.tabs(["Level B", "Level C"])
+    tab1, tab2 = st.tabs(["💙 Level B", "💜 Level C"])
 
     with tab1:
         run_practice_app(
@@ -69,7 +69,7 @@ def run_practice_app(user_name, file_url):
     if f'{input_key_prefix}_inputs' not in st.session_state:
         st.session_state[f'{input_key_prefix}_inputs'] = {}
 
-    if st.button(f'🔉 Generate Audio - {file_url[-6:-4]}'):
+    if st.button(f'🔉 Practice with Sound - {file_url[-6:-4]}'):
         st.session_state[f'{audio_key_prefix}_data'].clear()
         st.session_state[f'{input_key_prefix}_inputs'].clear()
         st.session_state[f'{audio_key_prefix}_generated'] = True  
