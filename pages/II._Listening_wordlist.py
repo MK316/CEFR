@@ -29,7 +29,7 @@ def load_wordlist(url):
         return pd.DataFrame(columns=["SID", "WORD"])
 
 # 🔹 Wordlist file URL (replace with your actual URL)
-wordlist_url = "https://raw.githubusercontent.com/MK316/Engpro-Class/refs/heads/main/data/CEFRB1B2.txt"
+wordlist_url = "https://raw.githubusercontent.com/MK316/CEFR/refs/heads/main/data/B2.txt"
 
 # ✅ Streamlit App UI
 st.title("🔊 Wordlist Audio Generator")
