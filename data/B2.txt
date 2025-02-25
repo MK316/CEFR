@@ -308,7 +308,7 @@ SID	WORD	POS
 307	grocery	n.
 308	guideline	n.
 309	habitat	n.
-310	harbour	n.
+310	harbor	n.
 311	headquarters	n.
 312	heal	v.
 313	healthcare	n.
