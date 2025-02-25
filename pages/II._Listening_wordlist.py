@@ -13,12 +13,15 @@ def load_wordlist(url):
         response.raise_for_status()  # Raise error if request fails
 
         # Read as DataFrame
-        df = pd.read_csv(io.StringIO(response.text), sep='\t', usecols=['SID', 'WORD'], dtype=str)
+        df = pd.read_csv(io.StringIO(response.text), sep='\t', usecols=['SID', 'WORD', 'POS'], dtype=str)
 
         # Clean and convert SID to integer
         df.columns = df.columns.str.strip()
         df['SID'] = df['SID'].str.extract('(\d+)')[0].astype(int)
         df['WORD'] = df['WORD'].str.strip()  # Remove extra spaces
+
+        # ✅ Extract only the first word (removing POS)
+        df['WORD'] = df['WORD'].apply(lambda x: x.split()[0])
 
         return df
     except Exception as e:
@@ -45,7 +48,7 @@ if not wordlist.empty:
     # Filter selected words
     selected_words = wordlist[(wordlist['SID'] >= start_sid) & (wordlist['SID'] <= end_sid)]['WORD'].tolist()
 
-    # ✅ Generate audio with 1-second silence between words (Without pydub)
+    # ✅ Generate audio with 1-second silence between words (Without POS)
     def generate_audio(words):
         combined_audio = BytesIO()
 
