@@ -6,7 +6,7 @@ st.markdown("""
   """)        
 
 # GitHub raw image URL
-image_url = "https://github.com/MK316/CEFR/raw/main/data/learnfun.png"
+image_url = "https://github.com/MK316/CEFR/raw/main/data/learnwithsound.png"
 
 # Display image with specified width
 st.image(image_url, width=300)
