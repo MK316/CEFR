@@ -48,16 +48,14 @@ if not wordlist.empty:
     # Filter selected words
     selected_words = wordlist[(wordlist['SID'] >= start_sid) & (wordlist['SID'] <= end_sid)]['WORD'].tolist()
 
-    # ✅ Generate audio with real 1-second silence (Without `pydub`)
+    # ✅ Generate audio with real 1-second silence using an MP3 file
     def generate_audio(words):
         combined_audio = BytesIO()
 
-        # ✅ Generate 1-second silence using gTTS
-        silence_tts = gTTS(" ", lang='en')  # Space character creates silent audio
-        silence_audio = BytesIO()
-        silence_tts.write_to_fp(silence_audio)
-        silence_audio.seek(0)
-        silence_bytes = silence_audio.read()  # Read silent MP3 as bytes
+        # ✅ Fetch pre-recorded 1-second silence MP3 from GitHub
+        silent_mp3_url = "https://github.com/MK316/CEFR/raw/main/data/silence.mp3"
+        silent_response = requests.get(silent_mp3_url)
+        silent_audio = silent_response.content  # Silent MP3 as bytes
 
         for word in words:
             # Generate TTS audio
@@ -67,7 +65,7 @@ if not wordlist.empty:
             tts_audio.seek(0)
 
             combined_audio.write(tts_audio.read())  # Append word audio
-            combined_audio.write(silence_bytes)  # Append real silent MP3
+            combined_audio.write(silent_audio)  # Append real silent MP3
 
         combined_audio.seek(0)
         return combined_audio
