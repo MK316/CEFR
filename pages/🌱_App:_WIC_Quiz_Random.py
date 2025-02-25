@@ -26,7 +26,7 @@ def mask_word(sentence, target_word):
     return re.sub(rf'\b{re.escape(target_word)}\b', '_______', sentence, flags=re.IGNORECASE)
 
 def main():
-    st.markdown("### 🎧 Words in Context (WIC) Quiz")
+    st.markdown("### 🎧 Words in Context (WIC) Quiz (Randomized)")
     st.caption("Listen to the sentence and identify the missing word. Type the correct word in the blank and check your answers!")
 
     st.markdown("e.g., **'acid'** after listening to the audio saying _'Lemon juice is known for its high _______ content._'")
