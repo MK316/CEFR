@@ -461,7 +461,7 @@ SID	WORD	POS
 460	encompass	v.
 461	encouragement	n.
 462	encouraging	adj.
-463	endeavour	n.
+463	endeavor	n.
 464	endless	adj.
 465	endorse	v.
 466	endorsement	n.
@@ -472,7 +472,7 @@ SID	WORD	POS
 471	engaging	adj.
 472	enquire	v.
 473	enrich	v.
-474	enrol	v.
+474	enroll	v.
 475	ensue	v.
 476	enterprise	n.
 477	enthusiast	n.
@@ -835,7 +835,7 @@ SID	WORD	POS
 834	naval	adj.
 835	neglect	v.
 836	neglect	n.
-837	neighbouring	adj.
+837	neighboring	adj.
 838	nest	n.
 839	net	adj.
 840	newsletter	n.
@@ -1081,7 +1081,7 @@ SID	WORD	POS
 1080	rotate	v.
 1081	rotation	n.
 1082	ruling	n.
-1083	rumour	n.
+1083	rumor	n.
 1084	sack	v.
 1085	sacred	adj.
 1086	sacrifice	n.
@@ -1091,7 +1091,7 @@ SID	WORD	POS
 1090	sanction	n.
 1091	say	n.
 1092	scattered	adj.
-1093	sceptical	adj.
+1093	skeptical	adj.
 1094	scope	n.
 1095	screw	n.
 1096	scrutiny	n.
