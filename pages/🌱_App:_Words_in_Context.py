@@ -82,7 +82,7 @@ def run_practice_app(user_name, file_url):
     audio_key_prefix = f"audio_{user_name}"
     input_key_prefix = f"input_{user_name}"
 
-    if st.button(f'🔉 Generate Audio - {file_url[-6:-4]}'):  # Unique button per file
+    if st.button(f'🔉 Generate Audio - {file_url[-6:-4]}', key=f'generate_audio_{user_name}_{file_url[-6:-4]}'):
         # Reset session state on new generation
         st.session_state[audio_key_prefix] = {f'{audio_key_prefix}_{row.SID}': generate_audio(row.Context) for row in filtered_data.itertuples()}
         st.session_state[f'{audio_key_prefix}_generated'] = True  
