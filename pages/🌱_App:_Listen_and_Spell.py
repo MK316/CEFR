@@ -50,22 +50,16 @@ def run_practice_app(user_name, file_url):
     data = load_data(file_url)  # Load the dataset
     total_words = len(data)  # Count available words
 
-    # **Display total words available in this level**
-    # st.info(f"🔎 This level contains **{total_words} words**. Choose your SID range below.")
-
     user_name = st.text_input(f"Type user name ({user_name})")
-    
-    # Layout adjustment: Put Start SID and End SID in one row
+
     col1, col2 = st.columns(2)
     with col1:
         start_sid = st.number_input(f"Start SID (1~{total_words})", min_value=1, max_value=data['SID'].max(), value=1)
     with col2:
         end_sid = st.number_input(f"End SID (1~{total_words})", min_value=1, max_value=data['SID'].max(), value=min(start_sid + 19, data['SID'].max()))
 
-    # Filter words based on selected SID range
     filtered_data = data[(data['SID'] >= start_sid) & (data['SID'] <= end_sid)].reset_index(drop=True)
 
-    # Unique session state keys per tab
     audio_key_prefix = f"audio_{user_name}"
     input_key_prefix = f"input_{user_name}"
 
@@ -75,35 +69,33 @@ def run_practice_app(user_name, file_url):
     if f'{input_key_prefix}_inputs' not in st.session_state:
         st.session_state[f'{input_key_prefix}_inputs'] = {}
 
-    if st.button(f'🔉 Generate Audio - {file_url[-6:-4]}'):  # Unique button per file
-        # Reset session state on new generation
+    if st.button(f'🔉 Generate Audio - {file_url[-6:-4]}'):
         st.session_state[f'{audio_key_prefix}_data'].clear()
-        st.session_state[f'{input_key_prefix}_inputs'].clear()  # Reset user inputs
+        st.session_state[f'{input_key_prefix}_inputs'].clear()
         st.session_state[f'{audio_key_prefix}_generated'] = True  
 
-        # Initialize new user input fields
         for row in filtered_data.itertuples():
-            sid_key = f'{input_key_prefix}_{row.SID}'
-            st.session_state[f'{input_key_prefix}_inputs'][sid_key] = ""  # Force reset inputs
-            audio_key = f'{audio_key_prefix}_{row.SID}'  # Use SID directly to ensure uniqueness
+            sid_key = f'{input_key_prefix}_{row.SID}_{file_url[-6:-4]}'  # Ensuring uniqueness
+            st.session_state[f'{input_key_prefix}_inputs'][sid_key] = ""
+            audio_key = f'{audio_key_prefix}_{row.SID}_{file_url[-6:-4]}'
             st.session_state[f'{audio_key_prefix}_data'][audio_key] = generate_audio(row.WORD)
 
     if st.session_state.get(f'{audio_key_prefix}_generated', False):
         for row in filtered_data.itertuples():
-            audio_key = f'{audio_key_prefix}_{row.SID}'
-            sid_key = f'{input_key_prefix}_{row.SID}'
+            audio_key = f'{audio_key_prefix}_{row.SID}_{file_url[-6:-4]}'
+            sid_key = f'{input_key_prefix}_{row.SID}_{file_url[-6:-4]}'  # Uniqueness fix
 
             if audio_key in st.session_state[f'{audio_key_prefix}_data']:
-                st.caption(f"SID {row.SID}")  # Display SID before each audio
+                st.caption(f"SID {row.SID}")  
                 st.audio(st.session_state[f'{audio_key_prefix}_data'][audio_key], format='audio/mp3')
 
-                # **Force reset user input fields using `value=""`**
+                # Updated text input key to be unique
                 st.text_input("Type the word shown:", key=sid_key, value="", placeholder="Type here...", label_visibility="collapsed")
 
-    if st.button(f'🔑 Check Answers - {file_url[-6:-4]}'):  # Unique check button per file
+    if st.button(f'🔑 Check Answers - {file_url[-6:-4]}'):
         correct_count = 0
         for row in filtered_data.itertuples():
-            sid_key = f'{input_key_prefix}_{row.SID}'
+            sid_key = f'{input_key_prefix}_{row.SID}_{file_url[-6:-4]}'  # Uniqueness fix
             user_input = st.session_state.get(sid_key, '').strip().lower()
             correct = user_input == row.WORD.lower()
             if correct:
@@ -111,6 +103,7 @@ def run_practice_app(user_name, file_url):
             st.write(f"Word: {row.WORD}, Your Input: {user_input}, Correct: {correct}")
 
         st.write(f"{user_name}: {correct_count}/{len(filtered_data)} correct.")
+
 
 if __name__ == "__main__":
     main()
