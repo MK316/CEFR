@@ -3,14 +3,23 @@ from gtts import gTTS
 from io import BytesIO
 import pandas as pd
 
-# Load data with caching
-@st.cache
+@st.cache_data
 def load_data(file_url):
-    df = pd.read_csv(file_url, sep='\t', usecols=['SID', 'WORD', 'POS', 'Context'], dtype=str)  # Read all columns including 'Context'
+    # Determine separator based on file extension
+    if file_url.endswith('.txt'):
+        sep = '\t'  # Tab-separated
+    elif file_url.endswith('.csv'):
+        sep = ','  # Comma-separated
+    else:
+        raise ValueError("Unsupported file format. Please use .txt or .csv files.")
+
+    # Load the data file with the determined separator
+    df = pd.read_csv(file_url, sep=sep, usecols=['SID', 'WORD', 'POS', 'Context'], dtype=str)
     df.columns = df.columns.str.strip()  # Strip any leading/trailing whitespace from column names
     df['SID'] = df['SID'].str.extract('(\d+)')[0].astype(int)  # Extract numbers only and convert to integer
     df['WORD'] = df['WORD'].str.split().str[0]  # Extract only the first word from WORD column (in case extra info exists)
     return df
+
 
 def generate_audio(text):
     """Generate speech audio for a given text using gTTS."""
@@ -30,13 +39,13 @@ def main():
     with tab1:
         run_practice_app(
             user_name="User_LevelB",
-            file_url="https://raw.githubusercontent.com/MK316/CEFR/refs/heads/main/data/B2WICf.csv"
+            file_url="https://raw.githubusercontent.com/MK316/CEFR/refs/heads/main/data/B2.txt"
         )
 
     with tab2:
         run_practice_app(
             user_name="User_LevelC",
-            file_url="https://raw.githubusercontent.com/MK316/CEFR/refs/heads/main/data/C1WIC.txt"
+            file_url="https://raw.githubusercontent.com/MK316/CEFR/refs/heads/main/data/C1.txt"
         )
 
 def run_practice_app(user_name, file_url):
