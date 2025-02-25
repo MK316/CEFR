@@ -28,11 +28,11 @@ def main():
 
     with tab1:
         data_url = "https://raw.githubusercontent.com/MK316/CEFR/refs/heads/main/data/B2WICf.csv"
-        run_practice_app("LevelB", data_url)
+        run_practice_app("Level B", data_url)
 
     with tab2:
         data_url = "https://raw.githubusercontent.com/MK316/CEFR/refs/heads/main/data/C1WICff.csv"
-        run_practice_app("LevelC", data_url)
+        run_practice_app("Level C", data_url)
 
 def run_practice_app(level, file_url):
     data = load_data(file_url)
