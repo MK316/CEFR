@@ -43,7 +43,7 @@ def main():
     with tab2:
         run_practice_app(
             user_name="User_LevelC",
-            file_url="https://raw.githubusercontent.com/MK316/CEFR/refs/heads/main/data/C1.txt"
+            file_url="https://raw.githubusercontent.com/MK316/CEFR/refs/heads/main/data/C1f.txt"
         )
 
 def run_practice_app(user_name, file_url):
