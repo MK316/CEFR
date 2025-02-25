@@ -2,21 +2,18 @@ import streamlit as st
 from gtts import gTTS
 from io import BytesIO
 import pandas as pd
-import hashlib
 
-@st.cache(allow_output_mutation=True)  # Ensure data is loaded once and stored correctly across runs
+@st.cache_data
 def load_data(file_url):
+    # Determine the separator based on file extension
     sep = ',' if file_url.endswith('.csv') else '\t'
-    try:
-        df = pd.read_csv(file_url, sep=sep)
-        df.columns = [col.strip() for col in df.columns]  # Ensure columns are trimmed of whitespace
-        df['SID'] = df['SID'].apply(pd.to_numeric, errors='coerce').fillna(0).astype(int)
-        return df
-    except Exception as e:
-        st.error(f"Error loading data: {str(e)}")
-        raise
+    df = pd.read_csv(file_url, sep=sep)
+    df.columns = [col.strip() for col in df.columns]  # Ensure columns are trimmed of whitespace
+    df['SID'] = df['SID'].apply(pd.to_numeric, errors='coerce').fillna(0).astype(int)
+    return df
 
 def generate_audio(text):
+    """Generate speech audio for a given text using gTTS."""
     tts = gTTS(text=text, lang='en')
     audio_file = BytesIO()
     tts.write_to_fp(audio_file)
@@ -39,13 +36,20 @@ def main():
 
 def run_practice_app(level, file_url):
     data = load_data(file_url)
-    if data is None:
-        st.write("No data loaded.")
+    if data is None or data.empty:
+        st.error("Failed to load data or data is empty.")
         return
 
-    # Audio Generation
+    st.subheader(f"Generate Audio for {level}")
+    start_sid, end_sid = st.select_slider(
+        'Select a range of SIDs:',
+        options=list(data['SID']),
+        value=(data['SID'].min(), data['SID'].min() + 20))
+
+    filtered_data = data[(data['SID'] >= start_sid) & (data['SID'] <= end_sid)]
+
     if st.button(f'Generate Audio for {level}'):
-        for index, row in data.iterrows():
+        for index, row in filtered_data.iterrows():
             audio_key = f"audio_{level}_{row['SID']}"
             if audio_key not in st.session_state:
                 st.session_state[audio_key] = generate_audio(row['Context'])
