@@ -31,7 +31,7 @@ def main():
         run_practice_app("LevelB", data_url)
 
     with tab2:
-        data_url = "https://raw.githubusercontent.com/MK316/CEFR/refs/heads/main/data/C1WICf.csv"
+        data_url = "https://raw.githubusercontent.com/MK316/CEFR/refs/heads/main/data/C1WICff.csv"
         run_practice_app("LevelC", data_url)
 
 def run_practice_app(level, file_url):
