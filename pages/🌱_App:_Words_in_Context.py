@@ -21,7 +21,7 @@ def generate_audio(text):
     return audio_file.getvalue()
 
 def main():
-    st.markdown("### 🎧 CEFR Listen & Spell Practice")
+    st.markdown("### 🎧 Words in Context (WIC) practice")
     st.caption("Explore different levels of vocabulary through listening.")
 
     tab1, tab2 = st.tabs(["Level B", "Level C"])
