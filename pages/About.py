@@ -18,7 +18,7 @@ This application focuses on the **B2 and C1** vocabulary levels included in [Oxo
 
 ✅ C1 Word List (1,381words) – Designed for advanced learners working toward full language proficiency.
 
-+ [pdf version](https://myeltcafe.com/wp-content/uploads/2019/11/Oxford-5000-Key-Words.pdf)
+💾 [pdf version](https://myeltcafe.com/wp-content/uploads/2019/11/Oxford-5000-Key-Words.pdf)
 
 📌 How to Use: 
 
