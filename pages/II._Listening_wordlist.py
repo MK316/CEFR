@@ -1,11 +1,8 @@
 import streamlit as st
-
-import streamlit as st
 import requests
 import pandas as pd
 import io
 from gtts import gTTS
-from pydub import AudioSegment
 from io import BytesIO
 
 # ✅ Load wordlist from GitHub
@@ -29,7 +26,7 @@ def load_wordlist(url):
         return pd.DataFrame(columns=["SID", "WORD"])
 
 # 🔹 Wordlist file URL (replace with your actual URL)
-wordlist_url = "https://raw.githubusercontent.com/MK316/CEFR/refs/heads/main/data/B2.txt"
+wordlist_url = "https://raw.githubusercontent.com/MK316/Engpro-Class/refs/heads/main/data/CEFRB1B2.txt"
 
 # ✅ Streamlit App UI
 st.title("🔊 Wordlist Audio Generator")
@@ -47,28 +44,28 @@ if not wordlist.empty:
 
     # Filter selected words
     selected_words = wordlist[(wordlist['SID'] >= start_sid) & (wordlist['SID'] <= end_sid)]['WORD'].tolist()
-    word_text = " ".join(selected_words)  # Combine words into a single string
 
     # ✅ Generate audio with 1-second silence between words
     def generate_audio(words):
-        silence = AudioSegment.silent(duration=1000)  # 1-second silence
-        combined_audio = AudioSegment.empty()
+        combined_audio = BytesIO()
 
         for word in words:
             tts = gTTS(word, lang='en')
-            word_audio = BytesIO()
-            tts.write_to_fp(word_audio)
-            word_audio.seek(0)
+            tts_audio = BytesIO()
+            tts.write_to_fp(tts_audio)
+            tts_audio.seek(0)
 
-            # Convert gTTS output to AudioSegment and add silence
-            segment = AudioSegment.from_file(word_audio, format="mp3")
-            combined_audio += segment + silence
+            combined_audio.write(tts_audio.read())  # Append audio to combined file
 
-        # Export final audio
-        output_audio = BytesIO()
-        combined_audio.export(output_audio, format="mp3")
-        output_audio.seek(0)
-        return output_audio
+            # Generate 1-second silence
+            silence = gTTS(" ", lang="en")
+            silence_audio = BytesIO()
+            silence.write_to_fp(silence_audio)
+            silence_audio.seek(0)
+            combined_audio.write(silence_audio.read())  # Append silence
+
+        combined_audio.seek(0)
+        return combined_audio
 
     # ✅ Button to generate and play audio
     if st.button("🎧 Generate Audio"):
@@ -81,4 +78,3 @@ if not wordlist.empty:
         st.write(", ".join(selected_words))
 else:
     st.error("No data available in the wordlist.")
-
