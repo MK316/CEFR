@@ -5,20 +5,34 @@ import pandas as pd
 
 @st.cache_data
 def load_data(file_url):
-    # Determine separator based on file extension
+    # Determine the separator based on file extension
     if file_url.endswith('.txt'):
-        sep = '\t'  # Tab-separated
+        sep = '\t'  # Tab-separated for .txt files
     elif file_url.endswith('.csv'):
-        sep = ','  # Comma-separated
+        sep = ','   # Comma-separated for .csv files
     else:
         raise ValueError("Unsupported file format. Please use .txt or .csv files.")
 
-    # Load the data file with the determined separator
-    df = pd.read_csv(file_url, sep=sep, usecols=['SID', 'WORD', 'POS', 'Context'], dtype=str)
-    df.columns = df.columns.str.strip()  # Strip any leading/trailing whitespace from column names
-    df['SID'] = df['SID'].str.extract('(\d+)')[0].astype(int)  # Extract numbers only and convert to integer
-    df['WORD'] = df['WORD'].str.split().str[0]  # Extract only the first word from WORD column (in case extra info exists)
-    return df
+    # Load the data with the determined separator
+    try:
+        df = pd.read_csv(file_url, sep=sep)
+        df.columns = [col.strip() for col in df.columns]  # Ensure columns are trimmed of whitespace
+
+        # Verify all required columns are present
+        expected_columns = {'SID', 'WORD', 'POS', 'Context'}
+        if not expected_columns.issubset(df.columns):
+            missing_cols = expected_columns - set(df.columns)
+            raise ValueError(f"Missing columns in the data file: {', '.join(missing_cols)}")
+
+        # Convert SID to integer if possible
+        df['SID'] = df['SID'].apply(pd.to_numeric, errors='coerce').fillna(0).astype(int)
+
+        return df
+    except Exception as e:
+        st.error(f"Error loading data: {str(e)}")
+        raise
+
+
 
 
 def generate_audio(text):
