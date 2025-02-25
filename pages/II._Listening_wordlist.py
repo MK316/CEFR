@@ -4,7 +4,6 @@ import pandas as pd
 import io
 from gtts import gTTS
 from io import BytesIO
-from pydub import AudioSegment
 
 # ✅ Load wordlist from GitHub
 @st.cache_data
@@ -49,14 +48,16 @@ if not wordlist.empty:
     # Filter selected words
     selected_words = wordlist[(wordlist['SID'] >= start_sid) & (wordlist['SID'] <= end_sid)]['WORD'].tolist()
 
-    # ✅ Generate audio with 1-second silence between words (Using pydub for merging)
+    # ✅ Generate audio with real 1-second silence (Without `pydub`)
     def generate_audio(words):
-        combined_audio = AudioSegment.empty()
+        combined_audio = BytesIO()
 
-        # ✅ Load pre-generated 1-second silent MP3
-        silent_mp3_url = "https://github.com/MK316/CEFR/raw/main/data/silence.mp3"
-        silent_response = requests.get(silent_mp3_url)
-        silent_audio = AudioSegment.from_file(BytesIO(silent_response.content), format="mp3")
+        # ✅ Generate 1-second silence using gTTS
+        silence_tts = gTTS(" ", lang='en')  # Space character creates silent audio
+        silence_audio = BytesIO()
+        silence_tts.write_to_fp(silence_audio)
+        silence_audio.seek(0)
+        silence_bytes = silence_audio.read()  # Read silent MP3 as bytes
 
         for word in words:
             # Generate TTS audio
@@ -65,17 +66,11 @@ if not wordlist.empty:
             tts.write_to_fp(tts_audio)
             tts_audio.seek(0)
 
-            # Convert gTTS output to AudioSegment
-            word_audio = AudioSegment.from_file(tts_audio, format="mp3")
+            combined_audio.write(tts_audio.read())  # Append word audio
+            combined_audio.write(silence_bytes)  # Append real silent MP3
 
-            # ✅ Append word audio + silence
-            combined_audio += word_audio + silent_audio
-
-        # ✅ Export final audio
-        output_audio = BytesIO()
-        combined_audio.export(output_audio, format="mp3")
-        output_audio.seek(0)
-        return output_audio
+        combined_audio.seek(0)
+        return combined_audio
 
     # ✅ Button to generate and play audio
     if st.button("🎧 Generate Audio"):
