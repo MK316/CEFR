@@ -22,7 +22,7 @@ def generate_audio(text):
 
 def main():
     st.markdown("### 🎧 Words in Context (WIC) practice")
-    st.caption("Improve your vocabulary comprehension and pronunciation skills by listening to words used in context across various levels.")
+    st.caption("Improve your vocabulary comprehension and pronunciation skills by listening to words used in context across various levels. Level B 91~725), Level C(1~1383)")
     st.caption("Level B: 1~725")
     st.caption("Level C: 1~1383")
 
