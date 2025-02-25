@@ -45,10 +45,16 @@ def run_practice_app(level, file_url):
 
     # User can input the exact numbers for SID start and end
     col1, col2 = st.columns(2)
+    # Ensure the min SID is at least 1
+    min_sid = max(int(data['SID'].min()), 1) if not data.empty else 1
+    max_sid = int(data['SID'].max()) if not data.empty else 1
+    default_start_sid = min_sid
+    default_end_sid = min(min_sid + 20, max_sid)
+
     with col1:
-        start_sid = st.number_input('Start SID', min_value=int(data['SID'].min()), max_value=int(data['SID'].max()), value=int(data['SID'].min()), help=f"Choose a starting SID from 1 to {total_sids}")
+        start_sid = st.number_input('Start SID', min_value=min_sid, max_value=max_sid, value=default_start_sid, help=f"Choose a starting SID from 1 to {total_sids}")
     with col2:
-        end_sid = st.number_input(f'End SID (total words: {total_sids})', min_value=int(data['SID'].min()+1), max_value=int(data['SID'].max()), value=min(int(data['SID'].min()) + 20, int(data['SID'].max())), help=f"Choose an ending SID from 1 to {total_sids}")
+        end_sid = st.number_input(f'End SID (total words: {total_sids})', min_value=min_sid, max_value=max_sid, value=default_end_sid, help=f"Choose an ending SID from 1 to {total_sids}")
 
     filtered_data = data[(data['SID'] >= start_sid) & (data['SID'] <= end_sid)]
 
@@ -59,6 +65,7 @@ def run_practice_app(level, file_url):
                 st.session_state[audio_key] = generate_audio(row['Context'])
             st.caption(f"SID {row['SID']} - {row['WORD']}")
             st.audio(st.session_state[audio_key], format='audio/mp3', start_time=0)
+
 
 if __name__ == "__main__":
     main()
