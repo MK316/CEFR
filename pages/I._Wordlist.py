@@ -5,8 +5,8 @@ import io
 
 # URLs for wordlists
 wordlist_urls = {
-    "🍐 Wordlist B2": "https://raw.githubusercontent.com/MK316/CEFR/refs/heads/main/data/B2.txt",
-    "🍓 Wordlist C1": "https://raw.githubusercontent.com/MK316/CEFR/refs/heads/main/data/CEFRC1.txt"
+    "🍐 Wordlist B2": "https://raw.githubusercontent.com/MK316/CEFR/refs/heads/main/data/CEFR_B_250505.csv",
+    "🍓 Wordlist C1": "https://raw.githubusercontent.com/MK316/CEFR/refs/heads/main/data/CEFR_C_250505.csv"
 }
 
 # Function to load wordlist data
