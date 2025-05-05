@@ -17,7 +17,7 @@ def load_wordlist(url):
         response.raise_for_status()  # Raise error for invalid requests
 
         # ✅ Load all three columns: SID, WORD, and POS
-        df = pd.read_csv(io.StringIO(response.text), sep='\t', dtype=str)
+        df = pd.read_csv(io.StringIO(response.text), dtype=str)
 
         # Strip whitespace and convert SID to integer
         df.columns = df.columns.str.strip()  # Strip any leading/trailing spaces from column names
