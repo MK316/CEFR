@@ -14,21 +14,28 @@ wordlist_urls = {
 def load_wordlist(url):
     try:
         response = requests.get(url)
-        response.raise_for_status()  # Raise error for invalid requests
+        response.raise_for_status()
 
-        # ✅ Load all three columns: SID, WORD, and POS
         df = pd.read_csv(io.StringIO(response.text), dtype=str)
 
-        # Strip whitespace and convert SID to integer
-        df.columns = df.columns.str.strip()  # Strip any leading/trailing spaces from column names
-        df['SID'] = df['SID'].str.extract('(\d+)')[0].astype(int)  # Extract numbers and convert
-        df['WORD'] = df['WORD'].str.strip()  # Clean up words
-        df['POS'] = df['POS'].str.strip()  # Clean up POS
+        # Strip whitespace from column names
+        df.columns = df.columns.str.strip()
+
+        # Clean and drop rows with missing SID
+        df['SID'] = df['SID'].str.extract('(\d+)')[0]
+        df = df.dropna(subset=['SID'])  # Remove rows where SID is NaN after extraction
+        df['SID'] = df['SID'].astype(int)  # Now safe to convert to int
+
+        # Clean other columns
+        df['WORD'] = df['WORD'].str.strip()
+        if 'POS' not in df.columns:
+            df['POS'] = ""
 
         return df
+
     except Exception as e:
         st.error(f"❌ Failed to load data: {e}")
-        return pd.DataFrame(columns=["SID", "WORD", "POS"])  # Return empty DataFrame on error
+        return pd.DataFrame(columns=["SID", "WORD", "POS"])
 
 # Create tabs for different wordlists
 tabs = st.tabs(list(wordlist_urls.keys()))
